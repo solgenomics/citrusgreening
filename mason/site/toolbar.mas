@@ -49,140 +49,72 @@
 		  ]
 	 },
 	 {
-	  name => 'manage',
+	  name => 'host',
 	  link => '',
-	  desc => 'Manage breeding trials and data.',
+	  desc => 'Information about the Citrus host',
 	  menu => [
-		   { 
-		    name => 'Breeding programs',
-		    link => '/breeders/manage_programs',
-		    desc => 'Manage breeding programs.',
-		   },
-
-		   { 
-		    name => 'Accessions',
-		    link => '/breeders/accessions',
-		    desc => 'Manage accessions.',
-		   },
-
-		   { 
-		    name => 'Trials',
-		    link => '/breeders/trials',
-		    desc => 'Set up and manage trials.',
-		   },
-		   {
-		    name => 'Locations',
-		    link => '/breeders/locations',
-		    desc => 'Set up and manage locations.',
-		   },
-		   {
-		    name => 'Crosses',
-		    link => '/breeders/crosses',
-		    desc => 'Set up and manage crosses.',
-		   },
-		   {
-		    name => 'Phenotyping',
-		    link => '/breeders/phenotyping',
-		    desc => 'Upload and manage phenotypes.',
-		   },
-		   {
-		    name => 'Field Book App',
-		    link => '/fieldbook',
-		    desc => 'Manage files for Field Book App',
-		   },
-		   {
-		    name => 'Barcodes',
-		    link => '/barcode',
-		    desc => 'Access barcode functions.',
-		   },
-		   {
-		    name => 'Download',
-		    link => '/breeders/download',
-		    desc => 'Download data using lists.',
-		   },
+	  	  {
+                    name => 'Genome',
+                    link => '',
+                    desc => ''
+                   },
+ 		   {		   
+                    name => 'BLAST',
+                    link => '',
+                    desc => ''
+                   },
+		   {		   
+                    name => 'Pathways',
+                    link => '',
+                    desc => ''
+                   },
 		  ]
-	 },
+         },
 	 {
-
-	  name => 'analyze',
+	  name => 'vector',
 	  link => '/tools/',
 	  desc => 'Tools for biologists.',
 	  menu => [
-		   
-		   { name => 'Breeder Tools' },
-		   { name=> 'Breeder Home',
-		     link=> '/breeders/home',
-		     desc=> 'Access breeder functionalities from the breeders homepage. Requires login.'
-		   },
-		   { name => 'Barcode Tools',
-		     link => '/barcode/',
-		     desc => 'Tools to create and manage barcodes.',
-		   },
-		   { name => 'Genomic Selection',
-		     link => '/solgs/search/',
-                     desc => 'Estimate genomic estimated breeding values (GEBVs) of your selection populations using prediction models.',
-		   },
-		   #Sequence Analysis
-		   { name => 'Sequence Analysis' },
-		   {
-		    name => 'BLAST',
-		    link => '/tools/blast/',
-		    desc =>
-		    'Compare a given sequence to known sequences using the Basic Local Alignment Search Tool, NCBI BLAST v. 2.2.9 [May-01-2004]'
-		   },
-		   # {
-		   #  name => 'Alignment Analyzer',
-		   #  link => '/tools/align_viewer/',
-		   #  desc =>
-		   #  'Calculate alignments using Muscle v3.6, or view existing alignments using our navigator.'
-		   # },
-		   # {
-		   #   name => 'Tree Browser',
-		   #  link => '/tools/tree_browser/',
-		   #  desc =>
-		   #  'Visualize and manipulate phylogenetic trees from a newick-formatted string.'
-		   # },
-		   # {
-		   #  name => 'Intron Finder',
-		   #  link => '/tools/intron_detection/find_introns.pl',
-		   #   desc =>
-		   #  'The SGN Intron Finder works by doing a BLAST search for <em>Arabidopsis thaliana</em> proteins that are similar to the translated protein sequence of the DNA input.'
-		   # },
-		   #Mapping
-		   # { name => 'Mapping' },
-		   # {
-		   #  name => 'Comparative Viewer',
-		   #  link =>
-		   #  '/cview/view_chromosome.pl?show_offsets=1&amp;show_ruler=1&amp;show_offsets=1',
-		   #  desc =>
-		   #  'Compare chromosomes from different maps, side by side.',
-		   # },
-		   # {
-		   #  name => 'CAPS Designer',
-		   #  link => '/tools/caps_designer/caps_input.pl',
-		   #  desc =>
-		   #  'Designs CAPS (Cleaved Amplified Polymorphic Sequence) assays for up to twelve sequences. Two types of nucleotide inputs are accepted: fasta sequences and clustal aligment. It generates a list of polymorphic enzymes that cut the sequences into different length products.'
-		   # },
-		   # {
-		   #  name => 'In Silico PCR',
-		   #  link => '/tools/insilicopcr',
-		   #   desc => 'In Silico PCR tool based on BLAST'
-		   # },
+	  	  {
+                    name => 'Genome',
+                    link => '',
+                    desc => ''
+                   },
+ 		   {		   
+                    name => 'BLAST',
+                    link => '',
+                    desc => ''
+                   },
+		   {		   
+                    name => 'Pathways',
+                    link => '',
+                    desc => ''
+                   },
 
-		   { name => "Other" },
-		   {
-		    name => 'Ontology Browser',
-		    link => '/tools/onto/',
-		    desc => 'AJAX ontology browser.'
-		   },
-		  ],
+		  ]
 	  },
 
 	 {
-	  name => 'maps',
+	  name => 'pathogen',
 	  link => '',
 	  desc => 'View and compare chromosomes from various organisms.',
 	  menu => [
+	  {
+                    name => 'Genome',
+                    link => '',
+                    desc => ''
+                   },
+ 		   {		   
+                    name => 'BLAST',
+                    link => '',
+                    desc => ''
+                   },
+		   {		   
+                    name => 'Pathways',
+                    link => '',
+                    desc => ''
+                   },
+
 		 #  {
 		 #   name => 'Cassava 2011',
 		 #   link => '/cview/map.pl?map_id=1',
@@ -212,9 +144,9 @@
 <script language="JavaScript" type="text/javascript">
 jQuery( function() {
   CXGN.Page.Toolbar.addmenu('search');
-  CXGN.Page.Toolbar.addmenu('manage');
-  CXGN.Page.Toolbar.addmenu('maps');
-  CXGN.Page.Toolbar.addmenu('analyze');
+  CXGN.Page.Toolbar.addmenu('host');
+  CXGN.Page.Toolbar.addmenu('vector');
+  CXGN.Page.Toolbar.addmenu('pathogen');
   CXGN.Page.Toolbar.hideall();
 });
 </script>
