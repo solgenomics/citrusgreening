@@ -10,26 +10,30 @@
 	  link => '/search/direct_search.pl?search=loci',
 	  desc => 'Search our database.',
 	  menu => [
-		   {
-		    name => 'Wizard',
-		    link => '/breeders/search',
-		    desc => 'quickly retrieve datasets'
-		   },
-		   
 #		   {
-#		    name => 'Organisms',
-#		    link => '/search/organisms',
-#		    desc => 'search for organisms'
+#		    name => 'Wizard',
+#		    link => '/breeders/search',
+#		    desc => 'quickly retrieve datasets'
 #		   },
+		   
 		   {
-		       name => 'Accessions and plots',
-		    link => '/search/phenotypes/stock',
-		    desc => 'Search for mutants, accessions, and traits.'
+		    name => 'Organisms',
+		    link => '/search/organisms',
+		    desc => 'search for organisms'
 		   },
-		   {
-		    name => 'Markers',
-		    link => '/search/markers',
-		    desc => 'Marker search.'
+#		   {
+#		    name => 'Accessions and plots',
+#		    link => '/search/phenotypes/stock',
+#		    desc => 'Search for mutants, accessions, and traits.'
+#		   },
+#		   {
+#		    name => 'Markers',
+#		    link => '/search/markers',
+#		    desc => 'Marker search.'
+#		   },
+		   { name => 'Genes',
+		     link => '/search/locus',
+		     desc => 'Gene search',
 		   },
 		   {
 		    name => 'Images',
@@ -41,11 +45,11 @@
 		    link => '/search/directory',
 		    desc => 'Search database of researchers who use SGN.',
 		   },
-		   {
-		    name => 'FAQ',
-		    link => '/help/faq.pl',
-		    desc => 'Frequently asked questions from users of SGN.',
-		   },
+#		   {
+#		    name => 'FAQ',
+#		    link => '/help/faq.pl',
+#		    desc => 'Frequently asked questions from users of SGN.',
+#		   },
 		  ]
 	 },
 	 {
@@ -54,15 +58,25 @@
 	  desc => 'Information about the Citrus host',
 	  menu => [
 	  	  {
-                    name => 'Genome',
-                    link => '',
-                    desc => ''
-                   },
+		   name => 'Genome',
+		   link => '',
+		   desc => ''
+		  },
  		   {		   
                     name => 'BLAST',
                     link => '',
-                    desc => ''
+                    desc => '', 
                    },
+		   {
+		    name => '<i>Citrus clementina</i>',
+		    link => '/tools/blast?db_id=11',
+		    desc => 'Citrus clementina CDS with annotations',
+		   },
+		   {
+		    name => '<i>Citrus sinensis</i>',
+		    link => '/tools/blast?db_id=5',
+		    desc => 'Citrus sinensis CDS with annotations',
+		   },
 		   {		   
                     name => 'Pathways',
                     link => '',
@@ -75,7 +89,7 @@
 	  link => '/tools/',
 	  desc => 'Tools for biologists.',
 	  menu => [
-	  	  {
+                  {
                     name => 'Genome',
                     link => '',
                     desc => ''
@@ -83,14 +97,18 @@
  		   {		   
                     name => 'BLAST',
                     link => '',
-                    desc => ''
+                    desc => '',
                    },
-		   {		   
+                   {
+		    name => '<i>Diaphora citri</i> proteins',
+		    link => '/tools/blast?db_id=17',
+		    desc => 'Diaphorina citri (diaci1.1) proteins',
+		   },
+		   {
                     name => 'Pathways',
                     link => '',
-                    desc => ''
+                    desc => '',
                    },
-
 		  ]
 	  },
 
