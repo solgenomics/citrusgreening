@@ -32,8 +32,8 @@ use CXGN::Page::Widgets qw/collapser/;
 
 my $contents = "Description file is not available at the moment.<br /><br />";
 
-$contents = '<div class="subheading" align="justified">CitrusGreening Solutions</div>
-<div class="boxsubcontent">
+$contents = '<div class="subheading">CitrusGreening Solutions</div>
+<div class="boxsubcontent" style="font-size:85%">
 
 U.S. citrus growers have a critical need for grove-deployable management practices that keep healthy citrus from becoming infected and infected trees from becoming symptomatic. We present a <b>systems-based pipeline approach</b> for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. A data integration and analysis platform combining existing complex -omics/biological data with molecular/cellular research will steer <b>hypothesis-driven</b> testing of inhibitors of multiple molecular pathways to provide solutions that can be optimized by combinatorial delivery to citrus. 
 <br>
