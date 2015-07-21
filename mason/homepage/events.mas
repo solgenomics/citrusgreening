@@ -1,0 +1,20 @@
+<%perl>
+
+use strict;
+use CXGN::Tools::File;
+use File::Spec;
+
+my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'events.txt');
+my $contents = qq { Events are currently not available<br /><br /> };
+
+eval { 
+ $contents = CXGN::Tools::File::get_sections($file);
+};
+
+</%perl>
+
+<div class="boxbgcolor1" style="border:0px; ">
+  <div class="boxheading">Events</div>
+  <div class="boxcontent"><% $contents %></div>
+  <a href="oldevents.pl">See all events...</a>
+</div>
