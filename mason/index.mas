@@ -8,20 +8,39 @@
 <h1>Welcome to Citrusgreening!</h1>
 <br />
 <br />
-<table><tr>
-<td>
-  <h4>News...</h4>
-  <ul>
-    <li>The Citrusgreening website is up!</li>
-    <li>Citrusgreening project funded by USDA</li>
-</ul>
-</td>
-<td>
-<!-- <a class="twitter-timeline" href="https://twitter.com/citrusgreening" data-widget-id="621778673675452416">Tweets by @lukasmueller</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+A <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">NIFA</a> project funded by <a href="http://www.usda.gov/wps/portal/usda/usdahome">USDA</a>
+<br />
 
+<table cellpadding="0">
+<tr>
+<td colspan="2">
+<!-- & homepage/project_description.mas, what=>'textbox' & -->
+</td>
+</tr>
+
+<tr>
+<td width="300">
+<!-- & homepage/news.mas &><br> --> 
+<!-- & homepage/events.mas & -->
+</td>
+
+<td width="300">
+<a class="twitter-timeline"  href="https://twitter.com/CitrusGreening" data-widget-id="623154096057487360" width="300" height="500">Tweets by @CitrusGreening</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<div class="boxbgcolor1">
+     <div class="boxheading">Social Media</div>
+     <div class="boxcontent">
+     <a href="http://twitter.com/citrusgreening" class="twitter-follow-button">@CitrusGreening</a>
+     <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script> <br/>
+     
+     <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FCitrusgreening%2F149678171756825&amp;width=150&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+     </div>
+     </div>
 </td>
 </tr>
 </table>
-
-
 </center>
+
+<!-- <a class="twitter-timeline" href="https://twitter.com/citrusgreening" data-widget-id="621778673675452416">Tweets by @lukasmueller</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
