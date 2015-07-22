@@ -1,0 +1,144 @@
+  <& /util/import_javascript.mas, classes => [qw[ unslider ]] &>
+
+<h1>Welcome to CitrusGreening.org!</h1>
+A USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">project</a>
+<br />
+
+    <!-- libraries for the slider -->
+  <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="unslider.js"></script -->
+
+  <style>
+/*  START SLIDER CSS*/
+	#slide_container { 
+        margin: 0px auto; 
+	    position: relative; 
+	    width: 700px; 
+	    height: 300px;
+	}
+	
+	#cg_title {
+		color: #fff;
+		font-family: verdana;
+		font-size: 24px;
+	    position: absolute;
+		padding: 5px 10px 5px 10px;
+	    top: 15px;
+		z-index: 2;
+		background-color: #222;
+		opacity: 0.8;
+	    filter: alpha(opacity=80); /* For IE8 and earlier */
+	}
+	
+    .banner { 
+        position: relative; 
+        overflow: auto; 
+        width: 700px; 
+	    height: 300px;
+    }
+    
+    .banner ul li {
+        width: 700px; 
+	    height: 300px;
+        
+        display: block;
+        float: left;
+        -o-background-size: 100%;
+        -ms-background-size: 100%;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .banner li { 
+        list-style: none;
+    }
+    
+    .banner p { 
+        float: right;
+        width:680px;
+        padding:10px;
+        margin-top:230px;
+        height: 100px;
+
+        color: #fff;
+        font-family: verdana;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: left;
+        background-color: #333;
+        opacity: 0.7;
+        filter: alpha(opacity=70); /* For IE8 and earlier */
+    }
+    
+    .banner a { 
+        color: #fff;
+        text-decoration: none;
+    }
+    
+/*    .banner a:hover { 
+        color: #f66;
+        text-decoration: none;
+    }
+*/    
+    .banner ul { 
+        -webkit-padding-start: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .dots {
+      position: absolute;
+      left: 10;
+      right: 0;
+      top: 0px;
+      text-align: center;
+    }
+
+    .dots li {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+      text-indent: -999em;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      opacity: .4;
+      -webkit-transition: background .5s, opacity .5s;
+      -moz-transition: background .5s, opacity .5s;
+      transition: background .5s, opacity .5s;
+    }
+
+    .dots li.active {
+      background: #fff;
+      opacity: 1;
+    }
+    
+/*    END SLIDER CSS*/
+  </style>
+
+  <script>
+    // code for slider
+    $(function() {
+            $('.banner').unslider({
+             speed: 500,               //The speed to animate each slide (in milliseconds)
+             delay: 3000,              //The delay between slide animations (in milliseconds)
+             complete: function() {},  //A function that gets called after every slide animation
+             keys: true,               //Enable keyboard (left, right) arrow shortcuts
+             dots: true,               //Display dot navigation
+             fluid: false              //Support responsive design. May break non-responsive designs
+            });
+        });
+  </script>
+
+    <div id="slide_container">
+        <p id="cg_title">CitrusGreening.org</p> <!-- slider title -->
+        <div class="banner">
+            <ul>
+                <li style="background-image: url('/static/img/slider1.png');width:700px;height: 300px;"><a href="https://en.wikipedia.org/wiki/Citrus_greening_disease"><p>Citrus greening disease was first described in 1929 and first reported in China in 1943. The African variation was first reported in 1947 in South Africa, where it is still widespread.</a></p></li>
+                <li style="background-image: url('/static/img/slider2.png');width:700px;height: 300px;"><p>The Asian citrus psyllid, <i>Diaphorina citri</i>, is a sap-sucking, hemipteran bug in the family Psyllidae. It is an important pest of citrus, as it is one of only two confirmed vectors of the serious citrus greening disease.</p></li>
+                <li style="background-image: url('/static/img/slider3.png');width:700px;height: 300px;"><p><a href="http://solgenomics.net/"><i>Candidatus Liberibacter</i> is a gram-negative bacteria in the Rhizobiaceae family. Members of the genus are plant pathogens mostly transmitted by psyllids.</a></p></li>
+            </ul>
+        </div>
+    </div>
