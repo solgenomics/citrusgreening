@@ -5,13 +5,8 @@
 <center>
 <br />
 <br />
-<h1>Welcome to CitrusGreening.org!</h1>
-<br />
-<br />
-A USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">project</a>
-<br />
+<& homepage/slider.mas &>
 
-<body>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -53,4 +48,3 @@ A USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-de
 </tr>
 </table>
 </center>
-</body>
