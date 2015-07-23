@@ -62,6 +62,16 @@
 		   link => '',
 		   desc => ''
 		  },
+		   {
+		    name => '<i>Citrus clementina</i>',
+		    link => '/organism/Citrus_clementina/genome',
+		    desc => 'Citrus clementina genome',
+		   },
+		   {
+		    name => '<i>Citrus sinensis</i>',
+		    link => '/organism/Citrus_sinensis/genome',
+		    desc => 'Citrus sinensis genome',
+		   },
  		   {		   
                     name => 'BLAST',
                     link => '',
@@ -75,6 +85,21 @@
 		   {
 		    name => '<i>Citrus sinensis</i>',
 		    link => '/tools/blast?db_id=5',
+		    desc => 'Citrus sinensis CDS with annotations',
+		   },
+ 		   {		   
+                    name => 'JBrowse',
+                    link => '',
+                    desc => '', 
+                   },
+		   {
+		    name => '<i>Citrus clementina</i>',
+		    link => '/jbrowse/current/?data=data/json/Citrus_clementina',
+		    desc => 'Citrus clementina jbrowse',
+		   },
+		   {
+		    name => '<i>Citrus sinensis</i>',
+		    link => '/jbrowse/current/?data=data/json/Citrus_sinensis',
 		    desc => 'Citrus sinensis CDS with annotations',
 		   },
 		   {		   
@@ -103,6 +128,16 @@
 		    name => '<i>Diaphora citri</i> proteins',
 		    link => '/tools/blast?db_id=17',
 		    desc => 'Diaphorina citri (diaci1.1) proteins',
+		   },
+ 		   {		   
+                    name => 'JBrowse',
+                    link => '',
+                    desc => '', 
+                   },
+		   {
+		    name => '<i>Diaphorina citri</i>',
+		    link => '/jbrowse/current/?data=data/json/Diaphorina_citri',
+		    desc => 'Diaphorina citri jbrowse',
 		   },
 		   {
                     name => 'Pathways',
