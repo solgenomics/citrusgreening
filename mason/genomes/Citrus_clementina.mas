@@ -39,7 +39,7 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
                      'Bulk Datasets (via Phytozome)' =>
                      '<a href="http://phytozome.jgi.doe.gov/pz/portal.html#!bulk?org=Org_Cclementina">Genome sequence and Annotation</a>',
                      BLAST => '<a href="/tools/blast/?db_id=11">Genome, CDS and Proteins</a>',
-                     'Genome browser' => '<a href="/jbrowse/JBrowse-1.11.4/?data=data/json/Pepper1.55/">Jbrowse</a>'
+                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=">Jbrowse</a>'
                     )
   %>
 </&>
