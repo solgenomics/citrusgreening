@@ -78,14 +78,14 @@
                     desc => '', 
                    },
 		   {
-		    name => '<i>Citrus clementina</i>',
+		    name => '<i>C clementina</i> databases',
 		    link => '/tools/blast?db_id=11',
-		    desc => 'Citrus clementina CDS with annotations',
+		    desc => 'Citrus clementina databases',
 		   },
 		   {
-		    name => '<i>Citrus sinensis</i>',
+		    name => '<i>C sinensis</i> databases',
 		    link => '/tools/blast?db_id=5',
-		    desc => 'Citrus sinensis CDS with annotations',
+		    desc => 'Citrus sinensis databases',
 		   },
  		   {		   
                     name => 'JBrowse',
@@ -93,12 +93,12 @@
                     desc => '', 
                    },
 		   {
-		    name => '<i>Citrus clementina</i>',
+		    name => '<i>C clementina</i> browser',
 		    link => '/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=',
 		    desc => 'Citrus clementina jbrowse',
 		   },
 		   {
-		    name => '<i>Citrus sinensis</i>',
+		    name => '<i>C sinensis</i> browser',
 		    link => '/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight=',
 		    desc => 'Citrus sinensis CDS with annotations',
 		   },
@@ -112,20 +112,25 @@
 	 {
 	  name => 'vector',
 	  link => '/tools/',
-	  desc => 'Tools for biologists.',
+	  desc => 'Insect vector',
 	  menu => [
                   {
                     name => 'Genome',
                     link => '',
                     desc => ''
                    },
+		   {
+		    name => '<i>Diaphorina citri</i>',
+		    link => '/organism/Diaphorina_citri/genome',
+		    desc => 'Diaphorina citri genome',
+		   },
  		   {		   
                     name => 'BLAST',
                     link => '',
                     desc => '',
                    },
                    {
-		    name => '<i>Diaphora citri</i> proteins',
+		    name => '<i>Diaphora citri</i> databases',
 		    link => '/tools/blast?db_id=17',
 		    desc => 'Diaphorina citri (diaci1.1) proteins',
 		   },
@@ -135,7 +140,7 @@
                     desc => '', 
                    },
 		   {
-		    name => '<i>Diaphorina citri</i>',
+		    name => '<i>Diaphorina citri</i> browser',
 		    link => '/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=',
 		    desc => 'Diaphorina citri jbrowse',
 		   },
@@ -150,37 +155,63 @@
 	 {
 	  name => 'pathogen',
 	  link => '',
-	  desc => 'View and compare chromosomes from various organisms.',
+	  desc => 'Endosymbionts',
 	  menu => [
-	  {
+		   {
                     name => 'Genome',
                     link => '',
-                    desc => ''
+                    desc => '',
                    },
- 		   {		   
+#		   {
+#		    name => '<i>Ca.</i> Liberibacter asiaticus psy62',
+#		    link => '/organism/Candidatus_Liberibacter_asiaticus_psy62/genome',
+#		    desc => 'Ca. Liberibacter asiaticus psy62',
+#		   },
+#		   {
+#		    name => '<i>Ca.</i> Liberibacter asiaticus gxpsy',
+#		    link => '/organism/Candidatus_Liberibacter_asiaticus_gxpsy/genome',
+#		    desc => 'Ca. Liberibacter asiaticus gxpsy',
+#		   },
+#		   {
+#		    name => '<i>Ca.</i> Liberibacter americanus',
+#		    link => '/organism/Candidatus_Liberibacter_americanus/genome',
+#		    desc => 'Ca. Liberibacter americanus',
+#		   },
+#		   {
+#		    name => '<i>Ca.</i> Liberibacter solanacearum',
+#		    link => '/organism/Candidatus_Liberibacter_solanacearum/genome',
+#		    desc => 'Ca. Liberibacter solanacearum',
+#		   },
+		   {
                     name => 'BLAST',
                     link => '',
                     desc => ''
                    },
+		   {
+		    name => '<i>Ca.</i> Liberibacter asiaticus psy62 databases',
+		    link => '/tools/blast?db_id=20',
+		    desc => 'Ca. Liberibacter asiaticus psy62 databases',
+		   },
+		   {
+		    name => '<i>Ca.</i> Liberibacter asiaticus gxpsy databases',
+		    link => '/tools/blast?db_id=19',
+		    desc => 'Ca. Liberibacter asiaticus gxpsy databases',
+		   },
+		   {
+		    name => '<i>Ca.</i> Liberibacter americanus databases',
+		    link => '/tools/blast?db_id=18',
+		    desc => 'Ca. Liberibacter americanus genome databases',
+		   },
+		   {
+		    name => '<i>Ca.</i> Liberibacter solanacearum databases',
+		    link => '/tools/blast?db_id=21',
+		    desc => 'Ca. Liberibacter solanacearum databases',
+		   },
 		   {		   
                     name => 'Pathways',
                     link => '',
                     desc => ''
                    },
-
-		 #  {
-		 #   name => 'Cassava 2011',
-		 #   link => '/cview/map.pl?map_id=1',
-		 #   desc => 'Cassava Genetic Map (Rabbi et al, 2011)',
-		 #  },
-		 #  { name => 'Genome' },
-                 #  {
-                 #    name => 'Cassava genome browser at JGI',
-                 #    link => 'http://www.phytozome.net/cgi-bin/gbrowse/cassava/',
-   #                  desc =>
-    #                     'The cassava genome, sequenced by the Joint Genome Initiative',
-     #            },
-
 		  ]
 	 },
 	 ]
