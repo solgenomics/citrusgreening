@@ -1,0 +1,23 @@
+<%perl>
+
+use strict;
+
+use File::Spec;
+use CXGN::Tools::File;
+
+my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'website-updates.txt');
+
+my $contents = "Website updates is not available at the moment.<br /><br />";
+
+eval {
+  $contents = CXGN::Tools::File::get_sections($file);
+};
+
+
+</%perl>
+
+<div class="boxbgcolor1" style="margin:0px;">
+<div class="boxheading">Website Updates</div>
+<div class="boxcontent"><% $contents %></div>
+<a href="oldhighlights.pl">See all updates...</a>
+</div>

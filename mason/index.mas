@@ -18,14 +18,19 @@
 
 <table cellpadding="0">
 <tr>
-<td colspan="2">
+<td colspan="3">
 <& homepage/project_description.mas, what=>'textbox' &>
 </td>
 </tr>
 
 <tr>
 <td width="300"  style="vertical-align:top;">
-<& homepage/news.mas &> 
+<& homepage/news.mas &>
+<& homepage/links.mas &>  
+</td>
+
+<td width="300"  style="vertical-align:top;">
+<& homepage/website_updates.mas &> 
 <& homepage/events.mas &>
 </td>
 

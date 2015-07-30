@@ -1,0 +1,57 @@
+<%perl>
+
+use strict;
+
+use File::Spec;
+use CXGN::Tools::File;
+
+#my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'news.txt');
+
+#my $contents = "Links is not available at the moment.<br /><br />";
+
+#eval {
+#  $contents = CXGN::Tools::File::get_sections($file);
+#};
+
+my $contents = 
+'
+Citrus Research
+<br>
+<a href="http://citrus.hzau.edu.cn/orange/"><i>C. sinensis</i> annotation project</a>
+<br>
+<a href="http://www.citrusgenome.ucr.edu/">International Citrus Genomics Consortium</a>
+<br>
+<a href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis">Phytozome <i>Citrus sinensis</i></a>
+<br>
+<a href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina">Phytozome <i>Citrus clementina</i></a>
+<br>
+<a href="http://citrus.pw.usda.gov/">Carrizo genome at USDA</a>
+<br>
+<a href="https://www.citrusgenomedb.org/">Citrus Genome Database</a>
+<br>
+Psyllid Research
+<br>
+<a href="https://i5k.nal.usda.gov/Diaphorina_citri">i5k <i>D. citri</i></a>
+<br>
+<a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI <i>D. citri</i></a>
+<br>
+<a href="http://entnemdept.ufl.edu/creatures/citrus/acpsyllid.htm">UF IFAS <i>D. citri</i></a>
+<br>
+
+<br><br>
+Agencies
+<br>
+<a href="http://citrusresearch.org/">Citrus Research Board</a>
+<br>
+<a href="http://citrusrdf.org">Citrus Research and Development Foundation</a>
+<br>
+<a href="http://www.saveourcitrus.org/index.php/citrus-greening">Save our Citrus</a>
+<br>
+<a href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening">USDA APHIS</a>';
+
+</%perl>
+
+<div class="boxbgcolor1" style="margin:0px;">
+<div class="boxheading">Links</div>
+<div class="boxcontent"><% $contents %></div>
+</div>
