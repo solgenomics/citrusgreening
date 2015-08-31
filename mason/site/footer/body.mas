@@ -63,14 +63,20 @@
 	
    </div>
 			
-   <div id="footer" class="earth">
+   <div id="footer" class="orange">
      	<div class="container">   
 	<div class="is-padded">
      	
-	<p class="pull-left"><a href="/contact/form">Contact</a>
+	<p class="pull-left"><a href="/contact/form"><font  color="white">Contact</font></a>
    			
 	<!-- p class="pull-right">&copy; 2012 The Boyce Thompson Institute for Plant Research</p -->
 	<br style="clear:both;">
+
+	<div class="right">
+	    <a class="footer" href="https://www.facebook.com/citrusgreening"><img src="/static/img/FB-f-Logo__blue_50.png" alt="Facebook" class="logo"></a>
+	    <a class="footer" href="https://twitter.com/citrusgreening"><img src="/static/img/TwitterLogo_55acee_50.png" alt="Twitter" class="logo"></a>
+	</div>
+
 	</div>
 	</div>
 	</div><!-- container -->
