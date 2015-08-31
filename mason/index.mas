@@ -24,13 +24,13 @@
 </tr>
 
 <tr>
-<td width="300"  style="vertical-align:top;">
+<td width="300"  style="vertical-align:top;" border="1">
 <& homepage/news.mas &>
 <& homepage/links.mas &>  
 </td>
 
 <td width="300"  style="vertical-align:top;">
-<& homepage/website_updates.mas &> 
+<!-- & homepage/website_updates.mas &--> 
 <& homepage/events.mas &>
 </td>
 
