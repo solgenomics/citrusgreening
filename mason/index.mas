@@ -26,7 +26,7 @@
 <tr>
 <td width="300"  style="vertical-align:top;" border="1">
 <& homepage/news.mas &>
-<& homepage/links.mas &>  
+<!--& homepage/links.mas &-->
 </td>
 
 <td width="300"  style="vertical-align:top;">
@@ -35,7 +35,7 @@
 </td>
 
 <td width="300" style="vertical-align:top;">
-<div class="boxbgcolor1">
+<!--div class="boxbgcolor1">
      <div class="boxheading">Social Media</div>
      <div class="boxcontent">
      <a href="http://twitter.com/citrusgreening" class="twitter-follow-button">@CitrusGreening</a>
@@ -44,10 +44,14 @@
      <div class="fb-page" data-href="https://www.facebook.com/citrusgreening" data-width="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/citrusgreening"><a href="https://www.facebook.com/citrusgreening">Citrus Greening</a></blockquote></div></div>
      
      </div>
-</div>
+</div-->
 
+<!--
 <a class="twitter-timeline"  href="https://twitter.com/CitrusGreening" data-widget-id="623154096057487360" width="300" >Tweets by @CitrusGreening</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+
+<& homepage/links.mas &>
 
 </td>
 </tr>
