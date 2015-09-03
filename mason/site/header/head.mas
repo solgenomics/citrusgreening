@@ -1,20 +1,15 @@
 <!-- INSERT_HEAD_PRE_HTML -->
 
-% my $t = $m->request_args->{'page_title'};
-  <title><% $t ? "$t - " : '' %>CitrusGreening.org</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-    <!-- citrusgreening base styles google -->
-    <link href='/css/citrusgreening.css' rel='stylesheet' type='text/css'>
  <!-- fonts google -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     
 
-  <link rel="stylesheet" href="/documents/inc/citrusgreening.css" type="text/css" />
+  <link rel="stylesheet" href="/documents/inc/new_sgn.css" type="text/css" />
   <link rel="stylesheet" href="/documents/inc/jquery-cassava-theme/jquery-ui-1.10.3.custom.css" type="text/css" />
   <link rel="stylesheet" href="/documents/inc/colorbox/colorbox.css" type="text/css" />
   <link rel="stylesheet" href="/css/jstree/themes/default/style.min.css" />
   <link rel="search" type="application/opensearchdescription+xml" title="CG Search" href="/documents/sgn_sol_search.xml" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <script language="javascript" type="text/javascript">
      JSAN = {};
@@ -24,7 +19,7 @@
 
 
 
-  <& /util/import_javascript.mas, classes => [qw[ sgn jquery.simpletooltip CXGN.Effects CXGN.Page.FormattingHelpers CXGN.UserPrefs CXGN.Page.Toolbar CXGN.Login ]] &>
+  <& /util/import_javascript.mas, classes => [qw[ sgn jquery.simpletooltip CXGN.Effects CXGN.Page.FormattingHelpers CXGN.UserPrefs CXGN.Page.Toolbar CXGN.Login bootstrap_min]] &>
 
  <!-- Google Analytics code -->
 
