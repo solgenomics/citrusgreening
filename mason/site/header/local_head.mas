@@ -1,4 +1,7 @@
-  <title>CitrusGreening.org</title>
+<!-- INSERT_HEAD_PRE_HTML -->
+
+% my $t = $m->request_args->{'page_title'};
+<title><% $t ? "$t - " : '' %>CitrusGreening.org</title>
 
     <!-- citrusgreening base styles google -->
     <link href='/css/citrusgreening.css' rel='stylesheet' type='text/css'>
