@@ -54,6 +54,6 @@ Agencies
 </%perl>
 
 <div class="boxbgcolor1" style="margin:0px;">
-<div class="boxheading">Links</div>
+<!--<div class="boxheading">Links</div>-->
 <div class="boxcontent"><% $contents %></div>
 </div>

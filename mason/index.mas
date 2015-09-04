@@ -17,7 +17,7 @@ $schema
       </div>
 
       <div class="panel panel-success">
-        <div class="panel-heading">News</div>
+        <div class="panel-heading">Website Updates</div>
         <div class="panel-body" style="overflow:hidden">
           <& homepage/website_updates.mas &>
         </div>
