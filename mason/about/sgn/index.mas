@@ -1,28 +1,27 @@
-<& /page/page_title.mas, title=>'About the Sol Genomics Network'  &>
+<& /page/page_title.mas, title=>'CitrusGreening Solutions'  &>
 
 <div class="indentedcontent">
-<p>The Sol Genomics Network (SGN) is a clade-oriented database dedicated to
-the biology of the Solanaceae family which includes a large
-number of closely related and many agronomically important
-species such as tomato, potato, tobacco, eggplant, pepper,
-and the ornamental <i>Petunia hybrida</i>.</p>
-
-<p>SGN is part of the International Solanaceae Initiative (SOL), which
-has the long-term goal of creating a network of resources and
-information to address key questions in plant adaptation and
-diversification.</p>
-
-<p>A key problem of the post-genomic era is the linking of the phenome to the genome, and SGN allows to track and help discover new such linkages. 
+U.S. citrus growers have a critical need for grove-deployable management practices that keep healthy citrus from becoming infected and infected trees from becoming symptomatic. We present a <b>systems-based pipeline approach</b> for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. A data integration and analysis platform combining existing complex -omics/biological data with molecular/cellular research will steer <b>hypothesis-driven</b> testing of inhibitors of multiple molecular pathways to provide solutions that can be optimized by combinatorial delivery to citrus. 
+<br>
+Research areas will include: 
+<ol>
+<li>Molecular interaction inhibitor discovery (gut membrane binding peptides, RNA aptamers and non-toxic chemical library screening) to block psyllid acquisition/ transmission of HLB and/or growth in the plant.</li>
+<li>dsRNA delivery to induce psyllid RNAi responses that block HLB transmission or kill the psyllid (or both).</li>
+</ol>
+The proposed delivery system has negligible environmental impact, is economical in comparison to current control strategies and is highly tractable, allowing it to function as a delivery vehicle for different solution strategies. Co-delivery with bactericides (previously shown to be effective against HLB through laborious injection methods) will be evaluated as complementary methods of control. To translate these therapeutic treatments into long-term solutions, transgenic research will be initiated to produce interdiction molecules (peptides and dsRNA) expressed in the phloem. By engaging stakeholders in design and testing stages, and educating the public, we will deliver acceptable solutions that are applicable to citrus greening and extensible to a wide variety of related economically important pathogens of citrus and other specialty crops.
+<br>
+<br>
+This is a USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">project</a>
 
 </div>
 
-<& tools.mas &>
+<!--<& tools.mas &>-->
 
-<& people.mas &>
+<!--<& people.mas &>-->
 
-<& publications.mas &>
+<!--<& publications.mas &>-->
 
-<& funding.mas &>
+<!--<& funding.mas &>-->
 
 
 

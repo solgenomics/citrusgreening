@@ -1,59 +1,47 @@
 <%args>
-
+$schema
 </%args>
 
-<center>
-<br />
-<br />
-<& homepage/slider.mas &>
+<& homepage/carousel.mas &>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<br/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
+      
+      <div class="panel panel-success">
+        <div class="panel-heading">News</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/news.mas &>
+        </div>
+      </div>
 
-<table cellpadding="0">
-<tr>
-<td colspan="3">
-<& homepage/project_description.mas, what=>'textbox' &>
-</td>
-</tr>
+      <div class="panel panel-success">
+        <div class="panel-heading">News</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/website_updates.mas &>
+        </div>
+      </div>      
 
-<tr>
-<td width="300"  style="vertical-align:top;" border="1">
-<& homepage/news.mas &>
-<!--& homepage/links.mas &-->
-</td>
-
-<td width="300"  style="vertical-align:top;">
-<!-- & homepage/website_updates.mas &--> 
-<& homepage/events.mas &>
-</td>
-
-<td width="300" style="vertical-align:top;">
-<!--div class="boxbgcolor1">
-     <div class="boxheading">Social Media</div>
-     <div class="boxcontent">
-     <a href="http://twitter.com/citrusgreening" class="twitter-follow-button">@CitrusGreening</a>
-     <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script> <br/>
-
-     <div class="fb-page" data-href="https://www.facebook.com/citrusgreening" data-width="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/citrusgreening"><a href="https://www.facebook.com/citrusgreening">Citrus Greening</a></blockquote></div></div>
-     
-     </div>
-</div-->
-
-<!--
-<a class="twitter-timeline"  href="https://twitter.com/CitrusGreening" data-widget-id="623154096057487360" width="300" >Tweets by @CitrusGreening</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
--->
-
-<& homepage/links.mas &>
-
-</td>
-</tr>
-</table>
-</center>
+    </div> <!-- End of Column 1 -->
+      
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        
+        <div class="panel panel-success">
+          <div class="panel-heading">Events</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/events.mas &>
+          </div>
+        </div>
+        
+        <div class="panel panel-success">
+          <div class="panel-heading">Links</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/links.mas &>
+          </div>
+        </div>
+        
+      </div> <!-- End of Column 2 -->
+      
+  </div>
+</div>
