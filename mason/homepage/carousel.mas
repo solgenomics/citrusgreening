@@ -1,0 +1,205 @@
+<style>
+
+.slider-size {
+  height: 400px; /* This is your slider height */
+}
+.carousel {
+  max-width:98%;
+  /*width:100%;*/
+  margin:0 auto; /* center your carousel if other than 100% */
+  margin-bottom:0px;
+}
+
+.carousel-sgn-caption { 
+  position:relative;
+  float: left;
+  max-width:40%;
+  /*min-width:35%;*/
+  padding: 0px 10px 0px 10px;
+  margin-top:20px;
+
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  border-top-right-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.carousel-sgn-caption a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.carousel-sgn-caption a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+.carousel-sgn-links {
+  position:absolute;
+  min-width:35%;
+  max-width:50%;
+  margin-top:20px;
+  right:0px;
+
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.85;
+  filter: alpha(opacity=85); /* For IE8 and earlier */
+  border-top-left-radius:12px;
+  border-bottom-left-radius:12px;
+}
+
+.carousel-sgn-links ul { 
+  padding: 10px 30px 0px 15px;
+  list-style-type: none;
+}
+
+.carousel-sgn-links a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.carousel-sgn-links a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+
+    .carousel-sgn-caption {
+      margin-top:0px;
+      width: 100%;
+      max-width: 100%;
+      border-radius:0px;
+      float: none;
+      margin-bottom:0px;
+    }
+
+    .carousel-sgn-links {
+      max-width: 100%;
+      width: 100%;
+      border-radius:0px;
+      bottom:30px;
+    }
+    
+    .carousel-indicators {
+      bottom:0px;
+      margin-bottom:5px;
+    }
+    
+}
+
+
+</style>
+
+<!--
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+
+<script>
+
+  jQuery(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 20000,
+      // wrap:true
+    })
+    
+    //$("#myCarousel").swiperight(function() {  
+    //      $("#myCarousel").carousel('prev');  
+    //    });  
+    //   $("#myCarousel").swipeleft(function() {  
+    //      $("#myCarousel").carousel('next');  
+    //   });  
+       
+       $(".ui-loading").css("display","none");
+       $(".ui-loader").css("display","none");
+  });
+</script>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+          <div style="background:url(/documents/img/citrusgreening/homepage/carousel1.png) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption">
+              <a href="https://en.wikipedia.org/wiki/Citrus" target="_blank">
+                <p>The Citrus hosts infected by HuangLongBing or Yellow Dragon disease</p>
+              </a>
+            </div>
+            
+            <div class="carousel-sgn-links">
+              <ul>
+                <li><a href="/organism/Citrus_clementina/genome"><i>Citrus clementina</i> genome page</a></li>
+                <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FCitrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=&loc=scaffold_3%3A20420111..30630165">Browse the <i>Citrus clementina</i> genome</a></li>
+                <li><a href="/organism/Citrus_sinensis/genome"><i>Citrus sinensis</i> genome page</a></li>
+                <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FCitrus_sinensis&loc=scaffold00001%3A2370493..3555925&tracks=DNA%2CGene%20models%20v1.1&highlight=">Browse the <i>Citrus sinensis</i> genome</a></li>
+              </ul>
+            </div>
+            
+          </div>
+      </div>
+      
+
+      <div class="item">
+        <div style="background:url(/documents/img/citrusgreening/homepage/carousel2.png) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+          <a href="/organism/Diaphorina_citri/genome">
+            The Asian citrus psyllid, <i>Diaphorina citri</i>, is a sap-sucking, hemipteran bug in the family Psyllidae.
+          </a>
+        </div>
+        <div class="carousel-sgn-links">
+          <ul>
+                <li><a href="/organism/Diaphorina_citri/genome"><i>Diaphorina citri</i> genome page</a></li>
+                <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&tracks=DNA%2CGene%20models%2CNCBI%20Predicted%20protein%20coding%20genes&highlight=&loc=gi|645508417|ref|NW_007377440.1|%3A439297..658944">Browse the <i>Diaphorina citri</i> genome</a></li>
+            <li><a href="ftp://ftp.citrusgreening.org/annotation/">Download the annotations</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+
+
+      <div class="item">
+        <div style="background:url(/documents/img/citrusgreening/homepage/carousel3.png) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+          <a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome">
+            <i>Candidatus</i> Liberibacter asiaticus psy62 is a gram-negative bacteria in the Rhizobiaceae family. It was published in 2009.
+          </a>
+        </div>
+        
+        <div class="carousel-sgn-links">
+          <ul>
+                <li><a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome"><i>Candidatus</i> Liberibacter asiaticus psy62 genome page</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+</div> <!-- end of carousel -->
+
+    <!-- Left and right controls -->
+    <!-- <a id="prev_slide" class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a  id="next_slide" class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
