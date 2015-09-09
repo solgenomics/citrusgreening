@@ -5,7 +5,7 @@
     <li role="separator" class="divider"></li>
     
     <li class="dropdown-header">Blast</li>
-    <li><a href="/tools/blast?db_id=17"><i>Diaphora citri</i> databases</li>
+    <li><a href="/tools/blast?db_id=17"><i>Diaphora citri</i> databases</a></li>
     <li role="separator" class="divider"></li>
     
     <li class="dropdown-header">JBrowse</li>
