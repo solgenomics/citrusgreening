@@ -137,6 +137,7 @@
           <div style="background:url(/documents/img/citrusgreening/homepage/carousel1.png) center center; background-size:cover;" class="slider-size">
             <div class="carousel-sgn-caption">
               <a href="https://en.wikipedia.org/wiki/Citrus" target="_blank">
+                <h3>Citrus</h3>
                 <p>The Citrus hosts infected by HuangLongBing or Yellow Dragon disease</p>
               </a>
             </div>
@@ -158,7 +159,8 @@
         <div style="background:url(/documents/img/citrusgreening/homepage/carousel2.png) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
           <a href="/organism/Diaphorina_citri/genome">
-            The Asian citrus psyllid, <i>Diaphorina citri</i>, is a sap-sucking, hemipteran bug in the family Psyllidae.
+            <h3><i>Diaphorina citri</i></h3>
+            <p>The Asian citrus psyllid is a sap-sucking, hemipteran bug in the family Psyllidae.</p>
           </a>
         </div>
         <div class="carousel-sgn-links">
@@ -177,13 +179,15 @@
         <div style="background:url(/documents/img/citrusgreening/homepage/carousel3.png) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
           <a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome">
-            <i>Candidatus</i> Liberibacter asiaticus psy62 is a gram-negative bacteria in the Rhizobiaceae family. It was published in 2009.
+            <h3><i>Candidatus</i> Liberibacter asiaticus</h3>
+            <p><i>Candidatus</i> Liberibacter asiaticus psy62 is a gram-negative bacteria in the Rhizobiaceae family. It was published in 2009.</p>
           </a>
         </div>
         
         <div class="carousel-sgn-links">
           <ul>
                 <li><a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome"><i>Candidatus</i> Liberibacter asiaticus psy62 genome page</a></li>
+                <li><a href="/tools/blast?db_id=20">Blast to <i>Candidatus</i> Liberibacter asiaticus psy62 genome</a></li>
           </ul>
         </div>
         
