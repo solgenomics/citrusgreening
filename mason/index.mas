@@ -47,7 +47,13 @@ $schema
             <& homepage/links.mas &>
           </div>
         </div>
-        
+
+        <div class="panel panel-success">
+          <div class="panel-heading">Research Updates</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/research_updates.mas &>
+          </div>
+        </div>        
       </div> <!-- End of Column 2 -->
       
   </div>
