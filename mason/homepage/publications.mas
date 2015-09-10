@@ -34,5 +34,5 @@ eval {
 
 <div class="boxbgcolor1" style="margin:0px;">
 <% $publications %>
-<button class="btn btn-info btn-sm" onclick=location.href="/oldpublications.pl">See all publications...</button>
+<button class="btn btn-sm" onclick=location.href="/oldpublications.pl">See all publications...</button>
 </div>
