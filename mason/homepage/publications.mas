@@ -1,0 +1,38 @@
+<%doc>
+
+=head1 NAME 
+
+publications.mas - a mason module to display an html section with publications, read from a file.
+
+=head1 DESCRIPTION
+
+The module does not require any parameters. If the file read does not succeed, an error message is displayed.
+
+=head1 AUTHOR
+
+Surya Saha <ss2489 at cornell dot edu>
+
+=cut
+
+</%doc>
+
+<%perl>
+
+use strict;
+use File::Spec;
+use CXGN::Tools::File;
+
+my $publications = "Publications not available at the moment.<br /><br />";
+
+eval {
+
+ $publications = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "publications.txt"));
+
+};
+
+</%perl>
+
+<div class="boxbgcolor1" style="margin:0px;">
+<% $publications %>
+<button class="btn btn-info btn-sm" onclick=location.href="/oldpublications.pl">See all publications...</button>
+</div>
