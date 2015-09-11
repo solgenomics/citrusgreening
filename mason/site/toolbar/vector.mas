@@ -5,7 +5,8 @@
     <li role="separator" class="divider"></li>
 
     <li class="dropdown-header">Annotation</li>
-    <li><a href="/annotation/index"><i>Overview</i></a></li>
+    <li><a href="/annotation/index">Overview</a></li>
+    <li><a href="/annotation/updates">Status</a></li>
     <li role="separator" class="divider"></li>
     
     <li class="dropdown-header">Blast</li>
