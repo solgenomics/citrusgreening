@@ -1,0 +1,6 @@
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Disease</a>
+  <ul class="dropdown-menu">
+    <li><a href="/disease/index">Background</a></li>
+    <li><a href="/disease/impact">Impact</a></li>
+  </ul>
+</li>

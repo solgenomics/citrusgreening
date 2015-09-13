@@ -1,0 +1,35 @@
+<%doc>
+
+=head1 NAME 
+
+index.mas - a mason module to display an html page with all sections about CG disease.
+
+=head1 DESCRIPTION
+
+The module does not require any parameters.
+
+=head1 AUTHOR
+
+Surya Saha <ss2489 at cornell dot edu>
+
+=cut
+
+</%doc>
+
+<& /page/page_title.mas, title=>'CitrusGreening or Huanglongbing disease'  &>
+
+<div class="indentedcontent">
+Huanglongbing (HLB) is a tritrophic disease complex involving citrus host trees, the Asian citrus psyllid (ACP) insect and a phloem restricted, bacterial pathogen Candidatus Liberibacter asiaticus (CLas). HLB is considered to be the most devastating of all citrus diseases, and there is currently no adequate control strategy. In Florida, an estimated 40-70% of all citrus trees are infected, and HLB effects include production declines (10-20% per year), diminished fruit quality and increased production costs. Some growers already forced into bankruptcy. California and Texas have the ACP and isolated reports of HLB, where the spread of HLB is imminent without discovery and implementation of new management practices.
+</div>
+
+<br>
+<br>
+<center>
+<img src="/img/citrusgreening/disease/cilia_systemsbiology.png" height="250" width="450">
+<br>
+Credit: Cilia lab
+</center>
+<br>
+<br>
+
+<& impact.mas &>

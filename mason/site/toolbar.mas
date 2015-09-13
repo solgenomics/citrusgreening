@@ -1,4 +1,3 @@
-  
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -11,6 +10,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
+        <& toolbar/disease.mas &>
         <& toolbar/host.mas &>
         <& toolbar/vector.mas &>
         <& toolbar/pathogen.mas &>

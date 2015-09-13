@@ -4,11 +4,25 @@ $schema
 
 <& homepage/carousel.mas &>
 
-<br/>
+<br>
+
 <div class="container-fluid">
   <div class="row">
+    <div class="col-sm-8 col-md-8 col-lg-8">
+      <br>
+      <br>
+      <b>Huanglongbing</b> or <b>citrus greening</b> is a tritrophic disease complex involving citrus host trees, the Asian citrus psyllid or <i>Diaphorina citri</i> insect and a phloem restricted, bacterial pathogen called <i>Candidatus</i> Liberibacter asiaticus. Huanglongbing is considered to be the most devastating of all citrus diseases, and there is currently no adequate control strategy. In Florida, an estimated 40-70% of all citrus trees are infected, and huanglongbing effects include production declines (10-20% per year), diminished fruit quality and increased production costs. <a href="/disease/index"> More..</a>
+      <br>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+      <br>
+      <img src="/img/citrusgreening/disease/cilia_systemsbiology.png" height="150">
+      <br>
+      <center><small>Credit: Cilia lab</small></center>
+      <br>
+    </div>
+  </div> <!-- end row -->
     <div class="col-sm-6 col-md-6 col-lg-6">
-      
       <div class="panel panel-success">
         <div class="panel-heading">News</div>
         <div class="panel-body" style="overflow:hidden">
