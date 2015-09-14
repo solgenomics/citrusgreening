@@ -15,7 +15,6 @@
         <& toolbar/vector.mas &>
         <& toolbar/pathogen.mas &>
         <& toolbar/about.mas &>
-        <li><a href="/contact/form">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <& toolbar/search.mas &>
