@@ -84,6 +84,15 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 		<div class="col-sm-5 col-md-5 col-lg-5">
 			<br>
 			<br>
+			<center>
+				<img src="/img/citrusgreening/disease/abandoned_grove.png" height="300">
+				<br>
+				Abandoned unproductive groves from HLB infection are widespread (33,000 acres+ and 43,000 trees removed)
+			</center>
+		</div>
+		<div class="col-sm-5 col-md-5 col-lg-5">
+			<br>
+			<br>
 			<center><b>Florida response to HLB</b></center>
 			<br>
 			<ul>
@@ -93,15 +102,6 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 				<li>Production and fruit quality are declining. <em>What can be done to maintain yield and quality in infected trees?</em</li> 
 				<li>A major concern is that production will drop below critical volume to maintain juice industry and infrastructure</li>
 			</ul>
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
-			<br>
-			<br>
-			<center>
-				<img src="/img/citrusgreening/disease/abandoned_grove.png" height="300">
-				<br>
-				Abandoned unproductive groves from HLB infection are widespread (33,000 acres+ and 43,000 trees removed)
-			</center>
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1">
 		</div> <!--empty column-->
@@ -142,6 +142,12 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 		<div class="col-sm-5 col-md-5 col-lg-5">
 			<br>
 			<br>
+			<img src="/img/citrusgreening/disease/Consumption.png" width="300">
+		</div>
+		<div class="col-sm-5 col-md-5 col-lg-5">
+			<br>
+			<br>
+			<br>
 			<center><b>Overview of US Citrus Production</b></center>
 			<br>
 			<br>
@@ -162,11 +168,6 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 			</ul>
 
 			All sweet oranges are nearly identical in genetics and are variants of a hybrid that first emerged 1000+ years ago. Identical genetics is worst scenario for an epidemic - <em>sweet orange highly susceptible</em>
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
-			<br>
-			<br>
-			<img src="/img/citrusgreening/disease/Consumption.png" width="300">
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1">
 		</div> <!--empty column-->
