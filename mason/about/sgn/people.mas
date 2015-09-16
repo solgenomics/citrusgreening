@@ -1,149 +1,18 @@
-<%init>
-    use CXGN::Page::FormattingHelpers qw/info_section_html info_table_html/;
-</%init>
+<& /page/page_title.mas, title=>'CitrusGreening Solutions Team'  &>
 
-<%perl>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<center>
+			<a href="http://www.k-state.edu/"><img src="/img/citrusgreening/about/ksu-logo.gif" width="250" alt="Kansas State University"></a>
+			<a href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" width="250" alt="Boyce Thompson Institute (BTI) for Plant Research"></a>
+			<a href="http://www.ars.usda.gov/main/site_main.htm?modecode=60-34-05-00"><img src="/img/citrusgreening/about/USDA-ARS-logo.png" width="250" alt="USDA-ARS, U.S. Horticultural Research Laboratory"></a>
+			<a href="https://www.irsc.edu/"><img src="/img/citrusgreening/about/IRSC-logo.jpg" width="250" alt="Indian River State College"></a>
+			<a href="http://foodscience.ucdavis.edu/"><img src="/img/citrusgreening/about/UCDavis_fst-logo_250.png" width="250" alt="Department of Food Science and Technology, UC Davis"></a>
+			<a href="https://www.lanl.gov/"><img src="/img/citrusgreening/about/lanl-logo.png" width="250" alt="US DOE Los Alamos National Laboratory"></a>
+			<a href="http://www.gs.washington.edu/"><img src="/img/citrusgreening/about/UoW_genomesciences-logo.png" width="250" alt="Department of Genome Sciences, University of Washington"></a>
+			</center>
+		</div>
+	</div> <!-- end row -->
+</div> <!-- close container-fluid -->
 
-sub person_image {
-  my ($filebase,$name,$position) = @_;
-  $name ||= '';
-  $position ||= '';
-  return <<EOHTML
-  <a class="person" href="/static_content/sgn_photos/img/$filebase.jpg"><img src="/static_content/sgn_photos/img/${filebase}_small.jpg" alt="$name" /></a>
-  <span style="display:block">$name</span>
-  <span style="font-size:smaller">$position</span>
-EOHTML
-}
-#given a 2-d array of person records (each an array of pic,name,and position),
-#make a pretty formatted table
-sub person_set {
-  my @people = @_;
-  return qq|<table width="100%">\n|
-    .( join '',
-       map {"<tr>\n$_\n</tr>\n"}
-       map { my $colwidth = sprintf("%d",100/@$_);
-	     ( join '',
-	       map {$_ = person_image(@$_); qq|<td align="center" width="$colwidth%">\n
-$_</td>\n|}
-	       @$_
-	     )
-	   }
-       @people
-     )
-    ."</table>\n";
-}
-sub ul(@) { "<ul>\n".( join '', map {"<li>$_</li>\n"} @_ )."</ul>\n"; }
-
-print info_section_html( title => 'Lab members',
-			 contents =>
-			 info_section_html( title => 'Staff',
-					    is_subsection => 1,
-					    contents => person_set 
-              ([
-                ['white','',''],
-                ['lukas','Lukas Mueller','Director'],
-                ['white','',''],
-               ],
-              [
-                ['naama','Naama Menda','Postdoc'],
-                ['isaak', 'Isaak Y Tecle', 'Bioinformatics Consultant' ],
-					      ['tom', 'Tom York', 'Postdoc' ],
-                # ['jeremy', 'Jeremy Edwards', 'Assistant Director'],
-               ],
-					     [
-				        ['suzy', 'Susan Strickler', 'Postdoc'],
-                ['noe', 'Noe Fernandez-Pozo', 'Postdoc' ],
-                [ 'hartmut', 'Hartmut Foerster', 'MetaCyc curator' ],
-					     ],
-					     [
-                 ['surya', 'Surya Saha', 'Postdoc' ],
-                 ['aimin', 'Aimin Yan', 'Postdoc' ],
-                 ['guillaume', 'Guillaume Bauchet', 'Postdoc' ],
-                  # ['aureliano', 'Aureliano Bombarely', 'Postdoc' ],
-					     ],
-               [
-                 ['bryan', 'Bryan Ellerbrock', '' ],
-                 ['nick', 'Nicolas Morales', '' ],
-                 ['alex', 'Alex Agbonna', '' ],
-               ]
-					    ),
-					  )
-			 
-  .info_section_html( title => 'Interns',
-					     is_subsection => 1,
-					     contents => 
-					     ul(
-                                                '<a href="/about/Summer_Internship_2008.pl">View summer 2008 intern photos &amp; projects</a>',
-                                                '<a href="/outreach/index.pl#interns">Get information about our bioinformatics summer internship program</a>',            
-                        ),
-                                           )
-
-			 .qq|<a href="/sgn_photos/index.pl"><strong>View more staff &amp; intern photos</strong></a>|
-		       );
-print info_section_html( title => 'Emeritus Staff',
-			 contents =>
-			 info_table_html( __multicol => 3, __border => 0,
-					 'Bioinformatics Analysts' =>
-					  ul('Anuradha Pujar',
-                                             'Robert Buels',
-					     'Joseph Gosselin',
-					     'Jonathan Leto',
-                                             'Adri Mills',
-                                             'Beth Skwarecki',
-					     'Dean Eckstrom',
-					     'Chris Carpita',
-					     'Marty Kreuter',
-					     'Chenwei Lin',
-					     'John Binns',
-					     'Teri Solow',
-					     'Nicholas Taylor',
-					     'Dan Ilut',
-					     'Robert Ahrens',
-					     'Mark Wright',
-					    ),
-					  'Interns' =>
-					  ul(
-					     'Matthew Crum (2013)',
-					     'Amelia Lovelace (2013)',
-					     'Akhil Saji (2013)',
-					     'Kevin Nguyen (2013)',
-					     'Andrew Dunford (2012)',
-					     'Paul Van Eck (2012)',
-					     'Kristin Blacklock (2012)',
-					     'Jessica Jeffrey (2011)',
-					     'Dil Begum (2011)',
-					     'Samuel Moijueh (2011)',
-					     'Benjamin Gordon (2011)',
-					     'Jean Lee (2010)',
-					     'Dean Bobo (2010)',
-					     'Carolyn Ochoa (2010)',
-                                             'Mallory Freeberg',
-                                             'Carolyn Ochoa',
-					     'Johnathon Schulz',
-					     'Tim Jacobs',
-					     'Sasha Naydich',
-					     'Jessica Reuter',
-					     'Matthew Crumb',	 
-					     'Bob Albright',
-					     'Emily Hart',
-					     'Scott Bland',
-					     'Amarachukwu Enemuo',
-                                            ),
-					  '&nbsp;' =>
-					  ul(
-                                             'Benjamin Cole',
-					     'Caroline Nyenke',
-					     'Tyler Simmons',
-					     'Evan Herbst',
-					     'Emil Keyder',
-					     'Aseem Kohli',
-					     'Igor Dolgalev',
-					     'Miriam Wallace',
-					     'Jay Gadgil',
-					     'Jennifer Lee',
-					    ),
-					)
-			 .<<EOHTML);
-EOHTML
-
-</%perl>
