@@ -9,11 +9,11 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 <br>
 </div>
 
-
 <div class="container-fluid">
+
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12">
-			<center><b>Salient Facts</b></center>
+			<center><h3>Salient Facts</h3></center>
 			<ul>
 				<li>First identified in the US in Florida in August 2005</li>
 				<li>Estimated that approximately 80% of Florida citrus trees are infected, and some groves no longer productive</li>
@@ -41,7 +41,7 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 			<center>
 				<br>
 				<br>
-				<b>Trend in Florida Citrus Production</b>
+				<h3>Trend in Florida Citrus Production</h3>
 				<br>
 				<img src="/img/citrusgreening/disease/Citrus_production_1999-2015.png" alt="Citrus production 1999-2015" height="350">
 				<br>
@@ -52,9 +52,7 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
-		<div class="col-sm-3 col-md-3 col-lg-3">
+		<div class="col-sm-4 col-md-4 col-lg-4">
 			<left>
 				<br>
 				<br>
@@ -64,7 +62,7 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 				This represents fairly successful management using extensive foliar nutrition and aggressive psyllid control, and likely is around the 40% cropping reduction of typical HLB-infected sweet orange in Florida.  Photo courtesy of <a href="http://citrusagents.ifas.ufl.edu/hlb_photos/index.shtml">Dr. Steve Futch</a>
 			</left>
 		</div>
-		<div class="col-sm-7 col-md-7 col-lg-7">
+		<div class="col-sm-8 col-md-8 col-lg-8">
 			<center>
 				<br>
 				<img src="/img/citrusgreening/disease/infected_2011.png" height="300">
@@ -73,25 +71,21 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 				<br>
 			</center>
 		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
 	</div> <!-- end row-->
 	<div class="row">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
-		<div class="col-sm-5 col-md-5 col-lg-5">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<br>
 			<br>
 			<center>
-				<img src="/img/citrusgreening/disease/abandoned_grove.png" height="300">
+				<img src="/img/citrusgreening/disease/abandoned_grove.png" width="100%">
 				<br>
 				Abandoned unproductive groves from HLB infection are widespread (33,000 acres+ and 43,000 trees removed)
 			</center>
 		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<br>
 			<br>
-			<center><b>Florida response to HLB</b></center>
+			<center><h3>Florida response to HLB</h3></center>
 			<br>
 			<ul>
 				<li>Initially very rapid disease development, from first find of a diseased tree up to 39% of trees in a grove in 10 months</li>
@@ -101,16 +95,12 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 				<li>A major concern is that production will drop below critical volume to maintain juice industry and infrastructure</li>
 			</ul>
 		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
 	</div> <!-- end row -->
 	<div class="row">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
-		<div class="col-sm-4 col-md-4 col-lg-4">
+		<div class="col-sm-5 col-md-5 col-lg-5">
 		<br>
 		<br>
-		<center><b>Fruit quality, flavor and preharvest drop</b></center>
+		<center><h3>Fruit quality, flavor and preharvest drop</h3></center>
 		<br>
 		<ul>
 			<li>Fruit quality affects of HLB have been assessed:
@@ -122,30 +112,26 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 			<li>Preharvest fruit drop is much greater in HLB-infected trees, even with nutrient enhancement</li>
 		</ul>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-6">
+		<div class="col-sm-7 col-md-7 col-lg-7">
 		<center>
 			<br>
-			<img src="/img/citrusgreening/disease/infected_partial_cure.png" height="300">
+			<img src="/img/citrusgreening/disease/infected_partial_cure.png" width="100%">
 			<br>
 		      	HLB-infected tree in decline on the left. HLB-infected tree that is cropping well but with lots of preharvest drop on the right. Photo courtesy of <a href="http://ircitrusleague.org/interactive-virtual-citrus-groves/">Steve Rogers</a>
 		</center>
 		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
 	</div> <!-- end row -->
 	<div class="row">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
-		<div class="col-sm-5 col-md-5 col-lg-5">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<br>
 			<br>
-			<img src="/img/citrusgreening/disease/Consumption.png" width="300">
+			<img src="/img/citrusgreening/disease/Consumption.png" width="100%">
 		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<br>
 			<br>
 			<br>
-			<center><b>Overview of US Citrus Production</b></center>
+			<center><h3>Overview of US Citrus Production</h3></center>
 			<br>
 			<br>
 			If we combine juice and fresh, then citrus is #1 fruit consumed in the US. 50x106 cartons  of fresh fruit are exported every year.
@@ -166,8 +152,6 @@ The impact of citrus greening in Florida is demonstrated by predictions that the
 
 			All sweet oranges are nearly identical in genetics and are variants of a hybrid that first emerged 1000+ years ago. Identical genetics is worst scenario for an epidemic - <em>sweet orange highly susceptible</em>
 		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div> <!--empty column-->
 	</div> <!-- end row -->
 </div> <!-- close container-fluid -->
 

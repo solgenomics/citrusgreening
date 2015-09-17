@@ -100,7 +100,7 @@
 	    <h4>Hosted By:</h4>
 	    <hr>
 	<div class="center">
-	      <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer" /></a>
+	      <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer"></a>
 	</div>
 
       	    </div>
