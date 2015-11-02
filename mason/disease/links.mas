@@ -1,93 +1,209 @@
 <& /page/page_title.mas, title=>'Importants Links' &>
+<style>
+.thumbnail {
+   height:140px; 
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    }
 
-<h4>Citrus Research</h4>
-<div class="row">	
-	<div class="col-sm-4 col-md-4">
-      		<a class="container-fluid navbar-link" href="http://www.citrusgenome.ucr.edu/" > 
-			<img alt="Brand" src="/img/citrusgreening/links/citrus.ucr.png"> 
+.thumbnail:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1, 1);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.15, 1.15);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    box-shadow: 2px 2px 5px #F1F2EF;
+    z-index: 10;
+    }
+
+
+</style>
+<h2>Citrus Research</h2>
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center text-center">
+		<a class="container-fluid navbar-link" href="http://www.citrusgenome.ucr.edu/" > 
+			<div class="thumbnail">
+				<img class="img" src="/img/citrusgreening/links/citrus.ucr.png" alt="brand" class="img-rounded">
+				<div class="caption">
+					<p>International Citrus Genomics Consortium</p>
+				</div>
+			</div>
 		</a>
-		<div class="caption"><a  href="http://www.citrusgenome.ucr.edu/">International Citrus Genomics Consortium</div>
-      	</div>
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link " href="http://www.citrusgenomedb.org/" >
-			<img alt="Brand" src="/img/citrusgreening/links/ljpeach_logo.png">
-		</a>  <div class="caption"><a  href="http://www.citrusgenomedb.org/">Citrus Genome Database</div>		
 	</div>
-	<div class="col-sm-4 col-md-4">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://citrus.pw.usda.gov/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
+				<div class="caption">
+					<p>Carrizo genome at USDA</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
 		<a class="container-fluid navbar-link" href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis" > 
-			<img alt="Brand" src="/img/citrusgreening/links/logo.phytozome.png"> 
-		</a> <div class="caption"><a  href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis">Phytozome Citrus sinensis</div>
-	</div></div><br>
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/logo.phytozome.png" alt="brand">
+				<div class="caption">
+					<p>Phytozome <i>Citrus sinensis</i></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="row">	
+	<div class="col-sm-8 col-md-8 text-center">
+		<a class="container-fluid navbar-link" href="http://citrus.hzau.edu.cn/orange/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/csi.logo.png" alt="brand">
+				<div class="caption">
+					<br><p><i>Sinensis</i> annotation project</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link " href="http://www.citrusgenomedb.org/" >
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/ljpeach_logo.png" alt="brand">
+				<div class="caption">
+					<p>Citrus Genome Database</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
 <div class="row">
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://citrus.hzau.edu.cn/orange/">
-			<img alt="Brand" src="/img/citrusgreening/links/csi.logo.png">
-		</a><div class="caption"><a href="http://citrus.hzau.edu.cn/orange/"> <i>sinensis</i> annotation project</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/logo.phytozome.png" alt="brand">
+				<div class="caption">
+					<p>Phytozome <i>Citrus clementina</i></p>
+				</div>
+			</div>
+		</a>
 	</div>
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina">
-			<img alt="Brand" src="/img/citrusgreening/links/logo.phytozome.png">
-		</a> <div class="caption"><a href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina">Phytozome <i>Citrus clementina</i></div>
-	</div>
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://citrus.pw.usda.gov/">
-			<img alt="Brand" src="/img/citrusgreening/links/USDA-Logo.jpg">
-		</a><div class="caption"><a href="http://citrus.pw.usda.gov/">Carrizo genome at USDA</div>
-</div></div><br><br>
-<h4>Psyllid Research </h4>
-<div class="row">
-	
-	<div class="col-sm-4 col-md-4">	
-		<a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri" > 
-			<img alt="Brand" src="/img/citrusgreening/links/I5klogo4.png"> 
-		</a> <div class="caption"><a  href="https://i5k.nal.usda.gov/Diaphorina_citri">i5k D. citri </div>
-	</div>
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp">
-			<img alt="Brand" src="/img/citrusgreening/links/fclaicon1.jpg">
-		</a><div class="caption"><a href="http://cg.cits.fcla.edu/cg.jsp">HLB Bibliography Database</div>
+</div><br><br>
 
+
+<h2>Psyllid Research </h2>
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/I5klogo4.png" alt="brand">
+				<div class="caption">
+					<p>i5k D. citri</p>
+				</div>
+			</div>
+		</a>
 	</div>
-	<div class="col-sm-4 col-md-4">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/fclaicon1.jpg" alt="brand">
+				<div class="caption">
+					<p>HLB Bibliography Database</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
 		<a class="container-fluid navbar-link" href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/" > 
-			<img alt="Brand" src="/img/citrusgreening/links/ncbi.gif"> 
-		</a> <div class="caption"><a  href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI <i>D. citri</i></div>
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/ncbi.gif" alt="brand">
+				<div class="caption">
+					<p>NCBI <i>D. citri</i></p>
+				</div>
+			</div>
+		</a>
 	</div>
 </div><br>
 <div class="row">
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://www.growingproduce.com/citrus/insect-disease-update/">
-			<img alt="Brand" src="/img/citrusgreening/links/UFlogofeatcreat.gif">
-		</a><div class="caption"><a href="http://www.growingproduce.com/citrus/insect-disease-update/">Insect & Disease Update Stories</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.growingproduce.com/citrus/insect-disease-update/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/UFlogofeatcreat.gif" alt="brand">
+				<div class="caption">
+					<p>Insect & Disease Update Stories</p>
+				</div>
+			</div>
+		</a>
 	</div>
-	<div class="col-sm-4 col-md-4">
-		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/ACP/Distribution_of_ACP_in_California/" >
-			<img alt="Brand" src="/img/citrusgreening/links/seal_straight.png"> 
-		</a>  <div class="caption"><a  href="http://ucanr.edu/sites/ACP/Distribution_of_ACP_in_California/">Distribution of ACP, HLB and parasites in California </i></div>
- </div></div><br>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/ACP/Distribution_of_ACP_in_California/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/seal_straight.png" alt="brand">
+				<div class="caption">
+					<p>Distribution of ACP, HLB and parasites in California </i></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
 <br>
-<h4>Agencies</h4> 
-<div class="row">			
-	<div class="col-sm-6 col-md-4">
-		<a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening" > 
-			<img alt="Brand" src="/img/citrusgreening/links/USDA-Logo.jpg"> 
-		</a> <div class="caption"><a  href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening">USDA APHIS</div>
- 	</div>
-	<div class="col-sm-6 col-md-4">
-		<a class="container-fluid navbar-link" href="http://citrusresearch.org/" > 
-			<img alt="Brand" src="/img/citrusgreening/links/citrus.board.jpg"> 
-		</a> <div class="caption"><a  href="http://citrusresearch.org/">Citrus Research Board</div>
-	</div>
-	<div class="col-sm-6 col-md-4 align-center">
-		<a class="container-fluid navbar-link" href="http://www.saveourcitrus.org/index.php/citrus-greening">
-			<img alt="Brand" src="/img/citrusgreening/links/soc_logo.png">
-		</a><div class="caption"><a href="http://www.saveourcitrus.org/index.php/citrus-greening">Save our Citrus</div>
-	</div>
-</div><br>
+<h2>Agencies</h2> 
 <div class="row">
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
+				<div class="caption">
+					<p>USDA APHIS</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	
+	<div class="col-sm-4 col-md-4 text-center">
 		<a class="container-fluid navbar-link" href="http://citrusrdf.org" > 
-			<img alt="Brand" src="/img/citrusgreening/links/citrus.research.png"> 
-		</a> <div class="caption"><a  href="http://citrusrdf.org">Citrus Research and Development Foundation</div>
-</div></div>
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/citrus.research.png" alt="brand">
+				<div class="caption">
+					<p>Citrus Research and Development Foundation</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.ars.usda.gov/main/main.htm" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
+				<div class="caption">
+					<p>USDA ARS</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.saveourcitrus.org/index.php/citrus-greening" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/soc_logo.png" alt="brand">
+				<div class="caption">
+					<br><p>Save our Citrus</p>
+				</div>
+			</div>
+		</a>
+	</div>	
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://citrusresearch.org/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/citrus.board.jpg" alt="brand">
+				<div class="caption">
+					<br><p>Citrus Research Board</p>
+				</div>
+			</div>
+		</a>
+	</div>	
+</div>
+
+
 
