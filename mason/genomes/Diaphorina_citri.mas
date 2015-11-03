@@ -31,8 +31,14 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
 <% info_table_html(
                      __border   => 0,
                      __multicol => 2,
-                     'Bulk Datasets (via i5k FTP)' =>
-                     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-%28Diaphorina_citri%29/current/">Genome sequence and Annotation</a>',
+                     'Genome sequence (via i5k FTP)' =>
+                     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/1.Genome%20Assembly/NCBI_RefSeq_diaci1.1/Contigs/">NCBI-diaci1.1</a>',
+                     'NCBI Annotation (via i5k FTP)' =>
+                     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/3.Additional%20Gene%20Sets%20and%20Annotation%20Projects/RefSeq/">NCBI Gnomon predictions</a>',
+                     'Maker Annotation (via i5k FTP)' =>
+                     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/2.Official%20or%20Primary%20Gene%20Set/Maker_v1.1-Primary_Gene_Set-mapped-to-RefSeq_diaci1.1/">Maker primary gene set</a>',
+                     'MCOT Annotation ' =>
+                     '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
                      BLAST => '<a href="/tools/blast/?db_id=17">Genome, CDS and Proteins</a>',
                      'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
                     )
