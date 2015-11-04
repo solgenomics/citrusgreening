@@ -22,6 +22,164 @@
 
 
 </style>
+<h2>Agencies</h2> 
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
+				<div class="caption">
+					<p>USDA APHIS</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://citrusrdf.org" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/citrus.research.png" alt="brand">
+				<div class="caption">
+					<p>Citrus Research and Development Foundation</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.ars.usda.gov/main/main.htm" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
+				<div class="caption">
+					<p>USDA ARS</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.saveourcitrus.org/index.php/citrus-greening" > 
+			<div class="thumbnail"><br>
+				<img src="/img/citrusgreening/links/soc_logo.png" alt="brand">
+				<div class="caption"><br>
+					<br><p>Save our Citrus</p>
+				</div>
+			</div>
+		</a>
+	</div>	
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://citrusresearch.org/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/citrus.board.jpg" alt="brand" height="100">
+				<div class="caption">
+					<br><p>Citrus Research Board [USDA]</p>
+				</div>
+			</div>
+		</a>
+	</div>	
+</div>
+<h2>Psyllid Research </h2>
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/I5klogo4.png" alt="brand">
+				<div class="caption">
+					<p>i5k <i>D. citri</i></p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/fclaicon1.jpg" alt="brand">
+				<div class="caption"><br>
+					<p>HLB Bibliography Database</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/ncbi.gif" alt="brand">
+				<div class="caption">
+					<p>NCBI <i>D. citri</i></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<br>
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/ACP/Distribution_of_ACP_in_California/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/seal_straight.png" alt="brand">
+				<div class="caption">
+					<p>Distribution of ACP, HLB and parasites in California</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.growingproduce.com/citrus/insect-disease-update/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/UFlogofeatcreat.gif" alt="brand">
+				<div class="caption">
+					<p>Insect & Disease Update Stories</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/kaccitrusentomology/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/seal_straight.png" alt="brand">
+				<div class="caption">
+					<p>KAC Citrus Entomology</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.sandiegocounty.gov/awm/acp.html" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/sandiego.png" alt="brand">
+				<div class="caption">
+					<p>Asian Citrus Psyllid in San Diego</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="http://www.ipm.ucdavis.edu/PMG/selectnewpest.citrus.html" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/ipm.gif" alt="brand">
+				<div class="caption"><br>
+					<p>Integrated Pest Management, UCD</p>
+				</div>
+			</div>
+		</a>
+	</div>
+		<div class="col-sm-4 col-md-4 text-center">
+		<a class="container-fluid navbar-link" href="https://www.cdfa.ca.gov/plant/acp/" > 
+			<div class="thumbnail">
+				<img src="/img/citrusgreening/links/ca_gov.gif" alt="brand">
+				<div class="caption">
+					<p>Asian Citrus Psyllid Damage</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<br>
+
 <h2>Citrus Research</h2>
 <div class="row">
 	<div class="col-sm-4 col-md-4 text-center text-center">
@@ -109,7 +267,6 @@
 		</a>
 	</div>
 </div><br><br>
-
 <div class="row">
 	<div class="col-sm-4 col-md-4 text-center">
 		<a class="container-fluid navbar-link" href="http://citrusresearch.org/citrograph/" > 
@@ -121,164 +278,6 @@
 			</div>
 		</a>
 	</div>
-</div>
-
-<h2>Psyllid Research </h2>
-<div class="row">
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/I5klogo4.png" alt="brand">
-				<div class="caption">
-					<p>i5k <i>D. citri</i></p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/fclaicon1.jpg" alt="brand">
-				<div class="caption">
-					<p>HLB Bibliography Database</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/ncbi.gif" alt="brand">
-				<div class="caption">
-					<p>NCBI <i>D. citri</i></p>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-
-<br>
-<div class="row">
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/ACP/Distribution_of_ACP_in_California/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/seal_straight.png" alt="brand">
-				<div class="caption">
-					<p>Distribution of ACP, HLB and parasites in California</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.growingproduce.com/citrus/insect-disease-update/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/UFlogofeatcreat.gif" alt="brand">
-				<div class="caption">
-					<p>Insect & Disease Update Stories</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://ucanr.edu/sites/kaccitrusentomology/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/seal_straight.png" alt="brand">
-				<div class="caption">
-					<p>KAC Citrus Entomology</p>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-<div class="row">
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.sandiegocounty.gov/awm/acp.html" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/sandiego.png" alt="brand">
-				<div class="caption">
-					<p>Asian Citrus Psyllid in San Diego</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.ipm.ucdavis.edu/PMG/selectnewpest.citrus.html" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/ipm.gif" alt="brand">
-				<div class="caption"><br>
-					<p>Integrated Pest Management, UCD</p>
-				</div>
-			</div>
-		</a>
-	</div>
-		<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="https://www.cdfa.ca.gov/plant/acp/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/ca_gov.gif" alt="brand">
-				<div class="caption">
-					<p>Asian Citrus Psyllid Damage</p>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-
-<br>
-<h2>Agencies</h2> 
-<div class="row">
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
-				<div class="caption">
-					<p>USDA APHIS</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://citrusrdf.org" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/citrus.research.png" alt="brand">
-				<div class="caption">
-					<p>Citrus Research and Development Foundation</p>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.ars.usda.gov/main/main.htm" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/USDA-Logo.jpg" alt="brand">
-				<div class="caption">
-					<p>USDA ARS</p>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-<div class="row">
-	<div class="col-sm-8 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://www.saveourcitrus.org/index.php/citrus-greening" > 
-			<div class="thumbnail"><br>
-				<img src="/img/citrusgreening/links/soc_logo.png" alt="brand">
-				<div class="caption"><br>
-					<br><p>Save our Citrus</p>
-				</div>
-			</div>
-		</a>
-	</div>	
-	<div class="col-sm-4 col-md-4 text-center">
-		<a class="container-fluid navbar-link" href="http://citrusresearch.org/" > 
-			<div class="thumbnail">
-				<img src="/img/citrusgreening/links/citrus.board.jpg" alt="brand" height="100">
-				<div class="caption">
-					<br><p>Citrus Research Board</p>
-				</div>
-			</div>
-		</a>
-	</div>	
 </div>
 
 
