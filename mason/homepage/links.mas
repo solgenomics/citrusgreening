@@ -16,17 +16,17 @@ use CXGN::Tools::File;
 my $contents = 
 '<div class="row">	
 <h5>Agencies</h5> 
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-6 col-md-4 col-lg-4">
 		<a class="container-fluid navbar-link" href="http://citrusrdf.org"  data-toggle="tooltip" title="Citrus Research and Development Foundation">
 			<img alt="Brand" height="50"  src="/img/citrusgreening/links/citrus.research.png"> 
 		</a>
 	</div>	
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-6 col-md-4  col-lg-4">
 		<a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening"  data-toggle="tooltip" title="USDA APHIS">
 			<img alt="Brand" height="50"  src="/img/citrusgreening/links/USDA-Logo.jpg"> 
 		</a>
  	</div>
-	<div class="col-sm-6 col-md-4 align-center">
+	<div class="col-sm-6 col-md-4  col-lg-4 align-center">
 		<a class="container-fluid navbar-link" href="http://citrusresearch.org/"  data-toggle="tooltip" title="Citrus Research Board">
 			<img alt="Brand" height="50" width="110"  src="/img/citrusgreening/links/citrus.board.jpg"> 
 		</a>
@@ -34,17 +34,17 @@ my $contents =
  </div>
 <div class="row">
 	<h5>Psyllid Research </h5>	
-	<div class="col-sm-6 col-md-4 align-center">	
+	<div class="col-sm-4 col-md-4  col-lg-4 align-center">	
 		<a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri"  data-toggle="tooltip" title="i5k D. citri ">
 			<img alt="Brand" height="50"  src="/img/citrusgreening/links/I5klogo4.png"> 
 		</a>
 	</div>
-	<div class="col-sm-6 col-md-4 align-center">
+	<div class="col-sm-4 col-md-4 col-lg-4 align-center">
 		<a class="container-fluid navbar-link" href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/"  data-toggle="tooltip" title="NCBI <i>D. citri</i>">
 			<img alt="Brand" height="50"  src="/img/citrusgreening/links/ncbi.gif"> 
 		</a>
 	</div>
-	<div class="col-sm-6 col-md-4 align-center">
+	<div class="col-sm-4 col-md-4 col-lg-4 align-center">
 		<a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp"  data-toggle="tooltip" title="HLB Bibliography Database">
 			<img alt="Brand" height="50" width="115" src="/img/citrusgreening/links/fclaicon1.jpg"> 
 		</a>
@@ -53,12 +53,12 @@ my $contents =
 </div>
 <div class="row">
 	<h5>Citrus Research</h5>
-	<div class="col-sm-6 col-md-4 align-center">
+	<div class="col-sm-6 col-md-4 col-lg-4 align-center">
       		<a class="container-fluid navbar-link  align-center" href="http://citrus.pw.usda.gov/"  data-toggle="tooltip" title="Carrizo genome at USDA">
 			<img alt="Brand" height="50"  src="/img/citrusgreening/links/USDA-Logo.jpg" > 
 		</a>
       	</div>
-	<div class="col-sm-6 col-md-4 align-center">
+	<div class="col-sm-6 col-md-4 col-lg-4 align-center">
 		<a class="container-fluid navbar-link" href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis"  data-toggle="tooltip" title="Phytozome Citrus sinensis">
 			<img alt="Brand" height="50" width="115"  src="/img/citrusgreening/links/logo.phytozome.png"> 
 		</a>
