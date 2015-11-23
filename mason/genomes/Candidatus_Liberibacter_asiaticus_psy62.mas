@@ -1,0 +1,56 @@
+<%args>
+  $organism
+</%args>
+<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome Data' &>
+
+<div class="page_introduction">
+
+</div>
+
+<&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus psy62 genome' &>
+<h2>Reference</h2>
+Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009 Aug;22(8):1011-20. doi: 10.1094/MPMI-22-8-1011</a>.
+
+<% info_table_html(
+                     __border   => 0,
+                     __multicol => 2,
+                     'Bulk Datasets (via NCBI)' =>
+                     '<a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000023765.2">Genome sequence and Annotation</a>',
+                     BLAST => '<a href="/tools/blast/?db_id=20">Genome, CDS and Proteins</a>',
+                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
+                    )
+  %>
+</&>
+
+<&| /page/info_section.mas,
+      title       => 'Sequence datasets',
+      collapsible => 1,
+      hide_if_empty => 1
+ &>
+  <& /genomes/default/genome_builds.mas, %ARGS &>
+</&>
+
+
+<&| /page/info_section.mas,
+      title       => 'Browsable annotations',
+      collapsible => 1,
+      hide_if_empty => 1,
+ &>
+
+  <& /gbrowse/list_sources.mas, organism => $organism &>
+
+</&>
+
+<&| /page/info_section.mas,
+      title       => 'Annotation datasets',
+      collapsible => 1,
+      hide_if_empty => 1,
+ &>
+
+  <& /genomes/default/annotation_sets.mas, %ARGS &>
+
+</&>
+
+<%init>
+  use CXGN::Page::FormattingHelpers qw/info_table_html/;
+</%init>
