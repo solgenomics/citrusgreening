@@ -1,75 +1,67 @@
 <%args>
-$schema
+    $schema
 </%args>
-
 <& homepage/carousel.mas &>
-
 <br>
-
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8 col-md-8 col-lg-8">
-<div class="well">
-  <p>
-The <b>citrus greening</b> disease (also called <b>huanglongbing</b>) has devastated the Florida citrus industry, and is now in CA and TX.  Fruit from infected trees is safe to eat, but production is reduced so much that citrus may cease to be inexpensive and broadly available.  If you are a citrus lover you should know that massive research efforts, including this project, are underway to keep citrus affordable and plentiful.<a href="/disease/index"> See impact on US production..</a>
-</p>
-</div>
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <div class="well">
+                <p>
+                    The <b>citrus greening</b> disease (also called <b>huanglongbing</b>) has devastated the Florida citrus industry, and is now in CA and TX.  Fruit from infected trees is safe to eat, but production is reduced so much that citrus may cease to be inexpensive and broadly available.  If you are a citrus lover you should know that massive research efforts, including this project, are underway to keep citrus affordable and plentiful.<a href="/disease/index"> See impact on US production..</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <br>
+            <img src="/img/citrusgreening/disease/cilia_systemsbiology.png" height="150">
+            <br>
+            <center><small>Credit: Cilia lab</small></center>
+            <br>
+        </div>
     </div>
-    <div class="col-sm-4 col-md-4 col-lg-4">
-      <br>
-      <img src="/img/citrusgreening/disease/cilia_systemsbiology.png" height="150">
-      <br>
-      <center><small>Credit: Cilia lab</small></center>
-      <br>
-    </div>
-  </div> <!-- end row -->
+    <!-- end row -->
     <div class="col-sm-6 col-md-6 col-lg-6">
-      <div class="panel panel-success">
-        <div class="panel-heading">News</div>
-        <div class="panel-body" style="overflow:hidden">
-          <& homepage/news.mas &>
-        </div>
-      </div>
-
-      <div class="panel panel-success">
-        <div class="panel-heading">Website Updates</div>
-        <div class="panel-body" style="overflow:hidden">
-          <& homepage/website_updates.mas &>
-        </div>
-      </div>      
-
-      <div class="panel panel-success">
-        <div class="panel-heading">Featured publications</div>
-        <div class="panel-body" style="overflow:hidden">
-          <& homepage/publications.mas &>
-        </div>
-      </div>
-
-    </div> <!-- End of Column 1 -->
-      
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        
         <div class="panel panel-success">
-          <div class="panel-heading">Events</div>
-          <div class="panel-body" style="overflow:hidden">
-            <& homepage/events.mas &>
-          </div>
+            <div class="panel-heading">News</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/news.mas &>
+            </div>
         </div>
-        
         <div class="panel panel-success">
-          <div class="panel-heading">Links</div>
-          <div class="panel-body" style="overflow:hidden">
-            <& homepage/links.mas &>
-          </div>
+            <div class="panel-heading">Website Updates</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/website_updates.mas &>
+            </div>
         </div>
-
         <div class="panel panel-success">
-          <div class="panel-heading">Research Updates</div>
-          <div class="panel-body" style="overflow:hidden">
-            <& homepage/research_updates.mas &>
-          </div>
-        </div>        
-      </div> <!-- End of Column 2 -->
-      
-  </div>
+            <div class="panel-heading">Featured publications</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/publications.mas &>
+            </div>
+        </div>
+    </div>
+    <!-- End of Column 1 -->
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-success">
+            <div class="panel-heading">Events</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/events.mas &>
+            </div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">Links</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/links.mas &>
+            </div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">Research Updates</div>
+            <div class="panel-body" style="overflow:hidden">
+                <& homepage/research_updates.mas &>
+            </div>
+        </div>
+    </div>
+    <!-- End of Column 2 -->
+</div>
 </div>

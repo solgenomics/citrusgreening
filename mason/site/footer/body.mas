@@ -1,121 +1,98 @@
 <%init>
-	#my $feedback_email = eval{ $c->get_conf('email') };
-	#$feedback_email = $feedback_email ? qq|<a class="footer" href="mailto:$feedback_email">$feedback_email</a>|
-	#				  : '<span style="font-weight: bold; color: red">[email not set]</b>';
+    #my $feedback_email = eval{ $c->get_conf('email') };
+    #$feedback_email = $feedback_email ? qq|<a class="footer" href="mailto:$feedback_email">$feedback_email</a>|
+    #				  : '<span style="font-weight: bold; color: red">[email not set]</b>';
 </%init>
-
 <!-- END CONTENT WRAPPER -->
-
-      </div>
-      <div class="col-sm-1 col-md-1 col-lg-1">
-      </div>
-    </div>
-  </div>
-
+</div>
+<div class="col-sm-1 col-md-1 col-lg-1">
+</div>
+</div>
+</div>
 <!-- LOAD WORKING MODAL AND LIST MODAL AT END SO THAT THEY ALWAYS APPEAR ON TOP -->
 <& /site/list.mas &>
-
 <!--
-<div id="working" style="text-align : center;">
-  <img src="/img/wheel.gif" />
-  <div id="working_msg"></div>
-</div>
--->
-
-<div class="modal fade" id="working_modal" name="working_modal" tabindex="-1" role="dialog" aria-labelledby="workingModalDialog" data-controls-modal="your_div_id" data-backdrop="static" data-keyboard="false" href="#">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-	<center>
-        <h4 class="modal-title" id="workingModalDialog">Working</h4>
-	</center>
-      </div>
-      <div class="modal-body">
-        <div class="container-fluid">
-	  <center>
-	  <img src="/img/wheel.gif" />
-    	  <div id="working_msg"></div>
-	  </center>
-        </div>
-      </div>
-      <div class="modal-footer">
-      </div>
+    <div id="working" style="text-align : center;">
+      <img src="/img/wheel.gif" />
+      <div id="working_msg"></div>
     </div>
-  </div>
+    -->
+<div class="modal fade" id="working_modal" name="working_modal" tabindex="-1" role="dialog" aria-labelledby="workingModalDialog" data-controls-modal="your_div_id" data-backdrop="static" data-keyboard="false" href="#">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="workingModalDialog">Working</h4>
+                </center>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <center>
+                        <img src="/img/wheel.gif" />
+                        <div id="working_msg"></div>
+                    </center>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-
-
 <!-- BEGIN FOOTER -->
-
 <br/>
 <hr>
 <div id="pagefooter" class="navbar">
-   
-  <br/>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-      </div>
-      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-        <div class="container-fluid">
-    	  <div class="row">
-
-      	    <div class="col-sm-3 col-md-3 col-lg-3">
-	    <h4>CitrusGreening Solutions</h4>
-	    <hr>
-	    <p>We present a systems-based pipeline approach for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. </p>
-
-	<div class="left">
-	    <a class="footer" href="https://www.facebook.com/citrusgreening"><img src="/static/img/citrusgreening/FB-f-Logo__blue_50.png" alt="Facebook" class="logo" width="25"></a>
-	    <a class="footer" href="https://twitter.com/citrusgreening"><img src="/static/img/citrusgreening/TwitterLogo_55acee_50.png" alt="Twitter" class="logo" width="35"></a>
-	</div>
-	    
-<!--	    <a class="btn" href="http://todo">Blog</a>-->
-
-	    </div>
-
-	    <div class="col-sm-6 col-md-6 col-lg-6" >
-	    <h4>Project Partners</h4>	
-	    <hr>			 
-	    <ul class="list-unstyled">
-		<li><a class="footer" href="http://www.k-state.edu/">Kansas State University, KS, USA</a></li>
-		<li><a class="footer" href="http://bti.cornell.edu">Boyce Thompson Institute (BTI) for Plant Research, NY, USA</a></li>
-		<li><a class="footer" href="http://www.ars.usda.gov/main/site_main.htm?modecode=60-34-05-00">USDA-ARS, U.S. Horticultural Research Laboratory, FL, USA</a></li>
-		<li><a class="footer" href="http://foodscience.ucdavis.edu/">Department of Food Science and Technology, UC Davis, CA, USA</a></li>
-		<li><a class="footer" href="https://www.irsc.edu/">Indian River State College, FL, USA</a></li>
-		<li><a class="footer" href="https://www.lanl.gov/">US DOE Los Alamos National Laboratory, NM, USA</a></li>
-		<li><a class="footer" href="http://www.gs.washington.edu/">Department of Genome Sciences, University of Washington, WA, USA</a></li>
-            </ul>
-
-      	    </div>
-
-	    <div class="col-sm-3 col-md-3 col-lg-3" >
-	    <h4>Funding Provided By:</h4>
-	    <hr>
-	    
-	    <div class="center">
-	    <a class="footer" href="http://nifa.usda.gov/"><img src="/static/img/usda_nifa_h_3.jpg" alt="USDA NIFA" class="logo"></a>
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
             </div>
-
-	    <h4>Hosted By:</h4>
-	    <hr>
-	<div class="center">
-	      <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer"></a>
-	</div>
-
-      	    </div>
-
-          </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <h4>CitrusGreening Solutions</h4>
+                            <hr>
+                            <p>We present a systems-based pipeline approach for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. </p>
+                            <div class="left">
+                                <a class="footer" href="https://www.facebook.com/citrusgreening"><img src="/static/img/citrusgreening/FB-f-Logo__blue_50.png" alt="Facebook" class="logo" width="25"></a>
+                                <a class="footer" href="https://twitter.com/citrusgreening"><img src="/static/img/citrusgreening/TwitterLogo_55acee_50.png" alt="Twitter" class="logo" width="35"></a>
+                            </div>
+                            <!--	    <a class="btn" href="http://todo">Blog</a>-->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6" >
+                            <h4>Project Partners</h4>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><a class="footer" href="http://www.k-state.edu/">Kansas State University, KS, USA</a></li>
+                                <li><a class="footer" href="http://bti.cornell.edu">Boyce Thompson Institute (BTI) for Plant Research, NY, USA</a></li>
+                                <li><a class="footer" href="http://www.ars.usda.gov/main/site_main.htm?modecode=60-34-05-00">USDA-ARS, U.S. Horticultural Research Laboratory, FL, USA</a></li>
+                                <li><a class="footer" href="http://foodscience.ucdavis.edu/">Department of Food Science and Technology, UC Davis, CA, USA</a></li>
+                                <li><a class="footer" href="https://www.irsc.edu/">Indian River State College, FL, USA</a></li>
+                                <li><a class="footer" href="https://www.lanl.gov/">US DOE Los Alamos National Laboratory, NM, USA</a></li>
+                                <li><a class="footer" href="http://www.gs.washington.edu/">Department of Genome Sciences, University of Washington, WA, USA</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3" >
+                            <h4>Funding Provided By:</h4>
+                            <hr>
+                            <div class="center">
+                                <a class="footer" href="http://nifa.usda.gov/"><img src="/static/img/usda_nifa_h_3.jpg" alt="USDA NIFA" class="logo"></a>
+                            </div>
+                            <h4>Hosted By:</h4>
+                            <hr>
+                            <div class="center">
+                                <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            </div>
         </div>
-      </div>
-      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-      </div>
     </div>
-  </div>
-
 </div>
 </div>
-
-
-   <!-- Google Analytics Code -->
-   <!-- Google Analytics Code moved to header -->
+<!-- Google Analytics Code -->
+<!-- Google Analytics Code moved to header -->

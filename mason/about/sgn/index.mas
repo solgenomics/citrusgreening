@@ -1,46 +1,41 @@
 <& /page/page_title.mas, title=>'CitrusGreening Solutions'  &>
-
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			U.S. citrus growers have a critical need for grove-deployable management practices that keep healthy citrus from becoming infected and infected trees from becoming symptomatic. We present a <b>systems-based pipeline approach</b> for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. A data integration and analysis platform combining existing complex -omics/biological data with molecular/cellular research will steer <b>hypothesis-driven</b> testing of inhibitors of multiple molecular pathways to provide solutions that can be optimized by combinatorial delivery to citrus. 
-			<br>
-			Research areas will include: 
-			<ol>
-			<li>Molecular interaction inhibitor discovery (gut membrane binding peptides, RNA aptamers and non-toxic chemical library screening) to block psyllid acquisition/ transmission of HLB and/or growth in the plant.</li>
-			<li>dsRNA delivery to induce psyllid RNAi responses that block HLB transmission or kill the psyllid (or both).</li>
-			<li>Optimization of a novel therapeutic delivery system that has negligible environmental impact, is economical in comparison to current control strategies and is highly adaptable for different solution strategies.</li>
-			</ol>
-			Co-delivery with bactericides will be evaluated as complementary methods of control. To translate these therapeutic treatments into long-term solutions, transgenic research will be initiated to produce citrus expressing interdiction molecules (peptides and dsRNA) expressed in the phloem. By engaging stakeholders in design and testing stages, and educating the public, we will deliver acceptable solutions to control citrus greening and related diseases in a timely fashion to the citrus industry.
-			<br>
-			<br>
-			<br>
-			<center>
-			<img src="/img/citrusgreening/about/workflow.png" height="250" width="750">
-			<br>
-			Flow diagram of the research and product delivery pipeline. Both knowledge and discovery flows are shown by the arrows.
-			</center>
-			<br>
-			<br>
-			The focus of this project will be on the discovery of molecules that can be deployed therapeutically to citrus and the optimization of a new delivery strategy to support the efficient use of the molecules being delivered. This is a USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">Coordinated Agriculture Project</a> (CAPs) relevant to SCRI/CDRE efforts to identify and address threats from pests and diseases.
-			<br>
-			<br>
-			<br>
-		</div>
-	</div> <!-- end row -->
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			<& people.mas &>
-		</div>
-	</div> <!-- end row -->
-</div> <!-- close container-fluid -->
-
-
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            U.S. citrus growers have a critical need for grove-deployable management practices that keep healthy citrus from becoming infected and infected trees from becoming symptomatic. We present a <b>systems-based pipeline approach</b> for delivering commercial, grove-deployable solutions using a novel therapeutic delivery strategy and citrus transgenics. A data integration and analysis platform combining existing complex -omics/biological data with molecular/cellular research will steer <b>hypothesis-driven</b> testing of inhibitors of multiple molecular pathways to provide solutions that can be optimized by combinatorial delivery to citrus. 
+            <br>
+            Research areas will include: 
+            <ol>
+                <li>Molecular interaction inhibitor discovery (gut membrane binding peptides, RNA aptamers and non-toxic chemical library screening) to block psyllid acquisition/ transmission of HLB and/or growth in the plant.</li>
+                <li>dsRNA delivery to induce psyllid RNAi responses that block HLB transmission or kill the psyllid (or both).</li>
+                <li>Optimization of a novel therapeutic delivery system that has negligible environmental impact, is economical in comparison to current control strategies and is highly adaptable for different solution strategies.</li>
+            </ol>
+            Co-delivery with bactericides will be evaluated as complementary methods of control. To translate these therapeutic treatments into long-term solutions, transgenic research will be initiated to produce citrus expressing interdiction molecules (peptides and dsRNA) expressed in the phloem. By engaging stakeholders in design and testing stages, and educating the public, we will deliver acceptable solutions to control citrus greening and related diseases in a timely fashion to the citrus industry.
+            <br>
+            <br>
+            <br>
+            <center>
+                <img src="/img/citrusgreening/about/workflow.png" height="250" width="750">
+                <br>
+                Flow diagram of the research and product delivery pipeline. Both knowledge and discovery flows are shown by the arrows.
+            </center>
+            <br>
+            <br>
+            The focus of this project will be on the discovery of molecules that can be deployed therapeutically to citrus and the optimization of a new delivery strategy to support the efficient use of the molecules being delivered. This is a USDA NIFA <a href="http://portal.nifa.usda.gov/web/crisprojectpages/1005600-developing-an-infrastructure-and-product-test-pipeline-to-deliver-novel-therapies-for-citrus-greening-disease.html">Coordinated Agriculture Project</a> (CAPs) relevant to SCRI/CDRE efforts to identify and address threats from pests and diseases.
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- end row -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <& people.mas &>
+        </div>
+    </div>
+    <!-- end row -->
+</div>
+<!-- close container-fluid -->
 <!--<& tools.mas &>-->
-
 <!--<& publications.mas &>-->
-
 <!--<& funding.mas &>-->
-
-
-

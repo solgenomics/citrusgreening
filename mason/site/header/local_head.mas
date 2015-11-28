@@ -1,10 +1,6 @@
 <!-- INSERT_HEAD_PRE_HTML -->
-
 % my $t = $m->request_args->{'page_title'};
 <title><% $t ? "$t - " : '' %>CitrusGreening.org</title>
-
 <link rel="shortcut icon" type="image/x-icon" href="/img/citrusgreening/cg_logo_icon.png">
-
 <!-- citrusgreening base styles google originally from nextgen-cassava, removed old sgn and cassava crud, should use CSS from IRSC-->
 <link href='/css/citrusgreening.css' rel='stylesheet' type='text/css'>
-

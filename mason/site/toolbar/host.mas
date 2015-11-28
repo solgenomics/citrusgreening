@@ -1,20 +1,18 @@
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Host</a>
-  <ul class="dropdown-menu">
-    <li class="dropdown-header">Genome</li>
-    <li><a href="/organism/Citrus_clementina/genome"><i>Citrus clementina</i></a></li>
-    <li><a href="/organism/Citrus_sinensis/genome"><i>Citrus sinensis</i></a></li>
-    <li role="separator" class="divider"></li>
-    
-    <li class="dropdown-header">Blast</li>
-    <li><a href="/tools/blast?db_id=11"><i>C clementina</i> databases</a></li>
-    <li><a href="/tools/blast?db_id=5"><i>C sinensis</i> databases</a></li>
-    <li role="separator" class="divider"></li>
-    
-    <li class="dropdown-header">JBrowse</li>
-    <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight="><i>C clementina</i> browser</a></li>
-    <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight="><i>C sinensis</i> browser</a></li>
-    <li role="separator" class="divider"></li>
-    
-    <li class="dropdown-header">Pathways</li>
-  </ul>
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Host</a>
+    <ul class="dropdown-menu">
+        <li class="dropdown-header">Genome</li>
+        <li><a href="/organism/Citrus_clementina/genome"><i>Citrus clementina</i></a></li>
+        <li><a href="/organism/Citrus_sinensis/genome"><i>Citrus sinensis</i></a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Blast</li>
+        <li><a href="/tools/blast?db_id=11"><i>C clementina</i> databases</a></li>
+        <li><a href="/tools/blast?db_id=5"><i>C sinensis</i> databases</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">JBrowse</li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight="><i>C clementina</i> browser</a></li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight="><i>C sinensis</i> browser</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Pathways</li>
+    </ul>
 </li>

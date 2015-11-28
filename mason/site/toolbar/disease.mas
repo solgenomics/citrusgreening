@@ -1,7 +1,8 @@
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Disease</a>
-  <ul class="dropdown-menu">
-    <li><a href="/disease/index">Background</a></li>
-    <li><a href="/disease/impact">Impact</a></li>
-    <li><a href="/disease/links">Links</a></li>
-  </ul>
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Disease</a>
+    <ul class="dropdown-menu">
+        <li><a href="/disease/index">Background</a></li>
+        <li><a href="/disease/impact">Impact</a></li>
+        <li><a href="/disease/links">Links</a></li>
+    </ul>
 </li>

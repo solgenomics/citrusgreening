@@ -1,18 +1,18 @@
 <& /page/page_title.mas, title=>'CitrusGreening Solutions Team'  &>
-
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			<center>
-			<a href="http://www.k-state.edu/"><img src="/img/citrusgreening/about/ksu-logo.gif" width="250" alt="Kansas State University"></a>
-			<a href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" width="250" alt="Boyce Thompson Institute (BTI) for Plant Research"></a>
-			<a href="http://www.ars.usda.gov/main/site_main.htm?modecode=60-34-05-00"><img src="/img/citrusgreening/about/USDA-ARS-logo.png" width="250" alt="USDA-ARS, U.S. Horticultural Research Laboratory"></a>
-			<a href="https://www.irsc.edu/"><img src="/img/citrusgreening/about/IRSC-logo.jpg" width="250" alt="Indian River State College"></a>
-			<a href="http://foodscience.ucdavis.edu/"><img src="/img/citrusgreening/about/UCDavis_fst-logo_250.png" width="250" alt="Department of Food Science and Technology, UC Davis"></a>
-			<a href="https://www.lanl.gov/"><img src="/img/citrusgreening/about/lanl-logo.png" width="250" alt="US DOE Los Alamos National Laboratory"></a>
-			<a href="http://www.gs.washington.edu/"><img src="/img/citrusgreening/about/UoW_genomesciences-logo.png" width="250" alt="Department of Genome Sciences, University of Washington"></a>
-			</center>
-		</div>
-	</div> <!-- end row -->
-</div> <!-- close container-fluid -->
-
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <center>
+                <a href="http://www.k-state.edu/"><img src="/img/citrusgreening/about/ksu-logo.gif" width="250" alt="Kansas State University"></a>
+                <a href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" width="250" alt="Boyce Thompson Institute (BTI) for Plant Research"></a>
+                <a href="http://www.ars.usda.gov/main/site_main.htm?modecode=60-34-05-00"><img src="/img/citrusgreening/about/USDA-ARS-logo.png" width="250" alt="USDA-ARS, U.S. Horticultural Research Laboratory"></a>
+                <a href="https://www.irsc.edu/"><img src="/img/citrusgreening/about/IRSC-logo.jpg" width="250" alt="Indian River State College"></a>
+                <a href="http://foodscience.ucdavis.edu/"><img src="/img/citrusgreening/about/UCDavis_fst-logo_250.png" width="250" alt="Department of Food Science and Technology, UC Davis"></a>
+                <a href="https://www.lanl.gov/"><img src="/img/citrusgreening/about/lanl-logo.png" width="250" alt="US DOE Los Alamos National Laboratory"></a>
+                <a href="http://www.gs.washington.edu/"><img src="/img/citrusgreening/about/UoW_genomesciences-logo.png" width="250" alt="Department of Genome Sciences, University of Washington"></a>
+            </center>
+        </div>
+    </div>
+    <!-- end row -->
+</div>
+<!-- close container-fluid -->
