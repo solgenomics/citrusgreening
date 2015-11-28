@@ -1,0 +1,166 @@
+<& /page/page_title.mas, title=>'Impact on US Citrus Production' &>
+<div class="indentedcontent">
+    The impact of citrus greening in Florida is demonstrated by predictions that the 2014/2015 orange harvest in Florida will be the lowest in 50 years, down over 50% from the already low 2004-2005 harvest. The majority of this estimated drop is a result of the endemic presence of HLB. This loss is from a combination of divestment of citrus holdings and redirection of land use and reduced crop yield from existing trees. Reduction in existing tree yields is due to a combination of disease associated fruit drop, smaller fruit and reduced fruit set. Associated with these losses is an increase in per acre cost of production ($464 per acre, $255 million total for the state increase, Muraro, 2011) due to increased vector control and enhanced nutritional programs as part of emerging HLB management practices. As of 2012, further economic losses have been realized in the loss of 6,611 jobs in all citrus and citrus related sectors (Hodges and Spreen, 2012). Alternative control/management practices are essential for the maintenance of a healthy commercial citrus producing industry in Florida. The other commercial citrus producing states (Texas, Arizona, and California) now have the ACP and isolated incidences of HLB infected citrus in Texas and California raise the concern that these states may follow in Florida’s footsteps if new management/control methods are not developed.
+    <br>
+    <br>
+    <b>The long term goal of the CitrusGreening Solutions project is to provide a therapeutic delivery system to growers to prevent CLas infect of the plant and/or prevent development of HLB in already infected citrus.</b>
+    <br>
+    <br>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <center>
+                <h3>Salient Facts</h3>
+            </center>
+            <ul>
+                <li>First identified in the US in Florida in August 2005</li>
+                <li>Estimated that approximately 80% of Florida citrus trees are infected, and some groves no longer productive</li>
+                <li>Associated with a phloem limited bacterium, Liberibacter asiaticus (CLas), vectored by the Asian Citrus Psyllid (widespread in Florida and Texas, increasing and beyond eradication in California and Arizona)</li>
+                <li>Within a few years of infection, many citrus trees become weak, have poor quality fruit, with lots of fruit drop, and trees may die or become useless</li>
+                <li>Estimated average crop reduction of 40% compared to healthy trees (Singerman, 2015) - <em>many Florida growers going out of business</em></li>
+            </ul>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <center>
+                <img src="/img/citrusgreening/disease/hlb_citrus.png" height="300" >
+                <img src="/img/citrusgreening/disease/hlb_citrus_leaves.png" height="300" >
+                <br>
+                <br>
+                Infected citrus fruit and leaves (Credit: Bove 2006)
+            </center>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <center>
+                <br>
+                <br>
+                <h3>Trend in Florida Citrus Production</h3>
+                <br>
+                <img src="/img/citrusgreening/disease/Citrus_production_1999-2015.png" alt="Citrus production 1999-2015" height="500">
+                <br>
+                Data from <a href="http://www.nass.usda.gov/Statistics_by_State/Florida/Publications/Citrus/fcs/2013-14/fcs1314.pdf">USDA</a>
+                <br>
+                <br>
+            </center>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <left>
+                <br>
+                <br>
+                Four years of HLB progression in same Hamlin Sweet Orange tree. Note thinner canopy, lighter leaf and fruit color and presence of many green fruit on tree in 2015.
+                <br>
+                <br>
+                This represents fairly successful management using extensive foliar nutrition and aggressive psyllid control, and likely is around the 40% cropping reduction of typical HLB-infected sweet orange in Florida.  Photo courtesy of <a href="http://citrusagents.ifas.ufl.edu/hlb_photos/index.shtml">Hardee, DeSoto</a>
+            </left>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <center>
+                <br>
+                <img src="/img/citrusgreening/disease/infected_2011.png" height="300">
+                <img src="/img/citrusgreening/disease/infected_2015.png" height="300">
+                <br>
+                <br>
+            </center>
+        </div>
+    </div>
+    <!-- end row-->
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <br>
+            <br>
+            <center>
+                <img src="/img/citrusgreening/disease/abandoned_grove.png" width="100%">
+                <br>
+                Abandoned unproductive groves from HLB infection are widespread (33,000 acres+ and 43,000 trees removed)
+            </center>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <br>
+            <br>
+            <center>
+                <h3>Florida response to HLB</h3>
+            </center>
+            <br>
+            <ul>
+                <li>Initially very rapid disease development, from first find of a diseased tree up to 39% of trees in a grove in 10 months</li>
+                <li>At first most growers scouted and removed infected trees but rapid spread made few willing to remove producing trees</li>
+                <li>Most try to control psyllids and maintain infected trees through foliar nutrition programs (now approximately $2000/acre cost for production up from approximately $800/acre before HLB was in Florida)</li>
+                <li>Production and fruit quality are declining. <em>What can be done to maintain yield and quality in infected trees?</em></li>
+                <li>A major concern is that production will drop below critical volume to maintain juice industry and infrastructure</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end row -->
+    <div class="row">
+        <div class="col-sm-5 col-md-5 col-lg-5">
+            <br>
+            <br>
+            <center>
+                <h3>Fruit quality, flavor and preharvest drop</h3>
+            </center>
+            <br>
+            <ul>
+                <li>
+                    Fruit quality affects of HLB have been assessed:
+                    <ol>
+                        <li>Highly symptomatic are worst</li>
+                        <li>Non-symptomatic fruit are slightly different from healthy but acceptable</li>
+                    </ol>
+                </li>
+                <li>Preharvest fruit drop is much greater in HLB-infected trees, even with nutrient enhancement</li>
+            </ul>
+        </div>
+        <div class="col-sm-7 col-md-7 col-lg-7">
+            <center>
+                <br>
+                <img src="/img/citrusgreening/disease/infected_partial_cure.png" width="100%">
+                <br>
+                HLB-infected tree in decline on the left. HLB-infected tree that is cropping well but with lots of preharvest drop on the right. Photo courtesy of <a href="http://ircitrusleague.org/interactive-virtual-citrus-groves/">Steve Rogers</a>
+            </center>
+        </div>
+    </div>
+    <!-- end row -->
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <br>
+            <br>
+            <img src="/img/citrusgreening/disease/Consumption.png" width="100%">
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <br>
+            <br>
+            <br>
+            <center>
+                <h3>Overview of US Citrus Production</h3>
+            </center>
+            <br>
+            <br>
+            If we combine juice and fresh, then citrus is #1 fruit consumed in the US. 50x106 cartons  of fresh fruit are exported every year.
+            <br>
+            <br>
+            Total value of US citrus industry is approximately $9 billion
+            <ul>
+                <li>75% production is sweet orange</li>
+                <li>11% grapefruit</li>
+            </ul>
+            <br>
+            <br>
+            Florida produces 66% of the total US Citrus production
+            <ul>
+                <li>85% oranges (96% juiced)</li>
+                <li>12% grapefruit (58% juiced)</li>
+            </ul>
+            All sweet oranges are nearly identical in genetics and are variants of a hybrid that first emerged 1000+ years ago. Identical genetics is worst scenario for an epidemic - <em>sweet orange highly susceptible</em>
+        </div>
+    </div>
+    <!-- end row -->
+</div>
+<!-- close container-fluid -->

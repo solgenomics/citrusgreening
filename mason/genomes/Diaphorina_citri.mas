@@ -1,73 +1,63 @@
 <%args>
-  $organism
+    $organism
 </%args>
-<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome Data' &>
-
+<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome' &>
 <div class="page_introduction">
-
 </div>
-
-<&| /page/info_section.mas, title => '<i>Diaphorina citri</i> genome' &>
-<h2>Sequencing and Assembly</h2>
+<&| /page/info_section.mas, title => 'Assembly details' &>
+<h4>Sequencing and Assembly</h4>
 Sequencing of the Asian Citrus Psylid is being conducted on contract with Illumina, Inc.
-<h3>DNA libraries</h3>
+<h4>DNA libraries</h4>
 <ul>
-<li>short insert, 19.9 gigabases of sequence, 100nt reads</li>
-<li>2Kb mate pair: 8.7 gigabases of sequence, 125nt reads</li>
-<li>5Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
-<li>10Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
+    <li>Short insert, 19.9 gigabases of sequence, 100nt reads</li>
+    <li>2Kb mate pair: 8.7 gigabases of sequence, 125nt reads</li>
+    <li>5Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
+    <li>10Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
 </ul>
-
-<h3>Diaci1.1 build</h3>
+<h4>Diaci1.1 build</h4>
 Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The contig N50 for this assembly is 38 kb.
-
 It was submitted to <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI</a> and called NCBI-diaci1.1. And annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process/">Gnomon pipeline</a>. This is the version available within WebApollo from <a href="https://i5k.nal.usda.gov/Diaphorina_citri">i5k</a>.
-
-<h3>Diaci1.0 build</h3>
+<h4>Diaci1.0 build</h4>
 Diaci1.0, assembly was produced by Nan Leng in October, 2011 with VELVET. Contigs were filtered for vector and wolbachia contamination. This assembly contains 163023 scaffolds with a total length of 486947366 bp. The N50 is 110293 (1097 scaffolds) with a average scaffold size of 2986.98bp.
 <br>
 The genome assembly, pseudomolecules, annotations and genome browser are available through the links below.<br>
-
 <% info_table_html(
-                     __border   => 0,
-                     __multicol => 2,
-                     'Bulk Datasets (via i5k FTP)' =>
-                     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-%28Diaphorina_citri%29/current/">Genome sequence and Annotation</a>',
-                     BLAST => '<a href="/tools/blast/?db_id=17">Genome, CDS and Proteins</a>',
-                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
-                    )
-  %>
+    __border   => 0,
+    __multicol => 2,
+    'Genome sequence (via i5k FTP)' =>
+    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/1.Genome%20Assembly/NCBI_RefSeq_diaci1.1/Contigs/">NCBI-diaci1.1</a>',
+    'NCBI Annotation (via i5k FTP)' =>
+    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/3.Additional%20Gene%20Sets%20and%20Annotation%20Projects/RefSeq/">NCBI Gnomon predictions</a>',
+    'Maker Annotation (via i5k FTP)' =>
+    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/2.Official%20or%20Primary%20Gene%20Set/Maker_v1.1-Primary_Gene_Set-mapped-to-RefSeq_diaci1.1/">Maker primary gene set</a>',
+    'MCOT Annotation ' =>
+    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    BLAST => '<a href="/tools/blast/?db_id=17">Genome, CDS and Proteins</a>',
+    'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
+    )
+    %>
 </&>
-
 <&| /page/info_section.mas,
-      title       => 'Sequence datasets',
-      collapsible => 1,
-      hide_if_empty => 1
- &>
-  <& /genomes/default/genome_builds.mas, %ARGS &>
+title       => 'Sequence datasets',
+collapsible => 1,
+hide_if_empty => 1
+&>
+<& /genomes/default/genome_builds.mas, %ARGS &>
 </&>
-
-
 <&| /page/info_section.mas,
-      title       => 'Browsable annotations',
-      collapsible => 1,
-      hide_if_empty => 1,
- &>
-
-  <& /gbrowse/list_sources.mas, organism => $organism &>
-
+title       => 'Browsable annotations',
+collapsible => 1,
+hide_if_empty => 1,
+&>
+<& /gbrowse/list_sources.mas, organism => $organism &>
 </&>
-
 <&| /page/info_section.mas,
-      title       => 'Annotation datasets',
-      collapsible => 1,
-      hide_if_empty => 1,
- &>
-
-  <& /genomes/default/annotation_sets.mas, %ARGS &>
-
+title       => 'Annotation datasets',
+collapsible => 1,
+hide_if_empty => 1,
+&>
+<& /genomes/default/annotation_sets.mas, %ARGS &>
 </&>
-
 <%init>
-  use CXGN::Page::FormattingHelpers qw/info_table_html/;
+    use CXGN::Page::FormattingHelpers qw/info_table_html/;
 </%init>

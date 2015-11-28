@@ -1,57 +1,68 @@
 <%perl>
-
-use strict;
-
-use File::Spec;
-use CXGN::Tools::File;
-
-#my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'news.txt');
-
-#my $contents = "Links is not available at the moment.<br /><br />";
-
-#eval {
-#  $contents = CXGN::Tools::File::get_sections($file);
-#};
-
-my $contents = 
-'
-Citrus Research
-<br>
-<a href="http://citrus.hzau.edu.cn/orange/"><i>C. sinensis</i> annotation project</a>
-<br>
-<a href="http://www.citrusgenome.ucr.edu/">International Citrus Genomics Consortium</a>
-<br>
-<a href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis">Phytozome <i>Citrus sinensis</i></a>
-<br>
-<a href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina">Phytozome <i>Citrus clementina</i></a>
-<br>
-<a href="http://citrus.pw.usda.gov/">Carrizo genome at USDA</a>
-<br>
-<a href="https://www.citrusgenomedb.org/">Citrus Genome Database</a>
-<br>
-Psyllid Research
-<br>
-<a href="https://i5k.nal.usda.gov/Diaphorina_citri">i5k <i>D. citri</i></a>
-<br>
-<a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI <i>D. citri</i></a>
-<br>
-<a href="http://entnemdept.ufl.edu/creatures/citrus/acpsyllid.htm">UF IFAS <i>D. citri</i></a>
-<br>
-
-<br><br>
-Agencies
-<br>
-<a href="http://citrusresearch.org/">Citrus Research Board</a>
-<br>
-<a href="http://citrusrdf.org">Citrus Research and Development Foundation</a>
-<br>
-<a href="http://www.saveourcitrus.org/index.php/citrus-greening">Save our Citrus</a>
-<br>
-<a href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening">USDA APHIS</a>';
-
+    use strict;
+    
+    use File::Spec;
+    use CXGN::Tools::File;
+    
+    #my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'news.txt');
+    
+    #my $contents = "Links is not available at the moment.<br /><br />";
+    
+    #eval {
+    #  $contents = CXGN::Tools::File::get_sections($file);
+    #};
+    
+    my $contents = 
+    '
+<div class="row">
+    <h5>Agencies</h5>
+    <div class="col-sm-6 col-md-5  col-lg-5 align-center" style="margin: 1px">
+        <a class="container-fluid navbar-link" href="http://citrusresearch.org/" target="_blank" data-toggle="tooltip" title="Citrus Research Board">
+        <img alt="Brand" height="50" width="115"  src="/img/citrusgreening/links/citrus.board.jpg"> 
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3  col-lg-3">
+        <a class="container-fluid navbar-link" href="http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/planthealth?urile=wcm:path:/		aphis_content_library/sa_our_focus/sa_plant_health/sa_domestic_pests_and_diseases/sa_pests_and_diseases/sa_plant_disease/sa_citrus/ct_citrus_greening" target="_blank" data-toggle="tooltip" title="USDA APHIS">
+        <img alt="Brand" height="50"  src="/img/citrusgreening/links/USDA-Logo.jpg"> 
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        <a class="container-fluid navbar-link" href="http://citrusrdf.org" target="_blank" data-toggle="tooltip" title="Citrus Research and Development Foundation">
+        <img alt="Brand" height="50"  src="/img/citrusgreening/links/citrus.research.png"> 
+        </a>
+    </div>
+</div>
+<div class="row">
+    <h5>Psyllid Research </h5>
+    <div class="col-sm-4 col-md-6  col-lg-6 align-center">	
+        <a class="container-fluid navbar-link" href="https://i5k.nal.usda.gov/Diaphorina_citri" target="_blank" data-toggle="tooltip" title="i5k D. citri ">
+        <img alt="Brand" height="50"  src="/img/citrusgreening/links/I5klogo4.png"> 
+        </a>
+    </div>
+    <div class="col-sm-4 col-md-6 col-lg-6 align-center">
+        <a class="container-fluid navbar-link" href="http://cg.cits.fcla.edu/cg.jsp" target="_blank" data-toggle="tooltip" title="HLB Bibliography Database">
+        <img alt="Brand" height="50" width="115" src="/img/citrusgreening/links/fclaicon1.jpg"> 
+        </a>
+    </div>
+</div>
+<div class="row">
+    <h5>Citrus Research</h5>
+    <div class="col-sm-5 col-md-5 col-lg-5 align-center" style="margin: 6px">
+        <a class="container-fluid navbar-link  align-center" href="http://www.citrusgenome.ucr.edu/" target="_blank" data-toggle="tooltip" title="International Citrus Genomics Consortium">
+        <img alt="Brand" height="50" width="115" src="/img/citrusgreening/links/citrus.ucr.png" > 
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 align-center" style="margin: 6px">
+        <a class="container-fluid navbar-link" href="http://phytozome.jgi.doe.gov/pz/#!info?alias=Org_Csinensis" target="_blank" data-toggle="tooltip" title="Phytozome Citrus sinensis">
+        <img alt="Brand" height="50" width="115"  src="/img/citrusgreening/links/logo.phytozome.png"> 
+        </a>
+    </div>
+</div>
+';
 </%perl>
-
 <div class="boxbgcolor1" style="margin:0px;">
-<div class="boxheading">Links</div>
-<div class="boxcontent"><% $contents %></div>
+    <!--<div class="boxheading">Links</div>-->
+    <div class="boxcontent"><% $contents %></div>
+    <br>
+    <button class="btn btn-sm" onclick=location.href="/disease/links">See all links...</button>
 </div>

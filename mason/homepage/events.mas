@@ -1,20 +1,32 @@
+<%doc>
+    =head1 NAME 
+    
+    events.mas - a mason module to display an html section with events, read from a file.
+    
+    =head1 DESCRIPTION
+    
+    The module does not require any parameters. If the file read does not succeed, an error message is displayed.
+    
+    =head1 AUTHOR
+    
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
 <%perl>
-
-use strict;
-use CXGN::Tools::File;
-use File::Spec;
-
-my $file = File::Spec->catfile($c->get_conf('homepage_files_dir'), 'events.txt');
-my $contents = qq { Events are currently not available<br /><br /> };
-
-eval { 
- $contents = CXGN::Tools::File::get_sections($file);
-};
-
+    use strict;
+    use File::Spec;
+    use CXGN::Tools::File;
+    
+    my $contents = "Events not available at the moment.<br /><br />";
+    
+    eval {
+    
+     $contents = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "events.txt"));
+    
+    };
+    
 </%perl>
-
-<div class="boxbgcolor1" style="border:0px; ">
-  <div class="boxheading">Events</div>
-  <div class="boxcontent"><% $contents %></div>
-  <a href="oldevents.pl">See all events...</a>
+<div class="boxbgcolor1" style="margin:0px;">
+    <% $contents %>
+    <button class="btn btn-sm" onclick=location.href="/oldevents.pl">See all events...</button>
 </div>

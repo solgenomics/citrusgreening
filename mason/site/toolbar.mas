@@ -1,236 +1,57 @@
-
-<%args>
-</%args>
-
-<%perl>
-    $c->view('Toolbar')->toolbar_data(
-	[
-	 {
-	  name => 'search',
-	  link => '/search/direct_search.pl?search=loci',
-	  desc => 'Search our database.',
-	  menu => [
-#		   {
-#		    name => 'Wizard',
-#		    link => '/breeders/search',
-#		    desc => 'quickly retrieve datasets'
-#		   },
-		   
-		   {
-		    name => 'Organisms',
-		    link => '/search/organisms',
-		    desc => 'search for organisms'
-		   },
-#		   {
-#		    name => 'Accessions and plots',
-#		    link => '/search/phenotypes/stock',
-#		    desc => 'Search for mutants, accessions, and traits.'
-#		   },
-#		   {
-#		    name => 'Markers',
-#		    link => '/search/markers',
-#		    desc => 'Marker search.'
-#		   },
-		   { name => 'Genes',
-		     link => '/search/locus',
-		     desc => 'Gene search',
-		   },
-		   {
-		    name => 'Images',
-		    link => '/search/images',
-		    desc => 'Search images contained in the SGN database.',
-		   },
-		   {
-		    name => 'People',
-		    link => '/search/directory',
-		    desc => 'Search database of researchers who use SGN.',
-		   },
-#		   {
-#		    name => 'FAQ',
-#		    link => '/help/faq.pl',
-#		    desc => 'Frequently asked questions from users of SGN.',
-#		   },
-		  ]
-	 },
-	 {
-	  name => 'host',
-	  link => '',
-	  desc => 'Information about the Citrus host',
-	  menu => [
-	  	  {
-		   name => 'Genome',
-		   link => '',
-		   desc => ''
-		  },
-		   {
-		    name => '<i>Citrus clementina</i>',
-		    link => '/organism/Citrus_clementina/genome',
-		    desc => 'Citrus clementina genome',
-		   },
-		   {
-		    name => '<i>Citrus sinensis</i>',
-		    link => '/organism/Citrus_sinensis/genome',
-		    desc => 'Citrus sinensis genome',
-		   },
- 		   {		   
-                    name => 'BLAST',
-                    link => '',
-                    desc => '', 
-                   },
-		   {
-		    name => '<i>C clementina</i> databases',
-		    link => '/tools/blast?db_id=11',
-		    desc => 'Citrus clementina databases',
-		   },
-		   {
-		    name => '<i>C sinensis</i> databases',
-		    link => '/tools/blast?db_id=5',
-		    desc => 'Citrus sinensis databases',
-		   },
- 		   {		   
-                    name => 'JBrowse',
-                    link => '',
-                    desc => '', 
-                   },
-		   {
-		    name => '<i>C clementina</i> browser',
-		    link => '/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=',
-		    desc => 'Citrus clementina jbrowse',
-		   },
-		   {
-		    name => '<i>C sinensis</i> browser',
-		    link => '/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight=',
-		    desc => 'Citrus sinensis CDS with annotations',
-		   },
-		   {		   
-                    name => 'Pathways',
-                    link => '',
-                    desc => ''
-                   },
-		  ]
-         },
-	 {
-	  name => 'vector',
-	  link => '/tools/',
-	  desc => 'Insect vector',
-	  menu => [
-                  {
-                    name => 'Genome',
-                    link => '',
-                    desc => ''
-                   },
-		   {
-		    name => '<i>Diaphorina citri</i>',
-		    link => '/organism/Diaphorina_citri/genome',
-		    desc => 'Diaphorina citri genome',
-		   },
- 		   {		   
-                    name => 'BLAST',
-                    link => '',
-                    desc => '',
-                   },
-                   {
-		    name => '<i>Diaphora citri</i> databases',
-		    link => '/tools/blast?db_id=17',
-		    desc => 'Diaphorina citri (diaci1.1) proteins',
-		   },
- 		   {		   
-                    name => 'JBrowse',
-                    link => '',
-                    desc => '', 
-                   },
-		   {
-		    name => '<i>Diaphorina citri</i> browser',
-		    link => '/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=',
-		    desc => 'Diaphorina citri jbrowse',
-		   },
-		   {
-                    name => 'Pathways',
-                    link => '',
-                    desc => '',
-                   },
-		  ]
-	  },
-
-	 {
-	  name => 'pathogen',
-	  link => '',
-	  desc => 'Endosymbionts',
-	  menu => [
-		   {
-                    name => 'Genome',
-                    link => '',
-                    desc => '',
-                   },
-#		   {
-#		    name => '<i>Ca.</i> Liberibacter asiaticus psy62',
-#		    link => '/organism/Candidatus_Liberibacter_asiaticus_psy62/genome',
-#		    desc => 'Ca. Liberibacter asiaticus psy62',
-#		   },
-#		   {
-#		    name => '<i>Ca.</i> Liberibacter asiaticus gxpsy',
-#		    link => '/organism/Candidatus_Liberibacter_asiaticus_gxpsy/genome',
-#		    desc => 'Ca. Liberibacter asiaticus gxpsy',
-#		   },
-#		   {
-#		    name => '<i>Ca.</i> Liberibacter americanus',
-#		    link => '/organism/Candidatus_Liberibacter_americanus/genome',
-#		    desc => 'Ca. Liberibacter americanus',
-#		   },
-#		   {
-#		    name => '<i>Ca.</i> Liberibacter solanacearum',
-#		    link => '/organism/Candidatus_Liberibacter_solanacearum/genome',
-#		    desc => 'Ca. Liberibacter solanacearum',
-#		   },
-		   {
-                    name => 'BLAST',
-                    link => '',
-                    desc => ''
-                   },
-		   {
-		    name => '<i>Ca.</i> Liberibacter asiaticus psy62 databases',
-		    link => '/tools/blast?db_id=20',
-		    desc => 'Ca. Liberibacter asiaticus psy62 databases',
-		   },
-		   {
-		    name => '<i>Ca.</i> Liberibacter asiaticus gxpsy databases',
-		    link => '/tools/blast?db_id=19',
-		    desc => 'Ca. Liberibacter asiaticus gxpsy databases',
-		   },
-		   {
-		    name => '<i>Ca.</i> Liberibacter americanus databases',
-		    link => '/tools/blast?db_id=18',
-		    desc => 'Ca. Liberibacter americanus genome databases',
-		   },
-		   {
-		    name => '<i>Ca.</i> Liberibacter solanacearum databases',
-		    link => '/tools/blast?db_id=21',
-		    desc => 'Ca. Liberibacter solanacearum databases',
-		   },
-		   {		   
-                    name => 'Pathways',
-                    link => '',
-                    desc => ''
-                   },
-		  ]
-	 },
-	 ]
-				      );
-	 
-	 
-
-
-    print $c->view('Toolbar')->as_html;
-
-</%perl>
-
-<& /util/import_javascript.mas, classes => ['CXGN.Page.Toolbar','jquery', 'jquerymigrate'] &>
-<script language="JavaScript" type="text/javascript">
-jQuery( function() {
-  CXGN.Page.Toolbar.addmenu('search');
-  CXGN.Page.Toolbar.addmenu('host');
-  CXGN.Page.Toolbar.addmenu('vector');
-  CXGN.Page.Toolbar.addmenu('pathogen');
-  CXGN.Page.Toolbar.hideall();
-});
-</script>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <& toolbar/logo_and_name.mas &>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <& toolbar/disease.mas &>
+                <& toolbar/host.mas &>
+                <& toolbar/vector.mas &>
+                <& toolbar/pathogen.mas &>
+                <& toolbar/about.mas &>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <& toolbar/search.mas &>
+                <& toolbar/login.mas &>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<style>
+    li {
+    margin-bottom:0;
+    }
+    body {
+    padding-top: 30px;
+    }
+    @media (min-width: 768px) {
+    .sgn_brand_name {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    }
+    @media (min-width: 770px) {
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    padding-bottom: 10px;
+    }
+    .dropdown-menu > li > a {
+    line-height: 14px;
+    font-size: 14px;
+    margin-top:0px;
+    padding-top:0px;
+    }
+    .sgn_brand_name {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    }
+</style>

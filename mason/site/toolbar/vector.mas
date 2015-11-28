@@ -1,0 +1,19 @@
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Vector</a>
+    <ul class="dropdown-menu">
+        <li class="dropdown-header">Genome</li>
+        <li><a href="/organism/Diaphorina_citri/genome"><i>Diaphorina citri</i></a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Annotation</li>
+        <li><a href="/annotation/index">Overview</a></li>
+        <li><a href="/annotation/updates">Status</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Blast</li>
+        <li><a href="/tools/blast?db_id=17"><i>Diaphora citri</i> databases</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">JBrowse</li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight="><i>Diaphorina citri</i> browser</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Pathways</li>
+    </ul>
+</li>
