@@ -1,24 +1,39 @@
 <%args>
     $organism
 </%args>
-<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome' &>
+<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome and Transcriptome' &>
 <div class="page_introduction">
 </div>
 <&| /page/info_section.mas, title => 'Assembly details' &>
 <h4>Sequencing and Assembly</h4>
-Sequencing of the Asian Citrus Psylid is being conducted on contract with Illumina, Inc.
-<h4>DNA libraries</h4>
+The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly.
+
+<h4>Diaci1.1 genome build</h4>
+Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The contig N50 for this 485.7MB assembly is 109.8 kb. It has 161988 contigs and 19.3MB of N's. It was submitted to <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI</a> and called NCBI-diaci1.1. It was annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process/">Gnomon pipeline</a>. This is used as the reference in <a href="https://i5k.nal.usda.gov/Diaphorina_citri">WebApollo</a> for manual curation. The <a href="http://www.yandell-lab.org/software/maker.html">Maker</a> annotations from Diaci1.0 were updated to conform to the Diaci1.1 build and are also available within <a href="https://i5k.nal.usda.gov/Diaphorina_citri">WebApollo</a>. The Jiang lab has kindly provided <a href="http://www.sciencedirect.com/science/article/pii/S0965174815000144">MCOT</a> annotations for the Diaci1.1 genome build. You can find more information about our manual curation effort <a href="/annotation/index">here</a>.
+
+<h4>Diaci1.0 genome build</h4>
+Diaci1.0, assembly was produced by Nan Leng in October, 2011 with <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a>. Contigs were filtered for vector and wolbachia contamination. This assembly contains 163023 scaffolds with a total length of 486.9MB. The N50 is 110293 (1097 scaffolds) with a average scaffold size of 2986.98bp. The assembly was annotated using <a href="http://www.yandell-lab.org/software/maker.html">Maker</a> pipeline.
+
+<h4>Illumina DNA libraries</h4>
 <ul>
-    <li>Short insert, 19.9 gigabases of sequence, 100nt reads</li>
-    <li>2Kb mate pair: 8.7 gigabases of sequence, 125nt reads</li>
-    <li>5Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
-    <li>10Kb mate pair: 7.5 gigabases of sequence, 125nt reads</li>
+    <li>Short insert, 19.9 gigabases, 100nt reads</li>
+    <li>2Kb mate pair: 8.7 gigabases, 125nt reads</li>
+    <li>5Kb mate pair: 7.5 gigabases, 125nt reads</li>
+    <li>10Kb mate pair: 7.5 gigabases, 125nt reads</li>
 </ul>
-<h4>Diaci1.1 build</h4>
-Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The contig N50 for this assembly is 38 kb.
-It was submitted to <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI</a> and called NCBI-diaci1.1. And annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process/">Gnomon pipeline</a>. This is the version available within WebApollo from <a href="https://i5k.nal.usda.gov/Diaphorina_citri">i5k</a>.
-<h4>Diaci1.0 build</h4>
-Diaci1.0, assembly was produced by Nan Leng in October, 2011 with VELVET. Contigs were filtered for vector and wolbachia contamination. This assembly contains 163023 scaffolds with a total length of 486947366 bp. The N50 is 110293 (1097 scaffolds) with a average scaffold size of 2986.98bp.
+<br>
+
+<h4>Diaci transcriptome 0.9 build</h4>
+Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of Illumina using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a>. This <i>de novo</i> transcriptome assembly was produced using as input RNA reads from adult, egg and nymph tissue. Separate transcriptome assemblies for adult, egg and nymph tissues were also constructed by Nan Leng using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a> using only RNA reads from adult, egg and nymph tissues respectively. This transcriptome assembly was used in the Maker annotation of Diaci1.1 genome build.
+
+<h4>Illumina RNA libraries</h4>
+<ul>
+    <li>Whole adult, 5 gigabases, 100nt reads</li>
+    <li>Egg, 3.5 gigabases, 75nt reads</li>
+    <li>Nymph, 8.7 gigabases, 75nt reads</li>
+</ul>
+
+<br>
 <br>
 The genome assembly, pseudomolecules, annotations and genome browser are available through the links below.<br>
 <% info_table_html(
