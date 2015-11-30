@@ -2,7 +2,7 @@
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pathogen</a>
     <ul class="dropdown-menu">
         <li class="dropdown-header">Genome</li>
-        <!-- li><a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome"><i>Ca.</i> Liberibacter asiaticus psy62</a></li -->
+        <li><a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome"><i>Ca.</i> Liberibacter asiaticus psy62</a></li>
         <!-- li><a href="/organism/Candidatus_Liberibacter_asiaticus_gxpsy/genome"><i>Ca.</i> Liberibacter asiaticus gxpsy</a></li -->
         <!-- li><a href="/organism/Candidatus_Liberibacter_asiaticus_americanus/genome"><i>Ca.</i> Liberibacter americanus</a></li -->
         <!-- li><a href="/organism/Candidatus_Liberibacter_asiaticus_solanacearum/genome"><i>Ca.</i> Liberibacter solanacearum</a></li -->
@@ -10,8 +10,8 @@
         <li class="dropdown-header">Blast</li>
         <li><a href="/tools/blast?db_id=20"><i>Ca.</i> Liberibacter asiaticus psy62 databases</a></li>
         <li><a href="/tools/blast?db_id=19"><i>Ca.</i> Liberibacter asiaticus gxpsy databases</a></li>
-        <li><a href="/tools/blast?db_id=18"><i>Ca.</i> Liberibacter asiaticus americanus databases</a></li>
-        <li><a href="/tools/blast?db_id=21"><i>Ca.</i> Liberibacter asiaticus solanacearum databases</a></li>
+        <li><a href="/tools/blast?db_id=18"><i>Ca.</i> Liberibacter americanus databases</a></li>
+        <li><a href="/tools/blast?db_id=21"><i>Ca.</i> Liberibacter solanacearum databases</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
     </ul>

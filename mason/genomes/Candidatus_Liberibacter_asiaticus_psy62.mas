@@ -1,23 +1,28 @@
 <%args>
-  $organism
+    $organism
 </%args>
-<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome Data' &>
+<& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome' &>
 
 <div class="page_introduction">
-
+    <h4>Overview</h4>
+    Candidatus Liberibacter asiaticus (LAS) is the pathogen for the <a href="/disease/index">citrusgreening disease</a>. It is a gram-negative bacteria in the <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82115" target="_blank">Rhizobiaceae family</a>. The term Candidatus is used to indicate that it has not proved possible to maintain this bacterium in culture. LAS is typically identified using PCR amplification of the 16S rRNA gene with specific primers. The <a href'"http://www.invasivespeciesinfo.gov/microbes/citrusgreen.shtml" target="_blank">USDA NAL</a> and <a href="http://www.cabi.org/isc/datasheet/16565" target="_blank">CABI</a> pages have more information.
 </div>
 
-<&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus psy62 genome' &>
-<h2>Reference</h2>
-Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009 Aug;22(8):1011-20. doi: 10.1094/MPMI-22-8-1011</a>.
+<&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus psy62 resources' &>
+    LAS strain psy62 was sequenced using the DNA extracted from a single LAS-infected psyllid. The 1.23 Mb genome has an average 36.5% GC content.You can find more information about the genome on the <a href="http://www.ncbi.nlm.nih.gov/genome/?term=psy62" target="_blank">NCBI genome page</a>. The metabolic pathways in the LAS psy62 genome are available at <a href="http://biocyc.org/organism-summary?object=CLIB537021" target="_blank">BioCyc</a> and <a href="http://www.genome.jp/dbget-bin/www_bget?gn:T00948" target="_blank">KEGG</a>. Protein localization information can be found on the <a href="http://db.psort.org/browse/genome?id=10090" target="_blank">PSORTdb website</a>. Nick Grishin's lab has created <a href="http://prodata.swmed.edu/congqian/Candidatus_Liberibacter_genome_home.html" target="_blank">analysis pages</a> for each LAS protein.
+    <br>
+    <br>
+    All these resources are linked from the LAS psy62 <a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse page</a>. 
+<h4>Reference</h4>
+    Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009 Aug;22(8):1011-20. doi: 10.1094/MPMI-22-8-1011</a>.
 
 <% info_table_html(
                      __border   => 0,
                      __multicol => 2,
                      'Bulk Datasets (via NCBI)' =>
-                     '<a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000023765.2">Genome sequence and Annotation</a>',
+                     '<a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/Candidatus_Liberibacter_asiaticus_psy62_uid59227/">Genome sequence and Annotation</a>',
                      BLAST => '<a href="/tools/blast/?db_id=20">Genome, CDS and Proteins</a>',
-                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
+                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse</a>'
                     )
   %>
 </&>
