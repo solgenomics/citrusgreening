@@ -14,7 +14,9 @@
     <br>
     All these resources are linked from the LAS psy62 <a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse page</a>. 
 <h4>Reference</h4>
-    Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009 Aug;22(8):1011-20. doi: 10.1094/MPMI-22-8-1011</a>.
+    Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009</a>.
+<br>
+<br>
 
 <% info_table_html(
                      __border   => 0,
@@ -26,6 +28,26 @@
                     )
   %>
 </&>
+
+<&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus UF506 phage resources' &>
+    Shotgun sequencing and a fosmid DNA library of curated LAS UF506, originally derived from citrus symptomatic for HLB, revealed two largely homologous, circular phage genomes, SC1 and SC2. SC2 encoded putative adhesin and peroxidase genes that had not previously been identified in LAS psy62 and which may be involved in lysogenic conversion.
+
+<h4>Reference</h4>
+    ‘<i>Ca.</i> Liberibacter asiaticus’ Carries an Excision Plasmid Prophage and a Chromosomally Integrated Prophage That Becomes Lytic in Plant Infections. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-11-10-0256">Mol Plant Microbe Interact. 2011</a>.
+<br>
+<br>
+
+<% info_table_html(
+                     __border   => 0,
+                     __multicol => 2,
+                     'Bulk Datasets (via NCBI)' =>
+                     '<a href="http://www.ncbi.nlm.nih.gov/nuccore/317120752/">Genome sequence and Annotation</a>',
+                     BLAST => '<a href="/tools/blast/?db_id=20">Genome, CDS and Proteins</a>',
+                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_uf506&loc=HQ377374%3A34422..51629&tracks=DNA%2Cgene&highlight=">Jbrowse</a>'
+                    )
+  %>
+</&>
+
 
 <&| /page/info_section.mas,
       title       => 'Sequence datasets',
