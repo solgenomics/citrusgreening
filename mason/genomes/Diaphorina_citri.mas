@@ -3,8 +3,25 @@
 </%args>
 <& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome and Transcriptome' &>
 <div class="page_introduction">
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <br>
+            <br>
+            <p>
+                The Asian citrus psyllid, <i>Diaphorina citri</i> Kuwayama (<a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=121845" target="_blank">Hemiptera: Psyllidae</a>) is a vector for the causative agent of Huanglongbing(HLB) or citrus greening, which threatens citrus production worldwide. The Asian citrus psyllid originated in Asia but it is now also found in parts of the Middle East, South and Central America, Mexico and the Caribbean. In the United States, this psyllid was first detected in Florida in 1998 and is now also found in Louisiana, Georgia, Arizona, South Carolina and Texas. The psyllid feeds on all varieties of citrus (e.g., oranges, grapefruit, lemons, and mandarins).
+            </p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <br>
+            <center><img src="/img/citrusgreening/vector/psyllid.png" height="250"></center>
+            <br>
+            <center><small>Credit: USDA</small></center>
+        </div>
+
+    </div>
+    <!-- end row -->
 </div>
-<&| /page/info_section.mas, title => 'Assembly details' &>
+<&| /page/info_section.mas, title => 'Genome Assembly details' &>
 <h4>Sequencing and Assembly</h4>
 The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly.
 
@@ -21,8 +38,10 @@ Diaci1.0, assembly was produced by Nan Leng in October, 2011 with <a href="https
     <li>5Kb mate pair: 7.5 gigabases, 125nt reads</li>
     <li>10Kb mate pair: 7.5 gigabases, 125nt reads</li>
 </ul>
+</&>
 <br>
 
+<&| /page/info_section.mas, title => 'Transcriptome Assembly details' &>
 <h4>Diaci transcriptome 0.9 build</h4>
 Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of Illumina using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a>. This <i>de novo</i> transcriptome assembly was produced using as input RNA reads from adult, egg and nymph tissue. Separate transcriptome assemblies for adult, egg and nymph tissues were also constructed by Nan Leng using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a> using only RNA reads from adult, egg and nymph tissues respectively. This transcriptome assembly was used in the Maker annotation of Diaci1.1 genome build.
 
@@ -33,8 +52,10 @@ Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of
     <li>Nymph, 8.7 gigabases, 75nt reads</li>
 </ul>
 
+</&>
 <br>
-<br>
+
+<&| /page/info_section.mas, title => 'Data sets' &>
 The genome assembly, pseudomolecules, annotations and genome browser are available through the links below.<br>
 <% info_table_html(
     __border   => 0,
@@ -47,6 +68,14 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/2.Official%20or%20Primary%20Gene%20Set/Maker_v1.1-Primary_Gene_Set-mapped-to-RefSeq_diaci1.1/">Maker primary gene set</a>',
     'MCOT Annotation ' =>
     '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    'diaci 0.9 transcriptome ' =>
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
+    'Adult transcriptome ' =>
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_adult_transcriptome.fa.gz">Denovo assembly</a>',
+    'Nymph transcriptome ' =>
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
+    'Egg transcriptome ' =>
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
     BLAST => '<a href="/tools/blast/?db_id=17">Genome, CDS and Proteins</a>',
     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
     )
