@@ -12,7 +12,7 @@
         <li><a href="/tools/blast?db_id=17"><i>Diaphora citri</i> databases</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">JBrowse</li>
-        <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight="><i>Diaphorina citri</i> browser</a></li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&loc=gi%7C645508417%7Cref%7CNW_007377440.1%7C%3A1..219775&tracks=DNA&highlight="><i>Diaphorina citri</i> browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
     </ul>
