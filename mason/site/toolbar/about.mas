@@ -11,5 +11,7 @@
         <li role="separator" class="divider"></li>
         <li><a href="https://twitter.com/citrusgreening">Twitter</a></li>
         <li><a href="https://www.facebook.com/citrusgreening">Facebook</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="ftp://ftp.citrusgreening.org">FTP</a></li>
     </ul>
 </li>
