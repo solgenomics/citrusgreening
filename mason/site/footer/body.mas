@@ -77,12 +77,12 @@
                             <h4>Funding Provided By:</h4>
                             <hr>
                             <div class="center">
-                                <a class="footer" href="http://nifa.usda.gov/"><img src="/static/img/usda_nifa_h_3.jpg" alt="USDA NIFA" class="logo"></a>
+                                <a class="footer" href="http://nifa.usda.gov/"><img src="/static/img/usda_nifa_h_3.jpg" alt="USDA NIFA" class="logo" width="200"></a>
                             </div>
                             <h4>Hosted By:</h4>
                             <hr>
                             <div class="center">
-                                <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer"></a>
+                                <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/BTIFullLogo.png" alt="BTI" class="footer" width="200"></a>
                             </div>
                         </div>
                     </div>
