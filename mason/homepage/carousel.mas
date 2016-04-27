@@ -107,6 +107,7 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -159,6 +160,15 @@
                         <li><a href="/tools/blast?db_id=20">Blast to <i>Candidatus</i> Liberibacter asiaticus psy62 genome</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="item">
+            <div style="background:url(/documents/img/citrusgreening/homepage/carousel4.png) center center; background-size:cover;" class="slider-size">
+                <!--div class="carousel-sgn-links">
+                    <ul>
+                        <li><a href="/about/">About Us</a></li>
+                    </ul>
+                </div -->
             </div>
         </div>
     </div>
