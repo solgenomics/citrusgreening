@@ -44,7 +44,9 @@
           <ul class="sgn_sm_list">
                  <li><a href="/organism/Diaphorina_citri/genome"><i>Diaphorina citri</i> genome page</a></li>
                  <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&tracks=DNA%2CGene%20models%2CNCBI%20Predicted%20protein%20coding%20genes&highlight=&loc=gi|645508417|ref|NW_007377440.1|%3A439297..658944">Browse the <i>Diaphorina citri</i> genome</a></li>
+                 <li><a href="/annotation/index">Read about the annotation project</a></li>
                  <li><a href="ftp://ftp.citrusgreening.org/annotation/">Download the annotations</a></li>
+                 <li><a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Browse pathways in DiaphorinaCyc</a></li>
           </ul>
         </div>
         
@@ -102,7 +104,7 @@
 
 <ul id="btn_carousel_indicators" class="nav nav-pills nav-justified sgn_carousel_button_group">
   <li class="active"><a data-target="#myCarousel" data-slide-to="0">Citrus</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="1">Psyllid</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="1">Asian citrus psyllid</a></li>
   <li><a data-target="#myCarousel" data-slide-to="2"><i>Ca.</i> Liberibacter asiaticus</a></li>
   <li><a data-target="#myCarousel" data-slide-to="3">Partners</a></li>
 </ul>
