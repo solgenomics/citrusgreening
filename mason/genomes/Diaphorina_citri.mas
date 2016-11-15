@@ -23,7 +23,11 @@
 </div>
 <&| /page/info_section.mas, title => 'Genome Assembly details' &>
 <h4>Sequencing and Assembly</h4>
-The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly.
+The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly. A new sequencing effort with Pacbio, BioNano and other technologies is underway.
+
+<h4>Diaci1.9 interim genome build</h4>
+Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> DNA and protein sequences to it. You can download the genome from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/genome/DIACI_v1.9/">FTP site</a>.
+<br>
 
 <h4>Diaci1.1 genome build</h4>
 Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The scaffold N50 for this 485,705,082bp assembly is 109.8 kb. It has 161,988 scaffolds and 19,335,169 of N's. The number of contigs is 176,470 and the contig N50 is 34,407bp.
@@ -45,7 +49,10 @@ Diaci1.0, assembly was produced by Nan Leng in October, 2011 with <a href="https
 <br>
 
 <&| /page/info_section.mas, title => 'Transcriptome Assembly details' &>
-<h4>Diaci transcriptome 0.9 build</h4>
+<h4>MCOT transcriptome 1.0</h4>
+The <i>D. citri</i> MCOT v1.0 transcriptome is a genome independent transcriptome assembly that provides a comprehensive set of gene models and was performed with the <a href="http://www.sciencedirect.com/science/article/pii/S0965174815000144">MCOT pipeline</a> where transcripts from <a href="http://www.yandell-lab.org/software/maker.html">Maker</a>, <a href="http://cole-trapnell-lab.github.io/cufflinks/">Cufflinks</a>, <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki">Trinity</a> and <a href="https://www.ebi.ac.uk/~zerbino/oases/">Oases</a> pipelines are combined. MCOT v1.0 set has 30,562 CDS, transcripts and proteins. Combining gene models from Maker and cufflinks that are based on the genome with  transcripts from denovo transcriptome assembly from Trinity and Oases allows the identification of genes which only have transcript evidence from RNAseq. 
+
+<h4>Diaci transcriptome 0.9</h4>
 Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of Illumina using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a>. This <i>de novo</i> transcriptome assembly was produced using as input RNA reads from adult, egg and nymph tissue. Separate transcriptome assemblies for adult, egg and nymph tissues were also constructed by Nan Leng using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a> using only RNA reads from adult, egg and nymph tissues respectively. This transcriptome assembly was used in the Maker annotation of Diaci1.1 genome build.
 
 <h4>Illumina RNA libraries</h4>
@@ -63,13 +70,15 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
 <% info_table_html(
     __border   => 0,
     __multicol => 2,
+    'Interim genome sequence ' =>
+    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/genome/DIACI_v1.9/">Diaci1.9</a>',
     'Genome sequence (via i5k FTP)' =>
     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/1.Genome%20Assembly/NCBI_RefSeq_diaci1.1/Contigs/">NCBI-diaci1.1</a>',
     'NCBI Annotation (via i5k FTP)' =>
     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/3.Additional%20Gene%20Sets%20and%20Annotation%20Projects/RefSeq/">NCBI Gnomon predictions</a>',
     'Maker Annotation (via i5k FTP)' =>
     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/2.Official%20or%20Primary%20Gene%20Set/Maker_v1.1-Primary_Gene_Set-mapped-to-RefSeq_diaci1.1/">Maker primary gene set</a>',
-    'MCOT Annotation ' =>
+    'MCOT transcriptome ' =>
     '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'diaci 0.9 transcriptome ' =>
     '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
@@ -78,9 +87,7 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     'Nymph transcriptome ' =>
     '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
     'Egg transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
-    BLAST => '<a href="/tools/blast/?db_id=17">Genome, CDS and Proteins</a>',
-    'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Diaphorina_citri&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>'
     )
     %>
 </&>
