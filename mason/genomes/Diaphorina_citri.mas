@@ -23,44 +23,30 @@
 </div>
 <&| /page/info_section.mas, title => 'Genome Assembly details' &>
 <h4>Sequencing and Assembly</h4>
-The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly. A new sequencing effort with Pacbio, BioNano and other technologies is underway.
+The first round of DNA and RNA sequencing of the Asian Citrus Psylid was conducted on contract with Illumina, Inc. A second round of DNA sequencing with lower coverage was done with Pacbio at LANL for scaffolding the Diaci1.0 Illumina assembly. A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs is underway that will utilize Pacbio, BioNano and other technologies.
 
-<h4>Diaci1.9 interim genome build</h4>
+<h4 id="diaci1.9">Diaci1.9 interim genome build</h4>
 Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> DNA and protein sequences to it. You can download the genome from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/genome/DIACI_v1.9/">FTP site</a>.
 <br>
 
-<h4>Diaci1.1 genome build</h4>
+<h4 id="diaci1.1">Diaci1.1 genome build</h4>
 Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The scaffold N50 for this 485,705,082bp assembly is 109.8 kb. It has 161,988 scaffolds and 19,335,169 of N's. The number of contigs is 176,470 and the contig N50 is 34,407bp.
 <br>
 <br>
 It was submitted to <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">NCBI</a> and called NCBI-diaci1.1. It was annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process/">Gnomon pipeline</a>. This is used as the reference in <a href="https://i5k.nal.usda.gov/Diaphorina_citri">WebApollo</a> for manual curation. The <a href="http://www.yandell-lab.org/software/maker.html">Maker</a> annotations from Diaci1.0 were updated to conform to the Diaci1.1 build and are also available within <a href="https://i5k.nal.usda.gov/Diaphorina_citri">WebApollo</a>. The Jiang lab has kindly provided <a href="http://www.sciencedirect.com/science/article/pii/S0965174815000144">MCOT</a> annotations for the Diaci1.1 genome build. You can find more information about our manual curation effort <a href="/annotation/index">here</a>.
 
-<h4>Diaci1.0 genome build</h4>
+<h4 id="diaci1">Diaci1.0 genome build</h4>
 Diaci1.0, assembly was produced by Nan Leng in October, 2011 with <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a>. Contigs were filtered for vector and wolbachia contamination. This assembly contains 163023 scaffolds with a total length of 486.9MB. The N50 is 110293 (1097 scaffolds) with a average scaffold size of 2986.98bp. The assembly was annotated using <a href="http://www.yandell-lab.org/software/maker.html">Maker</a> pipeline.
 
-<h4>Illumina DNA libraries</h4>
-<ul>
-    <li>Short insert, 19.9 gigabases, 100nt reads</li>
-    <li>2Kb mate pair: 8.7 gigabases, 125nt reads</li>
-    <li>5Kb mate pair: 7.5 gigabases, 125nt reads</li>
-    <li>10Kb mate pair: 7.5 gigabases, 125nt reads</li>
-</ul>
 </&>
 <br>
 
 <&| /page/info_section.mas, title => 'Transcriptome Assembly details' &>
-<h4>MCOT transcriptome 1.0</h4>
+<h4 id="mcot1">MCOT transcriptome 1.0</h4>
 The <i>D. citri</i> MCOT v1.0 transcriptome is a genome independent transcriptome assembly that provides a comprehensive set of gene models and was performed with the <a href="http://www.sciencedirect.com/science/article/pii/S0965174815000144">MCOT pipeline</a> where transcripts from <a href="http://www.yandell-lab.org/software/maker.html">Maker</a>, <a href="http://cole-trapnell-lab.github.io/cufflinks/">Cufflinks</a>, <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki">Trinity</a> and <a href="https://www.ebi.ac.uk/~zerbino/oases/">Oases</a> pipelines are combined. MCOT v1.0 set has 30,562 CDS, transcripts and proteins. Combining gene models from Maker and cufflinks that are based on the genome with  transcripts from denovo transcriptome assembly from Trinity and Oases allows the identification of genes which only have transcript evidence from RNAseq. 
 
-<h4>Diaci transcriptome 0.9</h4>
+<h4 id="transcriptome0.9">Diaci transcriptome 0.9</h4>
 Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of Illumina using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a>. This <i>de novo</i> transcriptome assembly was produced using as input RNA reads from adult, egg and nymph tissue. Separate transcriptome assemblies for adult, egg and nymph tissues were also constructed by Nan Leng using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a> using only RNA reads from adult, egg and nymph tissues respectively. This transcriptome assembly was used in the Maker annotation of Diaci1.1 genome build.
-
-<h4>Illumina RNA libraries</h4>
-<ul>
-    <li>Whole adult, 5 gigabases, 100nt reads</li>
-    <li>Egg, 3.5 gigabases, 75nt reads</li>
-    <li>Nymph, 8.7 gigabases, 75nt reads</li>
-</ul>
 
 </&>
 <br>
