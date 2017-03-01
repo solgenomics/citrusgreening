@@ -1,7 +1,7 @@
 <%doc>
     =head1 NAME 
     
-    research_updates.mas - a mason module to display an html section with research highlights/updates, read from a file. Links to basecamp document.
+    annotation_updates.mas - a mason module to display an html section with annotation updates, read from a file. Links to basecamp document.
     
     =head1 DESCRIPTION
     
@@ -21,7 +21,7 @@
     
     eval {
     
-     $contents = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "research-updates.txt"));
+     $contents = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "annotation-updates.txt"));
     
     };
     
