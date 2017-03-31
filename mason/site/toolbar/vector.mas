@@ -12,7 +12,8 @@
         <li><a href="/tools/blast?db_id=27"><i>Diaphora citri</i> databases</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">JBrowse</li>
-        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&loc=gi%7C645508417%7Cref%7CNW_007377440.1%7C%3A1..219775&tracks=DNA&highlight="><i>Diaphorina citri</i> browser</a></li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&loc=gi%7C645508417%7Cref%7CNW_007377440.1%7C%3A1..219775&tracks=DNA&highlight="><i>Diaphorina citri</i>  v1.1  browser</a></li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci1.9&loc=Contig6756%3A1132425..1214199&tracks=DNA%2COGSv1.0%20gmap_mapped%2CMCOT%20v1%20gmap_mapped&highlight="><i>Diaphorina citri</i>  v1.9  browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
         <li><a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">DiaphorinaCyc</a></li>
