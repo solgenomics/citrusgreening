@@ -10,6 +10,8 @@
     =head1 AUTHOR
     
     Surya Saha <ss2489 at cornell dot edu>
+    Prashant Hosmani <psh65 at cornell dot edu>
+
 =cut
 </%doc>
 <%perl>
@@ -28,5 +30,5 @@
 </%perl>
 <div class="boxbgcolor1" style="margin:0px;">
     <% $contents %>
-    <button class="btn btn-sm" onclick=location.href="/oldresearchupdates.pl">See all updates...</button>
+    <button class="btn btn-sm" onclick=location.href="/oldannotationupdates.pl">See all updates...</button>
 </div>
