@@ -7,6 +7,7 @@
         <li class="dropdown-header">Annotation</li>
         <li><a href="/annotation/index">Overview</a></li>
         <li><a href="/annotation/updates">Status</a></li>
+        <li><a href="http://apollo.sgn.cornell.edu/apollo/55997/jbrowse/index.html"><i>Diaphorina citri</i> v1.91 Apollo</a></li> 
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Blast</li>
         <li><a href="/tools/blast?db_id=27"><i>Diaphora citri</i> databases</a></li>
