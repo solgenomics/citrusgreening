@@ -18,5 +18,8 @@
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
         <li><a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">DiaphorinaCyc</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Expression Atlas</li>
+        <li><a href="http://pen.sgn.cornell.edu">Psyllid Expression Network</a></li>
     </ul>
 </li>

@@ -14,5 +14,7 @@
         <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight="><i>C sinensis</i> browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
+	<li><a href="http://pathways.citrusgenomedb.org/organism-summary?object=CCLEMENTINA_ML"><i>C clementina</i> Cyc</a></li>
+        <li><a href="http://pathways.citrusgenomedb.org/organism-summary?object=CSINENSIS_ML"><i>C sinensis</i> Cyc</a></li>
     </ul>
 </li>
