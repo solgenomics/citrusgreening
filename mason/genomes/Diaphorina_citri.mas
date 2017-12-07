@@ -81,7 +81,10 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     'Nymph transcriptome ' =>
     '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
     'Egg transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>'
+    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
+    'Pathways' =>
+    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>'
+
     )
     %>
 </&>

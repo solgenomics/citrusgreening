@@ -23,7 +23,9 @@
                      'Bulk Datasets (via NCBI)' =>
                      '<a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000023765.2_ASM2376v2">Genome sequence and Annotation</a>',
                      BLAST => '<a href="/tools/blast/?db_id=20">Genome, CDS and Proteins</a>',
-                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse</a>'
+                     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse</a>',
+                     'Pathways' =>
+                     '<a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB537021">Metabolic pathway database</a>'
                     )
   %>
 </&>
