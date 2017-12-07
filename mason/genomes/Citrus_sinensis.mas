@@ -36,7 +36,9 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     'Bulk Datasets (via Phytozome)' =>
     '<a href="http://phytozome.jgi.doe.gov/pz/portal.html#!bulk?org=Org_Csinensis">Genome sequence and Annotation</a>',
     BLAST => '<a href="/tools/blast/?db_id=5">Genome, CDS and Proteins</a>',
-    'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>'
+    'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight=">Jbrowse</a>',
+    'Pathways' =>
+    '<a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS_ML">Metabolic pathway database</a>'
     )
     %>
 </&>
