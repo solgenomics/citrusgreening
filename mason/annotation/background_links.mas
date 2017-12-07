@@ -1,6 +1,9 @@
 <& /page/page_title.mas, title=>'State of Psyllid Annotation' &>
 <br>
-<b>Diaci1.1</b> is the current version of the <i>Diaphorina citri</i> genome. The contig N50 for this assembly is 38 kb. It was submitted to NCBI and called NCBI-diaci1.1. You can access it <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">here</a>. It was annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process">Gnomon pipeline</a>. This is the version available within WebApollo. 
+<b>Diaci v1.91</b> is the interim genome version and is being used for annotation on <a href="http://apollo.sgn.cornell.edu/apollo/annotator/index" target="_blank">WebApollo</a>. Please get in touch using the <a href="/contact/form">contact form</a> for access. All public RNAseq data has been mapped to this genome. We have also mapped DNAseq and RNAseq reads to assist in identification of correct splice sites. Gene models from OGS v1.0, MCOT v1 and NCBI Gnomon have also been made available as tracks.
+<br>
+<br>
+<b>Diaci1.1</b> is the current official version of the <i>Diaphorina citri</i> genome. The contig N50 for this assembly is 38 kb. It was submitted to NCBI and called NCBI-diaci1.1. You can access it <a href="http://www.ncbi.nlm.nih.gov/assembly/GCF_000475195.1/">here</a>. It was annotated with the NCBI <a href="http://www.ncbi.nlm.nih.gov/genome/annotation_euk/process">Gnomon pipeline</a>. 
 <br>
 <br>
 The Maker annotations from the <b>Diaci1.0</b> version of the genome have also been mapped to the current version. The mapping program looked for exact matches between the two assemblies, accounting for stretches of the assembly that were converted to N’s. It created an ‘alignment file’, which was used to perform the re-mapping of features in gff3 format. Maker annotations that mapped to sequence that did not exist in <b>Diaci1.1</b> or only contained N’s in the NCBI-approved assembly were discarded. The Maker annotations that were on retained sequence were preserved in their original format, except for their location (scaffold name, coordinates, and strand if appropriate). 37 Maker gene models from <b>Diaci1.0</b> did <u>not</u> map to <b>Diaci1.1</b>. Both the Maker annotations and NCBI annotations are available as evidence in Web Apollo.
@@ -8,7 +11,7 @@ The Maker annotations from the <b>Diaci1.0</b> version of the genome have also b
 <br>
 <b>Official Gene Set v1.0 available (March 2017)</b>
 <br>
-The <a href="biorxiv.org/content/early/2017/01/09/099168" target="_blank">preprint</a> describes the workflow for the curation of genes and specific gene families in developmental, physiological, RNAi regulatory, and immunity-related pathways in this gene set. This community effort produced 530 manually curated gene models across developmental, physiological, RNAi regulatory, and immunity-related pathways. As previously shown in the pea aphid, RNAi machinery genes putatively involved in the microRNA pathway have been specifically duplicated. The comprehensive <a href="ftp://ftp.citrusgreening.org/annotation/MCOT/20150806Diaphorina_citri_GeneModel_MCOTprotein.ahrd.fasta" target="_blank">MCOT transcriptome</a> enabled us to identify a number of gene families that are either missing or misassembled in the draft genome. In order to develop biocuration as a training experience, we included undergraduate and graduate students from multiple institutions, as well as experienced annotators from the insect genomics research community. The resulting gene set (OGS v1.0) combines both automatically predicted and manually curated gene models. Please see the <a href="http://biorxiv.org/content/early/2017/01/09/099168.figures-only" target="_blank">supplementary notes</a> for the individual gene reports.
+The <a href="https://academic.oup.com/database/article/3917099/Improved-annotation-of-the-insect-vector-of-citrus" target="_blank">manual annotation paper</a> describes the workflow for the curation of genes and specific gene families in developmental, physiological, RNAi regulatory, and immunity-related pathways in this gene set. This community effort produced 530 manually curated gene models across developmental, physiological, RNAi regulatory, and immunity-related pathways. As previously shown in the pea aphid, RNAi machinery genes putatively involved in the microRNA pathway have been specifically duplicated. The comprehensive <a href="ftp://ftp.citrusgreening.org/annotation/MCOT/20150806Diaphorina_citri_GeneModel_MCOTprotein.ahrd.fasta" target="_blank">MCOT transcriptome</a> enabled us to identify a number of gene families that are either missing or misassembled in the draft genome. In order to develop biocuration as a training experience, we included undergraduate and graduate students from multiple institutions, as well as experienced annotators from the insect genomics research community. The resulting gene set (OGS v1.0) combines both automatically predicted and manually curated gene models. Please see the <a href="http://biorxiv.org/content/early/2017/01/09/099168.figures-only" target="_blank">supplementary notes</a> and <a href="/annotation/updates" target="_blank">annotation updates</a> for individual gene reports and protein sequences.
 <br>
 <br>
 <b>Training</b>
@@ -18,9 +21,10 @@ There are many training resources available. Monica Munoz-Torres has put togethe
 <br>
 <b>Annotation Links</b>
 <ul>
-    <li>The organism page for <i>Diaphorina citri</i> is available <a href="https://i5k.nal.usda.gov/Diaphorina_citri">here</a>.</li>
-    <li>New annotators can register to annotate <a href="https://i5k.nal.usda.gov/web-apollo-registration">here</a>.</li>
-    <li>You can access <a href="https://i5k.nal.usda.gov/webapp/blast/">BLAST</a> and the <a href="https://apollo.nal.usda.gov/diacit/jbrowse/">JBrowse genome browser</a> for these (and other) genomes under the 'Tools' drop-down menu from the <a href="https://i5k.nal.usda.gov/">i5k Workspace homepage</a>.</li>
+    <li><a href="http://apollo.sgn.cornell.edu/apollo/annotator/index" target="_blank">WebApollo</a></li>
+    <li>The genome page for <i>Diaphorina citri</i> is available <a href="/organism/Diaphorina_citri/genome">here</a>.</li>
+    <li>The organism page for <i>Diaphorina citri</i> at i5k is available <a href="https://i5k.nal.usda.gov/Diaphorina_citri">here</a>.</li>
+    <li>New annotators can register to annotate <a href="/contact/form">here</a>.</li>
     <li>The data files for annotation are available on the <a href="ftp://ftp.citrusgreening.org/annotation/curated_orthologs/">FTP site</a>.
 </ul>
 <br>
