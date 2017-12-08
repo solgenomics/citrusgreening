@@ -58,6 +58,19 @@ Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of
 
 </&>
 <br>
+<&| /page/info_section.mas, title => 'Imaging' &>
+<h4>Micro CT study of the male adult of the Asian Citrus Psyllid (<i>Diaphorina citri</i>)</h4>
+Alba-Tercedor, J., Hunter, W. B., Cicero, J. M., & Sainz-Barian, M. (2017). Use of micro-CT to elucidate details of the anatomy and feeding of the Asian Citrus Psyllid Diaphorina citri Kuwayama , 1908 ( Insecta: Hemiptera , Lividae ). In Bruker Micro-CT Users Meeting 2017 (pp. 270-285). Kontich: Bruker micro-CT.
+<br>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/baWuwRmO7Lg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></center>
+<br>
+<br>
+<h4>Micro-CT study of the Asian Citrus Psyllid (<i>Diaphorina citri</i>): feeding apparatus and stylets</h4>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wpUOWibrbOw?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></center>
+
+</&>
+<br>
 
 <&| /page/info_section.mas, title => 'Data sets' &>
 The genome assembly, pseudomolecules, annotations and genome browser are available through the links below.<br>
