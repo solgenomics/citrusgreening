@@ -55,18 +55,26 @@ MCOT v1.1 has been annotated with <a href="https://github.com/groupschoof/AHRD" 
 
 <h4>Diaci transcriptome 0.9</h4>
 Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of Illumina using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a>. This <i>de novo</i> transcriptome assembly was produced using as input RNA reads from adult, egg and nymph tissue. Separate transcriptome assemblies for adult, egg and nymph tissues were also constructed by Nan Leng using <a href="https://www.ebi.ac.uk/~zerbino/velvet/">Velvet</a> and <a href="https://www.ebi.ac.uk/~zerbino/oasis/">Oasis</a> using only RNA reads from adult, egg and nymph tissues respectively. This transcriptome assembly was used in the Maker annotation of Diaci1.1 genome build.
-
 </&>
+
+<!--moved id tag to avoid overlap of heading by toolbar-->
+<h4 id="imaging"></h4>
+<br>
 <br>
 <&| /page/info_section.mas, title => 'Imaging' &>
+Visualization of the psyllid, <i>Diaphorina citri</i>, which spreads the plant-infecting bacterium, in a 3D, rotational platform, that permits rapid dissections, analyses, and study of the internal and external anatomy of this psyllid has changed the way we look at insect structure and functions. Thus the high resolution scans produced combined with computer software can also produce new ways to link and associate information. 
+<br>
+<br>
+The micro-CT videos shown below were published in Alba-Tercedor, J., Hunter, W. B., Cicero, J. M., & Sainz-Barian, M. (2017). Use of micro-CT to elucidate details of the anatomy and feeding of the Asian Citrus Psyllid <i>Diaphorina citri</i> Kuwayama , 1908 (Insecta: Hemiptera , Lividae). In <a href="http://bruker-microct.com/company/UM2017/AbstractBook2017.pdf">Bruker Micro-CT Users Meeting 2017 (pp. 270-285)</a>.
+
+
 <h4>Micro CT study of the male adult of the Asian Citrus Psyllid (<i>Diaphorina citri</i>)</h4>
-Alba-Tercedor, J., Hunter, W. B., Cicero, J. M., & Sainz-Barian, M. (2017). Use of micro-CT to elucidate details of the anatomy and feeding of the Asian Citrus Psyllid Diaphorina citri Kuwayama , 1908 ( Insecta: Hemiptera , Lividae ). In Bruker Micro-CT Users Meeting 2017 (pp. 270-285). Kontich: Bruker micro-CT.
 <br>
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/baWuwRmO7Lg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></center>
 <br>
 <br>
 <h4>Micro-CT study of the Asian Citrus Psyllid (<i>Diaphorina citri</i>): feeding apparatus and stylets</h4>
-
+<br>
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/wpUOWibrbOw?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></center>
 
 </&>
