@@ -11,7 +11,7 @@
 <&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus psy62 resources' &>
     CLas strain psy62 was sequenced using the DNA extracted from a single CLas-infected psyllid. The 1.23 Mb genome has an average 36.5% GC content.You can find more information about the genome on the <a href="http://www.ncbi.nlm.nih.gov/genome/?term=psy62" target="_blank">NCBI genome page</a>. The metabolic pathways in the CLas psy62 genome are available at <a href="http://biocyc.org/organism-summary?object=CLIB537021" target="_blank">BioCyc</a> and <a href="http://www.genome.jp/dbget-bin/www_bget?gn:T00948" target="_blank">KEGG</a>. Protein localization information can be found on the <a href="http://db.psort.org/browse/genome?id=10090" target="_blank">PSORTdb website</a>. Nick Grishin's lab has created <a href="http://prodata.swmed.edu/congqian/Candidatus_Liberibacter_genome_home.html" target="_blank">analysis pages</a> for each CLas protein.
     <br>
-    All these resources are linked from the CLas psy62 <a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse page</a>. 
+    All these resources are linked from the CLas psy62 <a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse page</a>.
 <h4>Reference</h4>
     Complete genome sequence of citrus huanglongbing bacterium, 'Candidatus Liberibacter asiaticus' obtained through metagenomics. <a href="http://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-22-8-1011">Mol Plant Microbe Interact. 2009</a>.
 <br>
@@ -21,7 +21,7 @@
                      __border   => 0,
                      __multicol => 2,
                      'Bulk Datasets (via NCBI)' =>
-                     '<a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000023765.2_ASM2376v2">Genome sequence and Annotation</a>',
+                     '<a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/023/765/GCF_000023765.2_ASM2376v2">Genome sequence and Annotation from Refseq</a>',
                      BLAST => '<a href="/tools/blast/?db_id=20">Genome, CDS and Proteins</a>',
                      'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_psy62&loc=NC_012985.3%3A490968..732944&tracks=DNA%2Cgene&highlight=">Jbrowse</a>',
                      'Pathways' =>
