@@ -1,0 +1,25 @@
+<%doc>
+    =head1 NAME
+
+    index.mas - a mason module to display an html page with all research highlights.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'CitrusGreening Research Highlights'  &>
+<div class="indentedcontent">
+    We feature important developments in Huanglongbing (HLB) research in this section. Please <a href="/contact/form">contact us</a> to submit your research.
+</div>
+<br>
+<br>
+<br>
+<& mann_2018.mas &>
+<br>
+<br>
+<& kruse_2017.mas &>

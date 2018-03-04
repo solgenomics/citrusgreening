@@ -1,0 +1,33 @@
+<%doc>
+    =head1 NAME
+
+    research_highlights.mas - a mason module to display an html section with special publication updates, read from a file.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters. If the file read does not succeed, an error message is displayed.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+
+=cut
+</%doc>
+<%perl>
+    use strict;
+    use File::Spec;
+    use CXGN::Tools::File;
+
+    my $highlights = "Research highlights not available at the moment.<br /><br />";
+
+    eval {
+
+     $highlights = CXGN::Tools::File::get_sections(File::Spec->catfile($c->get_conf('homepage_files_dir'), "research-highlights.txt"));
+
+    };
+
+</%perl>
+<div class="boxbgcolor1" style="margin:0px;">
+    <% $highlights %>
+    <button class="btn btn-sm" onclick=location.href="/oldresearchhighlights.pl">See all highlights...</button>
+</div>

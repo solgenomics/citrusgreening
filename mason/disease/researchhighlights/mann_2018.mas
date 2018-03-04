@@ -1,0 +1,54 @@
+<& /page/page_title.mas, title=>'Mann et al. 2018' &>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <left><img src="/img/citrusgreening/researchhighlights/nymph.JPG" height="150" ></left>
+      </div>
+      <div class="col-sm-9 col-md-9 col-lg-9">
+        <b><i>Diaphorina citri</i> Nymphs are Resistant to Morphological Changes Induced by "<i>Candidatus</i> Liberibacter asiaticus" in Midgut Epithelial Cells</b>
+        <br>
+        <br>
+        Translation? The gut cells of the Asian citrus psyllid nymphs do not respond the same way to infection by the Huanglongbing bacterial pathogen as adult guts. This was unexpected.
+        <br>
+        <br>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-9 col-md-9 col-lg-9">
+        <br>
+        <br>
+        Marina Mann and Somayeh Fattah-Hosseini, two scientists in Michelle Heck's vector biology lab (located in Ithaca, NY at the Boyce Thompson Institute for Plant Research) lead research that found a surprising visual difference between how nymph and adult guts of the Asian citrus psyllid (<i>Diaphorina citri</i>) respond to infection by "<i>Ca.</i> Liberibacter asiaticus," the causative bacterial agent of Huanglongbing (HLB), or Citrus greening disease.
+        <br>
+        <br>
+        Mann et. al. used the confocal microscope to image guts that were stained with a fluorescent dye to show the location of the nucleus in each gut cell. They looked at four treatments: healthy nymphs and adults, and "<i>Ca.</i> Liberibacter asiaticus"-exposed nymphs and adults. By comparing images of individual guts in each treatment they could define four "fragmentation classes" of nuclear disturbance (classes 0-3), ranging from the healthy, round nuclear shape, to completely fragmented and barely recognizable nuclear shapes. (Figure 3 of paper). Then, they counted every single nucleus in each of their gut images and scored it 0-3 to get the average proportion of nuclei in each fragmentation class, for each of their treatments.
+        <br>
+        <br>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <right><img src="/img/citrusgreening/researchhighlights/Mann2018_Figure3.png" height="300" ></right>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6">
+      <left><img src="/img/citrusgreening/researchhighlights/Mann2018_Figure5.png" height="250" ></left>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <br>
+        In support of results published earlier by <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179531">Kruse et al (2017)</a>, adult psyllid guts, when exposed to the HLB bacteria, were shown to have a marked increase in numbers of gut nuclei that were non-normal (classes 1-3, excluding 0) when compared to adult guts from healthy psyllids. This elevated visual gut disturbance was expected. (Figure 5 of paper).
+        <br>
+        However, when they looked at guts of both healthy and "<i>Ca.</i> Liberibacter asiaticus"-exposed nymphs, the guts looked the same. <b>There was no visible impact of infection on gut nuclear shape of nymphs, a striking difference to what was seen with adults.</b> (Figure 5 of paper).
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <br>
+        The literature solidly shows that Asian citrus psyllids acquire the HLB bacteria much better as nymphs than as adults. This result, that nymphs do not have a visible response to infection, suggests that "<i>Ca.</i> Liberibacter asiaticus" has found a "backdoor" to evading the psyllid immune response. Identifying this door may be a viable means of controlling the psyllid's ability to vector the bacterial disease.
+        <br>
+        <br>
+        To put these results into more perspective, Mann et. al. furthered their analysis by imaging the psyllid endosymbiont <i>Wolbachia</i>, as well as the HLB pathogen itself "<i>Ca.</i> Liberibacter asiaticus," in the guts of adults and nymphs (as opposed to imaging just the gut nuclei). To read more on these specific results and the author's discussion, please see the full article: <a href="http://iai.asm.org/content/early/2018/01/04/IAI.00889-17.abstract">Mann et al., 2018. IAI</a>.
+      </div>
+  </div>
+
+
+
+</div>
