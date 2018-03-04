@@ -47,6 +47,12 @@
     <!-- End of Column 1 -->
     <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="panel panel-success">
+          <div class="panel-heading">Research highlights</div>
+          <div class="panel-body" style="overflow:hidden">
+          <& homepage/research_highlights.mas &>
+        </div>
+    </div>
+        <div class="panel panel-success">
             <div class="panel-heading">Annotation Updates</div>
             <div class="panel-body" style="overflow:hidden">
                 <& homepage/annotation_updates.mas &>
