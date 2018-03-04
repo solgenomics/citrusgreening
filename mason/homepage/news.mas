@@ -28,5 +28,5 @@
 </%perl>
 <div class="boxbgcolor1" style="margin:0px;">
     <% $contents %>
-    <button class="btn btn-sm" onclick=location.href="/oldhighlights.pl">See all news...</button>
+    <button class="btn btn-sm" onclick=location.href="/oldnews.pl">See all news...</button>
 </div>
