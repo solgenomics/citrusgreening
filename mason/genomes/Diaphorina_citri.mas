@@ -27,7 +27,7 @@
 <h4>Diaci2.0 genome build</h4>
 A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs utilized Pacbio and Dovetail technologies to create a high quality assembly. The improved v2.0 reference assembly has 1906 contigs and a contig N50 of 759Kb. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We are also releasing a new Official Gene Set (v2.0) for the psyllid with 20,967 genes based on Illumina RNAseq and Pacbio Isoseq evidence.
 <br><br>
-We will be announcing more details in a <b>webinar</b> on <b>March 5, 2018 (12-1pm EST, 9-10am PST, 5-6pm GMT)</b>.
+We will be announcing more details in a <b>webinar</b> on <b>March 5, 2018 (12-1pm EST, 9-10am PST, 5-6pm GMT)</b>. Slides are available <a href="https://www.slideshare.net/suryasaha/d-citri-genome-v20-release-webinar">online</a>.
 <br>
 No login is required to join the webinar. Please click <a href="http://bit.ly/ACPv2">here</a> to connect at the meeting time.
 <!--moved id tag to avoid overlap of heading by toolbar-->
@@ -68,7 +68,7 @@ Diaci_transcriptome_0.9, a transcriptome assembly was constructed by Nan Leng of
 <br>
 <br>
 <&| /page/info_section.mas, title => 'Imaging' &>
-Visualization of the psyllid, <i>Diaphorina citri</i>, which spreads the plant-infecting bacterium, in a 3D, rotational platform, that permits rapid dissections, analyses, and study of the internal and external anatomy of this psyllid has changed the way we look at insect structure and functions. Thus the high resolution scans produced combined with computer software can also produce new ways to link and associate information. 
+Visualization of the psyllid, <i>Diaphorina citri</i>, which spreads the plant-infecting bacterium, in a 3D, rotational platform, that permits rapid dissections, analyses, and study of the internal and external anatomy of this psyllid has changed the way we look at insect structure and functions. Thus the high resolution scans produced combined with computer software can also produce new ways to link and associate information.
 <br>
 <br>
 The micro-CT videos shown below were published in Alba-Tercedor, J., Hunter, W. B., Cicero, J. M., & Sainz-Barian, M. (2017). Use of micro-CT to elucidate details of the anatomy and feeding of the Asian Citrus Psyllid <i>Diaphorina citri</i> Kuwayama , 1908 (Insecta: Hemiptera , Lividae). In <a href="http://bruker-microct.com/company/UM2017/AbstractBook2017.pdf">Bruker Micro-CT Users Meeting 2017 (pp. 270-285)</a>.
