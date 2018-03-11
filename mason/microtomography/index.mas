@@ -1,0 +1,22 @@
+<%doc>
+    =head1 NAME
+
+    index.mas - a mason module to display an html page with all sections for imaging data.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'Imaging'  &>
+<div class="indentedcontent">
+    Visualization of the psyllid, <i>Diaphorina citri</i>, which spreads the plant-infecting bacterium, in a 3D, rotational platform, that permits rapid dissections, analyses, and study of the internal and external anatomy of this psyllid has changed the way we look at insect structure and functions. Thus the high resolution scans produced combined with computer software can also produce new ways to link and associate information.
+</div>
+<br>
+<br>
+<& javier_bruker_2017.mas &>
+<br>
