@@ -1,0 +1,56 @@
+<& /page/page_title.mas, title=>'Asian citrus psyllid stylet biogenesis' &>
+
+<div class="indentedcontent">
+
+  All Hemiptera shed their stylets with the exuviae  during each molt to the next instar. New stylets are  manufactured inside the head of the pharate instar to replace them, and, as the new instar lifts away from the exuviae, these are fitted into their functional positions so that feeding can be resumed.
+  <br>
+  The manufacture of new stylets (stylet biogenesis) is an extremely complex process that has been detailed in the potato psyllid. Transmission electron microscopy indicates that key features of this process are also present in of the pharate adult Asian citrus psyllid.
+  <br>
+  Therefore, this animation was crafted to simplify exposition of the potato psyllid’s process so that it can be understood quickly and easily. Only a basic understanding of textbook molting events is needed, i.e. apolysis, molting space, secretion of new cuticle, and ecdysis. The animation also shows examples of key features of the potato psyllid’s process that are present in ACP,  indicating that both are comparable.
+</div>
+
+<div class="container-fluid">
+  <script type="text/javascript" src="js/swfobject.js"></script>
+
+  <script type="text/javascript">
+    <!-- Adobe recommends that developers use SWFObject2 for Flash Player detection. -->
+    <!-- For more information see the SWFObject page at Google code (http://code.google.com/p/swfobject/). -->
+    <!-- Information is also available on the Adobe Developer Connection Under "Detecting Flash Player versions and embedding SWF files with SWFObject 2" -->
+    <!-- Set to minimum required Flash Player version or 0 for no version detection -->
+    var swfVersionStr = "26.0.0";
+    <!-- xiSwfUrlStr can be used to define an express installer SWF. -->
+    var xiSwfUrlStr = "";
+    var flashvars = {};
+    var params = {};
+    params.quality = "best";
+    params.bgcolor = "#ffffff";
+    params.play = "true";
+    params.loop = "true";
+    params.wmode = "window";
+    params.scale = "showall";
+    params.menu = "true";
+    params.devicefont = "false";
+    params.salign = "";
+    params.allowscriptaccess = "sameDomain";
+    var attributes = {};
+    attributes.id = "stylet";
+    attributes.name = "stylet";
+    attributes.align = "middle";
+    swfobject.createCSS("html", "height:100%; background-color: #ffffff;");
+    swfobject.createCSS("body", "margin:0; padding:0; overflow:hidden; height:100%;");
+    swfobject.embedSWF(
+      "/img/citrusgreening/microtomography/stylet.swf", "flashContent",
+      "800", "800",
+      swfVersionStr, xiSwfUrlStr,
+      flashvars, params, attributes);
+  </script>
+
+  <!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
+  <div id="flashContent">
+    <a href="http://www.adobe.com/go/getflash">
+      <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+    </a>
+    <p>This page requires Flash Player version 26.0.0 or higher.</p>
+  </div>
+</div>
+<!-- close container-fluid -->
