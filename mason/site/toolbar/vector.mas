@@ -21,5 +21,8 @@
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Expression Atlas</li>
         <li><a href="http://pen.sgn.cornell.edu">Psyllid Expression Network</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Imaging</li>
+        <li><a href="/microtomography/index">Microtomography</a></li>
     </ul>
 </li>
