@@ -11,8 +11,8 @@
 
 <div class="container-fluid">
 
-<iframe name="Stylet"
-src="/MicroCT/Stylet/stylet.html" scrolling="no" frameborder="no" height="800" width="600">
-</iframe>
+<center>
+<iframe name="Stylet" src="/static_content/MicroCT/Stylet/stylet.html" scrolling="no" frameborder="no" height="800" width="800"></iframe>
+</center>
 
 </div>
