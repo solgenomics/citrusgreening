@@ -2,17 +2,17 @@
 
 <div class="indentedcontent">
 
-  All Hemiptera shed their stylets with the exuviae  during each molt to the next instar. New stylets are  manufactured inside the head of the pharate instar to replace them, and, as the new instar lifts away from the exuviae, these are fitted into their functional positions so that feeding can be resumed.
+  All Hemiptera shed their stylets with the exuviae during each molt to the next instar. New stylets are  manufactured inside the head of the pharate instar to replace them, and, as the new instar lifts away from the exuviae, these are fitted into their functional positions so that feeding can be resumed.
   <br>
   <br>
-  The manufacture of new stylets (stylet biogenesis) is an extremely complex process that has been detailed in the potato psyllid. Transmission electron microscopy indicates that key features of this process are also present in of the pharate adult Asian citrus psyllid. Therefore, this animation was crafted to simplify exposition of the potato psyllid's process so that it can be understood quickly and easily. Only a basic understanding of textbook molting events is needed, i.e. apolysis, molting space, secretion of new cuticle, and ecdysis. The animation also shows examples of key features of the potato psyllid's process that are present in ACP, indicating that both are comparable.
+  The manufacture of new stylets (stylet biogenesis) is an extremely complex process that has been detailed in the potato psyllid. Transmission electron microscopy indicates that key features of this process are also present in the pharate adult Asian citrus psyllid. Therefore, this animation was crafted to simplify exposition of the potato psyllid's process so that it can be understood quickly and easily. Only a basic understanding of textbook molting events is needed, i.e. apolysis, molting space, secretion of new cuticle, and ecdysis. The animation also shows examples of key features of the potato psyllid's process that are present in ACP, indicating that both are comparable.
   <br>
 </div>
 
 <div class="container-fluid">
 
-<center>
-<iframe name="Stylet" src="/static_content/MicroCT/Stylet/stylet.html" scrolling="no" frameborder="no" height="800" width="800"></iframe>
-</center>
+<iframe name="Stylet"
+src="/MicroCT/Stylet/stylet.html" scrolling="no" frameborder="no" height="1000" width="1000">
+</iframe>
 
 </div>
