@@ -34,7 +34,7 @@ No login is required to join the webinar. Please click <a href="http://bit.ly/AC
 <h4 id="diaci1.9"></h4>
 <br>
 <h4>Diaci1.9 interim genome build</h4>
-Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> DNA and protein sequences to it. You can download the genome from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/genome/DIACI_v1.9/">FTP site</a>. We will be releasing this soon as Diaci2.0.
+Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> DNA and protein sequences to it. You can download the genome from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">FTP site</a>. We will be releasing this soon as Diaci2.0.
 <!--moved id tag to avoid overlap of heading by toolbar-->
 <h4 id="diaci1.1"></h4>
 <br>
@@ -69,7 +69,7 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     __border   => 0,
     __multicol => 2,
     'Interim genome sequence ' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/genome/DIACI_v1.9/">Diaci1.9</a>',
+    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">Diaci1.9</a>',
     'Genome sequence (via i5k FTP)' =>
     '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/1.Genome%20Assembly/NCBI_RefSeq_diaci1.1/Contigs/">NCBI-diaci1.1</a>',
     'NCBI Annotation (via i5k FTP)' =>
