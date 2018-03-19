@@ -17,11 +17,12 @@ src="/static_content/MicroCT/Stylet/stylet.html" scrolling="no" frameborder="no"
 </iframe>
 </center>
 <br>
+<div align="right">
+<a href="/static_content/MicroCT/Stylet/stylet-large.html" target="_blank">View full size in new window</a>
+</div>
 <br>
-Citation: Cicero, JM, Alba-Tercedor, J, Hunter, WB, Saha, S and Brown, SJ. (
-<script type="text/javascript">var currentTime = new Date(); document.write(currentTime.getFullYear());
-</script>
-) An animated correspondence of Asian citrus psyllid stylets to the model for biogenesis of potato psyllid stylets. <i>Developing an infrastructure and product test pipeline to deliver novel therapies for citrus greening disease</i>. https://citrusgreening.org. Last viewed on
+<b>Citation:</b> Cicero, JM, Alba-Tercedor, J, Hunter, WB, Saha, S and Brown, SJ. (<script type="text/javascript">var currentTime = new Date(); document.write(currentTime.getFullYear());
+</script>) An animated correspondence of Asian citrus psyllid stylets to the model for biogenesis of potato psyllid stylets. <i>Developing an infrastructure and product test pipeline to deliver novel therapies for citrus greening disease</i>. https://citrusgreening.org. Last viewed on
 <script type="text/javascript">
 var months=new Array(12);
   months[0]='January';
@@ -40,5 +41,4 @@ var currentTime = new Date();
 var month = currentTime.getMonth();
 document.write(currentTime.getDate()+" "+months[month]+" "+currentTime.getFullYear());
 </script>
-
 </div>
