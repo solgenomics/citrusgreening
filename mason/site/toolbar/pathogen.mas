@@ -18,7 +18,7 @@
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flas_gxpsy&loc=NC_020549.1%3A507237..760883&tracks=DNA%2Cgene&highlight=" target="_blank"><i>Ca.</i> Liberibacter asiaticus gxpsy browser</a></li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flam_saopaulo&loc=NC_022793.1%3A477943..716983&tracks=DNA%2Cgene&highlight=" target="_blank"><i>Ca.</i> Liberibacter americanus browser</a></li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flso_zc1&loc=NC_014774.1%3A503226..754881&tracks=DNA%2Cgene&highlight=" target="_blank"><i>Ca.</i> Liberibacter solanacearum browser</a></li>
-        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flcresens&loc=NC_019907%3A601903..898298&tracks=DNA%2Cgene&highlight=" target="_blank"><i>Ca.</i> Liberibacter cresens BT-1 browser</a></li>
+        <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flcresens&loc=NC_019907%3A601903..898298&tracks=DNA%2Cgene&highlight=" target="_blank">Liberibacter cresens BT-1 browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
         <li><a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB537021"><i>Ca.</i> Liberibacter asiaticus psy62 Cyc</a></li>

@@ -5,7 +5,7 @@
 
 <div class="page_introduction">
     <h4>Overview</h4>
-    Candidatus Liberibacter asiaticus (CLas) is the pathogen for the <a href="/disease/index">citrusgreening disease</a>. It is a gram-negative bacteria in the <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82115" target="_blank">Rhizobiaceae family</a>. The term Candidatus is used to indicate that it has not proved possible to maintain this bacterium in culture. CLas is typically identified using PCR amplification of the 16S rRNA gene with specific primers. The <a href'"http://www.invasivespeciesinfo.gov/microbes/citrusgreen.shtml" target="_blank">USDA NAL</a> and <a href="http://www.cabi.org/isc/datasheet/16565" target="_blank">CABI</a> pages have more information.
+    <i>Candidatus</i> Liberibacter asiaticus (CLas) is the pathogen for the <a href="/disease/index">citrusgreening disease</a>. It is a gram-negative bacteria in the <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82115" target="_blank">Rhizobiaceae family</a>. The term Candidatus is used to indicate that it has not proved possible to maintain this bacterium in culture. CLas is typically identified using PCR amplification of the 16S rRNA gene with specific primers. The <a href'"http://www.invasivespeciesinfo.gov/microbes/citrusgreen.shtml" target="_blank">USDA NAL</a> and <a href="http://www.cabi.org/isc/datasheet/16565" target="_blank">CABI</a> pages have more information.
 </div>
 
 <&| /page/info_section.mas, title => '<i>Candidatus</i> Liberibacter asiaticus psy62 resources' &>
