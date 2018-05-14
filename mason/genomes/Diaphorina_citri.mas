@@ -25,12 +25,10 @@
 <!--moved id tag to avoid overlap of heading by toolbar-->
 <h4 id="diaci2.0"></h4>
 <h4>Diaci2.0 genome build</h4>
-A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs utilized Pacbio and Dovetail technologies to create a high quality assembly. The improved v2.0 reference assembly has 1906 contigs and a contig N50 of 759Kb. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We are also releasing a new Official Gene Set (v2.0) for the psyllid with 20,967 genes based on Illumina RNAseq and Pacbio Isoseq evidence.
+A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs utilized Pacbio and Dovetail technologies to create a high quality assembly. The improved v2.0 reference assembly has 1906 contigs and a contig N50 of 759Kb. 
 <br><br>
-We will be announcing more details in a <b>webinar</b> on <b>March 5, 2018 (12-1pm EST, 9-10am PST, 5-6pm GMT)</b>. Slides are available <a href="https://www.slideshare.net/suryasaha/d-citri-genome-v20-release-webinar">online</a>.
-<br>
-No login is required to join the webinar. Please click <a href="http://bit.ly/ACPv2">here</a> to connect at the meeting time.
 <!--moved id tag to avoid overlap of heading by toolbar-->
+The genome and associated annotation were released on <b>March 5, 2018</b> and described in a webinar. Slides for the webinar are available <a href="http://bit.ly/ACPv2slides">online</a>. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We have released a new <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0" target="_blank">Official Gene Set (v2.0)</a> with 20,793 genes based on Illumina RNAseq and Pacbio Isoseq evidence. We have updated the <a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc pathway database</a> with OGS v2 and characterized 172 pathways that include 1477 enzymatic reactions. The ACP expression atlas (<a href="http://pen.sgn.cornell.edu/expression_viewer/input" target="_blank">Psyllid Expression Network</a>) can be used to identify co-expressed gene sets.
 <h4 id="diaci1.9"></h4>
 <br>
 <h4>Diaci1.9 interim genome build</h4>
@@ -68,14 +66,10 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
 <% info_table_html(
     __border   => 0,
     __multicol => 2,
-    'Interim genome sequence ' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">Diaci1.9</a>',
-    'Genome sequence (via i5k FTP)' =>
-    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/1.Genome%20Assembly/NCBI_RefSeq_diaci1.1/Contigs/">NCBI-diaci1.1</a>',
-    'NCBI Annotation (via i5k FTP)' =>
-    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/3.Additional%20Gene%20Sets%20and%20Annotation%20Projects/RefSeq/">NCBI Gnomon predictions</a>',
-    'Maker Annotation (via i5k FTP)' =>
-    '<a href="https://i5k.nal.usda.gov/data/Arthropoda/diacit-(Diaphorina_citri)/Current%20Genome%20Assembly/2.Official%20or%20Primary%20Gene%20Set/Maker_v1.1-Primary_Gene_Set-mapped-to-RefSeq_diaci1.1/">Maker primary gene set</a>',
+    'Genome sequence' =>
+    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0</a>',
+    'Annotation' =>
+    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
     'MCOT transcriptome ' =>
     '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'diaci 0.9 transcriptome ' =>
