@@ -26,15 +26,21 @@ The genome assembly, annotations and resources are available through the links b
 <% info_table_html(
     __border   => 0,
     __multicol => 2,
-    'Available genomic data' =>
+    'Genome sequence' =>
     '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Annotation - Official gene set v2.0</a>',
-    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">MCOT transcriptome Combination of Maker, Cufflinks, Oasis and Trinity</a>',
-    'Genomic Resources' =>
+    'Annotation' =>
+    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
+    'MCOT transcriptome' =>
+    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    'Expression Atlas' =>
     '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>',
+    'Pathways' =>
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>',
+    'Manual curation' =>
     '<a href="http://apollo.sgn.cornell.edu/apollo/annotator/index">Apollo annotation editor</a>',
+    'Genome browser' =>
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">JBrowse genome browser</a>',
+    'Blast' =>
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Blast psyllid databases</a>'
 
     )
