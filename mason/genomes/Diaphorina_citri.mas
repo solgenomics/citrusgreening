@@ -31,10 +31,10 @@ The genome assembly, annotations and resources are available through the links b
     '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Annotation - Official gene set v2.0</a>',
     '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">MCOT transcriptome Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'Genomic Resources' =>
-    '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>'
-    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>'
-    '<a href="http://apollo.sgn.cornell.edu/apollo/annotator/index">Apollo annotation editor</a>'
-    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">JBrowse genome browser</a>'
+    '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>',
+    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>',
+    '<a href="http://apollo.sgn.cornell.edu/apollo/annotator/index">Apollo annotation editor</a>',
+    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">JBrowse genome browser</a>',
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Blast psyllid databases</a>'
 
     )
