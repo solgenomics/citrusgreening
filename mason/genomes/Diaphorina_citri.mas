@@ -4,27 +4,24 @@
 <& /page/page_title.mas, title => '<i>'.$organism->species.'</i> Genome and Transcriptome' &>
 <div class="page_introduction">
     <div class="row">
-        <div class="col-sm-8 col-md-8 col-lg-8">
+        <div class="col-sm-6 col-md-6 col-lg-6">
             <br>
             <br>
             <p>
                 The Asian citrus psyllid, <i>Diaphorina citri</i> Kuwayama (<a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=121845" target="_blank">Hemiptera: Psyllidae</a>) is a vector for the causative agent of Huanglongbing(HLB) or citrus greening, which threatens citrus production worldwide. The Asian citrus psyllid originated in Asia but it is now also found in parts of the Middle East, South and Central America, Mexico and the Caribbean. In the United States, this psyllid was first detected in Florida in 1998 and is now also found in Louisiana, Georgia, Arizona, South Carolina and Texas. The psyllid feeds on all varieties of citrus (e.g., oranges, grapefruit, lemons, and mandarins).
             </p>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-            <br>
+        <div class="col-sm-6 col-md-6 col-lg-6">
             <center><img src="/img/citrusgreening/vector/psyllid.png" height="250"></center>
-            <br>
             <center><small>Credit: USDA</small></center>
         </div>
 
     </div>
     <!-- end row -->
 </div>
-<&| /page/info_section.mas, title => 'Resources and Data sets' &>
+<&| /page/info_section.mas, title => '<i>'.$organism->species.'</i> current resources' &>
 The genome assembly, annotations and resources are available through the links below.<br>
 <% info_table_html(
-    __border   => 0,
     __multicol => 2,
     'Genome sequence' =>
     '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
