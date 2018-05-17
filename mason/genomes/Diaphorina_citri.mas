@@ -36,9 +36,9 @@ The genome assembly, annotations and resources are available through the links b
     'Manual curation' =>
     '<a href="http://apollo.sgn.cornell.edu/apollo/annotator/index">Apollo annotation editor</a>',
     'Genome browser' =>
-    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">JBrowse genome browser</a>',
+    '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v2.0_ref&loc=ScVcwli_1319%3A1700494..2550862&tracks=DNA%2Cgene_models&highlight=">JBrowse genome browser</a>',
     'Blast' =>
-    '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Blast psyllid databases</a>'
+    '<a href="/tools/blast?db_id=30">Blast psyllid databases</a>'
 
     )
     %>
