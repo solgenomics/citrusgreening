@@ -10,12 +10,12 @@
 
 <center>
 <iframe name="Alimentary-canal"
-src="/static_content/MicroCT/Alimentary-canal/Alimentary-canal.html" scrolling="no" frameborder="no" height="506" width="900">
+src="/static_content/MicroCT/Alimentary-canal/small/Alimentary-canal-small.html" scrolling="no" frameborder="no" height="506" width="900">
 </iframe>
 </center>
 <br>
 <div align="right">
-<a href="/static_content/MicroCT/Alimentary-canal/Alimentary-canal-large.html" target="_blank">View full size in new window</a>
+<a href="/static_content/MicroCT/Alimentary-canal/large/Alimentary-canal-large.html" target="_blank">View full size in new window</a>
 </div>
 <br>
 <b>Citation:</b> Cicero, JM, Alba-Tercedor, J, Hunter, WB, Saha, S, Mueller, LA and Brown, SJ. (<script type="text/javascript">var currentTime = new Date(); document.write(currentTime.getFullYear());
