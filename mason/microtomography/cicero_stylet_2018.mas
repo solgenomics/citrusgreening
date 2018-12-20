@@ -21,24 +21,6 @@ src="/static_content/MicroCT/Stylet/small/Stylet-small.html" scrolling="no" fram
 <a href="/static_content/MicroCT/Stylet/Stylet-large.html" target="_blank">View full size in new window</a>
 </div>
 <br>
-<b>Citation:</b> Cicero, JM, Alba-Tercedor, J, Hunter, WB, Saha, S, Mueller, LA and Brown, SJ. (<script type="text/javascript">var currentTime = new Date(); document.write(currentTime.getFullYear());
-</script>) An animated correspondence of Asian citrus psyllid stylets to the model for biogenesis of potato psyllid stylets. <i>Developing an infrastructure and product test pipeline to deliver novel therapies for citrus greening disease</i>. https://citrusgreening.org. Last viewed on
-<script type="text/javascript">
-var months=new Array(12);
-  months[0]='January';
-  months[1]='February';
-  months[2]='March';
-  months[3]='April';
-  months[4]='May';
-  months[5]='June';
-  months[6]='July';
-  months[7]='August';
-  months[8]='September';
-  months[9]='October';
-  months[10]='November';
-  months[11]='December';
-var currentTime = new Date();
-var month = currentTime.getMonth();
-document.write(currentTime.getDate()+" "+months[month]+" "+currentTime.getFullYear());
-</script>
+<b>Citation:</b> 
+Cicero, JM, Alba-Tercedor, J, Hunter, WB, Cano, LM, Saha, S, Mueller, LA and Brown, SJ. (2018) Asian citrus psyllid stylet morphology and applicability to the model for inter-instar stylet replacement in the potato psyllid. <a href="https://www.sciencedirect.com/science/article/pii/S1467803918300653" target="_blank">Arthropod Structure & Development. Volume 47, Issue 5, September 2018, Pages 542-551</a>
 </div>
