@@ -14,8 +14,9 @@
         <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight="><i>C sinensis</i> browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
-	      <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CCLEMENTINA_ML" target="_blank"><i>C clementina</i> Cyc</a></li>
-        <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS_ML"  target="_blank"><i>C sinensis</i> Cyc</a></li>
+	      <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CCLEMENTINA" target="_blank"><i>C clementina</i> Cyc v3</a></li>
+        <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS_ML" target="_blank"><i>C sinensis</i> Cyc v3</a></li>
+        <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS" target="_blank"><i>C sinensis</i> Cyc v4</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">VIGS</li>
 	      <li><a href="http://vigs.solgenomics.net" target="_blank">Citrus VIGS tool</a></li>
