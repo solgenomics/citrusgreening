@@ -14,9 +14,14 @@
 <div class="container-fluid">
 
 <center>
-<iframe name="Stylet"
+<iframe class="holds-the-iframe" name="Stylet"
 src="/static_content/MicroCT/Stylet/small/Stylet-small.html" scrolling="no" frameborder="no" height="506" width="900">
 </iframe>
+<style>
+.holds-the-iframe {
+ background:url(/documents/img/spinner.gif) center center no-repeat;
+}
+</style>
 </center>
 <br>
 <div align="right">
