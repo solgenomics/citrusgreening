@@ -6,6 +6,7 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -13,15 +14,15 @@
 
       <div class="item">
         <div style="background:url(/documents/img/citrusgreening/homepage/carousel1.png) center center; background-size:cover;" class="slider-size">
-          <div class="carousel-sgn-caption">
+          <div class="carousel-cg-caption">
                   <a href="https://en.wikipedia.org/wiki/Citrus" target="_blank">
                         <h3>Citrus</h3>
                         <p>The citrus hosts infected by Huanglongbing or yellow dragon disease</p>
                   </a>
           </div>
 
-          <div class="carousel-sgn-links">
-            <ul class="sgn_sm_list">
+          <div class="carousel-cg-links">
+            <ul class="cg_sm_list">
                   <li><a href="/organism/Citrus_clementina/genome"><i>Citrus clementina</i> genome page</a></li>
                   <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FCitrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=&loc=scaffold_3%3A20420111..30630165">Browse the <i>Citrus clementina</i> genome</a></li>
                   <li><a href="/organism/Citrus_sinensis/genome"><i>Citrus sinensis</i> genome page</a></li>
@@ -33,14 +34,14 @@
 
       <div class="item">
         <div style="background:url(/documents/img/citrusgreening/homepage/carousel2.png) center center; background-size:cover;" class="slider-size">
-        <div class="carousel-sgn-caption">
+        <div class="carousel-cg-caption">
              <a href="/organism/Diaphorina_citri/genome">
                   <h3><i>Diaphorina citri</i></h3>
                   <p>The Asian citrus psyllid is a sap-sucking, hemipteran bug in the family Psyllidae. The new v2.0 genome is online!</p>
              </a>
         </div>
-        <div class="carousel-sgn-links">
-          <ul class="sgn_sm_list">
+        <div class="carousel-cg-links">
+          <ul class="cg_sm_list">
                  <li><a href="/organism/Diaphorina_citri/genome"><i>Diaphorina citri</i> genome page</a></li>
                  <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v2.0_ref&loc=ScVcwli_1319%3A1700494..2550862&tracks=DNA%2Cgene_models&highlight=">Browse the <i>Diaphorina citri</i> v2.0 genome</a></li>
                  <li><a href="ftp://ftp.citrusgreening.org/annotation/OGSv2.0">Download Official gene set v2.0</a></li>
@@ -55,15 +56,15 @@
 
       <div class="item">
         <div style="background:url(/documents/img/citrusgreening/homepage/carousel3.png) center center; background-size:cover;" class="slider-size">
-        <div class="carousel-sgn-caption">
+        <div class="carousel-cg-caption">
              <a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome">
                 <h3><i>Candidatus</i> Liberibacter asiaticus</h3>
                 <p><i>Candidatus</i> Liberibacter asiaticus psy62 is a gram-negative bacteria in the Rhizobiaceae family. It was published in 2009.</p>
              </a>
         </div>
 
-        <div class="carousel-sgn-links">
-          <ul class="sgn_sm_list">
+        <div class="carousel-cg-links">
+          <ul class="cg_sm_list">
               <li><a href="/organism/Candidatus_Liberibacter_asiaticus_psy62/genome"><i>Candidatus</i> Liberibacter asiaticus psy62 genome page</a></li>
               <li><a href="/tools/blast?db_id=20">Blast to <i>Candidatus</i> Liberibacter asiaticus psy62 genome</a></li>
           </ul>
@@ -74,11 +75,25 @@
 
       <div class="item">
           <div style="background:url(/documents/img/citrusgreening/homepage/carousel4.png) center center; background-size:cover;" class="slider-size">
-                <div class="carousel-sgn-caption" style="opacity: 0.95; background-color: #efefef">
-
+                <div class="carousel-cg-caption" style="opacity: 0.95; background-color: #efefef">
                         <a href="/about/"><h3>About Us</h3></a>
                 </div>
-                <div class="carousel-sgn-links">
+                <div class="carousel-cg-links">
+                </div>
+
+          </div>
+      </div>
+
+      <div class="item">
+          <div style="background:url(/documents/img/citrusgreening/homepage/carousel5.png) center center; background-size:cover;" class="slider-size">
+                <div class="carousel-cg-caption" style="opacity: 0.95; background-color: #efefef">
+                        <a href="http://www.cvent.com/events/joint-21st-annual-iocv-irchlb-vi/event-summary-dd0d7b426ac84856891c307668ee2e76.aspx" target="_blank"><h3>IOCV XXI and IRCHLB VI Conference</h3></a>
+                </div>
+                <div class="carousel-cg-links">
+                  <ul class="cg_sm_list">
+                      <li><a href="https://www.cvent.com/events/joint-21st-annual-iocv-irchlb-vi/registration-dd0d7b426ac84856891c307668ee2e76.aspx?fqp=true" target="_blank">Registration</a></li>
+                      <li><a href="https://www.cvent.com/c/abstracts/36828def-d89b-4487-b156-bdfeda5ddedc" target="_blank">Abstracts</a></li>
+                  </ul>
                 </div>
 
           </div>
@@ -102,15 +117,16 @@
 
 </div>
 
-<ul id="btn_carousel_indicators" class="nav nav-pills nav-justified sgn_carousel_button_group">
+<ul id="btn_carousel_indicators" class="nav nav-pills nav-justified cg_carousel_button_group">
   <li class="active"><a data-target="#myCarousel" data-slide-to="0">Citrus</a></li>
   <li><a data-target="#myCarousel" data-slide-to="1">Asian citrus psyllid</a></li>
   <li><a data-target="#myCarousel" data-slide-to="2"><i>Ca.</i> Liberibacter</a></li>
   <li><a data-target="#myCarousel" data-slide-to="3">Partners</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="4">IRCHLB VI</a></li>
 </ul>
 
 <style>
-	.sgn_carousel_button_group {
+	.cg_carousel_button_group {
 		margin-left: 10px;
 		margin-top: 10px;
 		width:98% !important;
@@ -126,7 +142,7 @@
 	  margin-bottom:0px;
 	}
 
-	.carousel-sgn-caption {
+	.carousel-cg-caption {
 	  position:relative;
 	  float: left;
 	  max-width:49%;
@@ -144,17 +160,17 @@
 	  border-bottom-right-radius:12px;
 	}
 
-	.carousel-sgn-caption a {
+	.carousel-cg-caption a {
     color: #444;
 	  text-decoration: none;
 	}
 
-	.carousel-sgn-caption a:hover {
+	.carousel-cg-caption a:hover {
 	  color: #00426c;
 	  text-decoration: none;
 	}
 
-	.carousel-sgn-links {
+	.carousel-cg-links {
 	  position:absolute;
 	  min-width:35%;
 	  max-width:49%;
@@ -171,29 +187,29 @@
 	  border-bottom-left-radius:12px;
 	}
 
-	.carousel-sgn-links ul {
+	.carousel-cg-links ul {
 	  padding: 10px 0px 0px 15px;
 	  list-style-type: none;
 	}
 
-	.carousel-sgn-links a {
+	.carousel-cg-links a {
 	  color: #000;
 	  text-decoration: none;
 	}
 
-	.carousel-sgn-links a:hover {
+	.carousel-cg-links a:hover {
 	  color: #666;
 	  text-decoration: none;
 	}
 
-  .sgn_sm_list {
+  .cg_sm_list {
     color: #444;
     width: 100%;
     padding: 0px;
     padding-left: 5px;
   }
 
-  .sgn_sm_list li {
+  .cg_sm_list li {
     color: #444;
     width: 100%;
     padding: 0px;
@@ -201,7 +217,7 @@
     padding-right: 5px;
   }
 
-  .sgn_sm_list li:hover {
+  .cg_sm_list li:hover {
     color: #00426c;
   }
 
@@ -211,7 +227,7 @@
 
 	@media (min-width: 0px) and (max-width: 768px) {
 
-    .carousel-sgn-caption {
+    .carousel-cg-caption {
       margin-top:0px;
       width: 100%;
       max-width: 100%;
@@ -221,7 +237,7 @@
       opacity: 0.90;
     }
 
-    .carousel-sgn-links {
+    .carousel-cg-links {
       background-color: #efefef;
       max-width: 100%;
       width: 100%;
@@ -230,12 +246,12 @@
       opacity: 0.9;
     }
 
-  	.carousel-sgn-links ul {
+  	.carousel-cg-links ul {
   	  padding: 0px;
       margin-bottom: 0px;
   	}
 
-    .sgn_sm_list li {
+    .cg_sm_list li {
       color: #00426c;
       width: 100%;
       position: relative;
@@ -245,7 +261,7 @@
       border: 1px solid #ddd;
     }
 
-    .sgn_sm_list li:hover {
+    .cg_sm_list li:hover {
       color: #444;
   	  background-color: #fff;
       opacity: 1;
@@ -264,7 +280,7 @@
       border: 1px solid #ccc;
     }
 
-  	.sgn_carousel_button_group {
+  	.cg_carousel_button_group {
       margin-left: 5px;
   		margin-top: 5px;
   		width:98% !important;
