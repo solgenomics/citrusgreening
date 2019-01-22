@@ -28,3 +28,26 @@
 <br>
 <& cicero_alimentarycanal_2018.mas &>
 <br>
+<%
+ # Placeholder for TOD() function
+ # Cicero, JM, Hunter, WB, Cano, LM, Saha, S, Mueller, LA and Brown, SJ. (<script type="text/javascript">var currentTime = new Date(); document.write(currentTime.getFullYear());
+ # </script>) An Animated Detailing of the Alimentary Canal of the Asian Citrus Psyllid, with Special Reference to the Configuration and Function of the Filter Chamber. <i>Developing an infrastructure and product test pipeline to deliver novel therapies for citrus greening disease</i>. https://citrusgreening.org. Last viewed on
+ # <script type="text/javascript">
+ #var months=new Array(12);
+ #months[0]='January';
+ #months[1]='February';
+ #months[2]='March';
+ #months[3]='April';
+ #months[4]='May';
+ #months[5]='June';
+ #months[6]='July';
+ #months[7]='August';
+ #months[8]='September';
+ #months[9]='October';
+ #months[10]='November';
+ #months[11]='December';
+#var currentTime = new Date();
+#var month = currentTime.getMonth();
+#document.write(currentTime.getDate()+" "+months[month]+" "+currentTime.getFullYear());
+#</script>
+%>
