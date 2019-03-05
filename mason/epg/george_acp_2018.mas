@@ -1,0 +1,39 @@
+<& /page/page_title.mas, title=>'Asian citrus psyllid adult and nymph feeding' &>
+
+<div class="indentedcontent">
+
+  This Electrical penetration graph (EPG) study compared <i>D. citri</i> nymphs and adults feeding on healthy and infected citrus plants to study  CLas acquisition.
+  <br>
+  <br>
+  EPG recordings over 42 hours were performed to compare the feeding behavior of <i>D. citri</i> adults and 4th or 5th instar nymphs feeding on CLas-infected or healthy citron plants. Nymphs performed more individual bouts of phloem ingestion (E2) and recorded longer phloem ingestion total time compared with adults, whereas adults performed more bouts of xylem ingestion (G) and recorded greater total time of xylem ingestion compared with nymphs. Quantitative polymerase chain reaction tests indicated that 58% of nymphs and 6% of adults acquired CLas during the 42 hours EPG-recorded feeding on infected plants. In a histological study, a greater proportion of salivary sheaths produced by nymphs were branched compared to those of the adults. Our results strongly suggest that more bouts and longer feeding time in the phloem by nymphs may explain their more efficient CLas acquisition from infected plants compared to adults. This is the first EPG study comparing nymphs and adults of <i>D. citri</i> on healthy and infected citrus plants in relation to CLas acquisition.
+  <br>
+  <br>
+  <center>
+    <img src="/img/citrusgreening/vector/george_epg_fig1.jpg" height="300">
+    <br>
+    Examples of electrical penetration graph recordings from <a href="https://www.nature.com/articles/s41598-018-28442-6" target="_blank">George et al. 2018</a> showing feeding activities of <i>Diaphorina citri</i> adults (A) and nymphs (B) during 42 hour recordings. Vertical dashed lines with double arrows indicate periods of continuous phloem ingestion (waveform E2)
+  </center>
+  <br>
+  <br>
+  Citrus variety used: Citron
+  <br>
+  Insects: Asian citrus psyllid nymphs (early fifth instar) and adults (8-10 days old)
+  <br>Treatments:
+  <ol>
+    <li>Nymph feeding on healthy citron (18 reps)-CN</li>
+    <li>Nymph feeding on infected citron (33 reps)-IN</li>
+    <li>Adult feeding on healthy citron (18 reps)- CA</li>
+    <li>Adult feeding on infected citron (33 reps)-IA</li>
+  </ol>
+  Each EPG recording is for continuous 42 hours under complete lighted (fluorescent) conditions.
+  <br>
+  The <a href="/static_content/EPG/" target="_blank">linked data</a> contains
+  <ol>
+    <li>Actual recordings-8 (channels) recordings in each run</li>
+    <li>Human annotated files (File name by the treatment, channel in each run and date of recording)</li>
+    <li>Excel sheets summarizing the data</li>
+  </ol>
+  <br>
+  <br>
+  Citation: Justin George, El-Desouky Ammar, David G. Hall, Robert G. Shatters Jr. and Stephen L. Lapointe (2018): <a href="https://www.nature.com/articles/s41598-018-28442-6" target="_blank">Prolonged phloem ingestion by <i>Diaphorina citri</i> nymphs compared to adults is correlated with increased acquisition of citrus greening pathogen</a> <i>Scientific Reports</i> 8: 10352
+</div>

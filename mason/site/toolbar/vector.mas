@@ -24,5 +24,8 @@
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Imaging</li>
         <li><a href="/microtomography/index">Microtomography</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">EPG</li>
+        <li><a href="/epg/index">Electrical Penetration Graph</a></li>
     </ul>
 </li>

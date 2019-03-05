@@ -1,0 +1,21 @@
+<%doc>
+    =head1 NAME
+
+    index.mas - a mason module to display an html page with all sections for imaging data.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'Electrical penetration graph (EPG)'  &>
+The electrical penetration graph or EPG is a system used to study the interaction of insects with plants. It can be used to study the way in which insects can find and feed from the phloem of the plant. It is a simple system consisting of a partial circuit which is only completed when a species such as aphids, which are the most abundantly studied, inserts its stylet into the plant in order to probe the plant as a suitable host for feeding. The completed circuit is displayed visually as a graph with different waveforms indicating either different insect activities such as saliva excretion or the ingestion of cellular contents or indicating which tissue type has been penetrated (i.e. phloem, xylem or mesophyll). (adapted from <a href="https://en.wikipedia.org/wiki/Electrical_penetration_graph" target="_blank">Wikipedia</a>)
+<div class="indentedcontent">
+</div>
+<br>
+<br>
+<& george_acp_2018.mas &>
