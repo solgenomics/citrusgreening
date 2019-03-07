@@ -1,0 +1,23 @@
+
+<%args>
+$show_link=>1
+</%args>
+
+<!-- <div class="boxbgcolor1">
+<div class="boxheading">Popular species</div>
+<div class="boxcontent"> -->
+
+<table class="table table-hover table-condensed">
+  <tbody>
+<tr><td><b>Citrus</b></td><td><a href="/organism/42174/view/"><i>Citrus sinensis</i></a>, <a href="/organism/40566/view"><i>Citrus clementina</i></a></td></tr>
+<tr><td><b>Psyllid</b></td><td><a href="/organism/109395/view"><i>Diaphorina citri</i></a></td></tr>
+<tr><td><b>Liberibacter</b></td><td><a href="/organism/109396/view"><i>Candidatus Liberibacter asiaticus psy62</i></a></td></tr>
+  </tbody>
+</table>
+
+% if ($show_link) {
+<button class="btn btn-info btn-sm" onclick=location.href="/search/organisms">Search other species...</button>
+%}
+
+<!-- </div>
+</div> -->
