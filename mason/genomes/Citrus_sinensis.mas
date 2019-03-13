@@ -39,8 +39,8 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     __multicol => 2,
     'Bulk Datasets (via CAP)' =>
     '<a href="http://citrus.hzau.edu.cn/orange/download/index.php" target="_blank">Genome sequence and Annotation</a>',
-    BLAST => '<a href="/tools/blast/?db_id=5">TODO Genome, CDS and Proteins</a>',
-    'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis-v2&tracks=DNA%2CGene%20models%20v2&highlight=" target="_blank"> Jbrowse</a>',
+    BLAST => '<a href="/tools/blast/?db_id=5">Genome, CDS and Proteins</a>',
+    'Genome browser' => '<a href="/jbrowse/index.html?loc=chr1%3A20958014..21111510&tracks=DNA%2CAnnotations%2CGene%20models%20v2&highlight=" target="_blank"> Jbrowse</a>',
     'Pathways' =>
     '<a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS" target="_blank">Metabolic pathway database</a>',
     'Gene curation' =>
