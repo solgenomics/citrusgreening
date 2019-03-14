@@ -37,7 +37,9 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     BLAST => '<a href="/tools/blast/?db_id=11">Genome, CDS and Proteins</a>',
     'Genome browser' => '<a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight=">Jbrowse</a>',
     'Pathways' =>
-    '<a href="http://ptools.citrusgenomedb.org/organism-summary?object=CCLEMENTINA_ML" target="_blank">Metabolic pathway database</a>'
+    '<a href="http://ptools.citrusgenomedb.org/organism-summary?object=CCLEMENTINA_ML" target="_blank">Metabolic pathway database</a>',
+    'Gene curation' =>
+    '<a href="http://apollo.sgn.cornell.edu/apollo/1107961/jbrowse/index.html?loc=scaffold_1%3A11576231..17364358&tracks=DNA%2CAnnotations%2CGene%20models%20v1.0&highlight=" target="_blank">Apollo annotation editor</a>'
     )
     %>
 </&>

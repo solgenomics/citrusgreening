@@ -9,6 +9,10 @@
         <li><a href="/tools/blast?db_id=11"><i>C clementina</i> databases</a></li>
         <li><a href="/tools/blast?db_id=5"><i>C sinensis</i> databases</a></li>
         <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Annotation</li>
+        <li><a href="http://apollo.sgn.cornell.edu/apollo/1107961/jbrowse/index.html?loc=scaffold_1%3A11576231..17364358&tracks=DNA%2CAnnotations%2CGene%20models%20v1.0&highlight=" target="_blank"><i>C clementina</i> annotation editor</a></li>
+        <li><a href="http://apollo.sgn.cornell.edu/apollo/1121939/jbrowse/index.html?loc=chrUn%3A1..175194&tracks=DNA%2CAnnotations%2CGene%20models%20v2&highlight=" target="_blank"><i>C sinensis</i> annotation editor</a></li>
+        <li role="separator" class="divider"></li>
         <li class="dropdown-header">JBrowse</li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_clementina&tracks=DNA%2CGene%20models%20v1.0&highlight="><i>C clementina</i> browser</a></li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data/json/Citrus_sinensis&tracks=DNA%2CGene%20models%20v1.1&highlight="><i>C sinensis</i> browser</a></li>
