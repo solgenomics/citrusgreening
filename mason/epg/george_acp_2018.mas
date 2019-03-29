@@ -27,7 +27,7 @@
   </ol>
   Each EPG recording is for continuous 42 hours under complete lighted (fluorescent) conditions.
   <br>
-  The <a href="/static_content/EPG/" target="_blank">linked data</a> contains
+  The <a href="ftp://citrusgreening.org/static_content/EPG/" target="_blank">linked data</a> contains
   <ol>
     <li>Actual recordings-8 (channels) recordings in each run</li>
     <li>Human annotated files (File name by the treatment, channel in each run and date of recording)</li>
