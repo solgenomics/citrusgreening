@@ -13,7 +13,7 @@
 =cut
 </%doc>
 <& /page/page_title.mas, title=>'Citrus Metabolomics'  &>
-Metabolomics is the study of chemical processes involving metabolites representing the cellular processes in an organism. The metabolome of the host citrus represents the complete set of metabolites, which are the end products of cellular processes, in a cell or tissue such as leaf. When used in conjunction with transcriptomics and proteomics, they offer a insight into the physiology of the plant host under healthy and infected conditions. (adapted from <a href="https://en.wikipedia.org/wiki/Metabolomics" target="_blank">Wikipedia</a>)
+Metabolomics is the study of chemical processes involving metabolites representing the cellular processes in an organism. The metabolome of the host citrus represents the complete set of metabolites, which are the end products of cellular processes, in a cell or tissue such as leaf. When used in conjunction with transcriptomics and proteomics, they offer a insight into the physiology of the plant host under healthy and HLB-positive conditions. (adapted from <a href="https://en.wikipedia.org/wiki/Metabolomics" target="_blank">Wikipedia</a>)
 <div class="indentedcontent">
 </div>
 <br>
