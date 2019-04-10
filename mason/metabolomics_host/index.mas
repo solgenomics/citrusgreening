@@ -1,0 +1,24 @@
+<%doc>
+    =head1 NAME
+
+    index.mas - a mason module to display an html page with all sections for imaging data.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'Citrus Metabolomics'  &>
+Metabolomics is the study of chemical processes involving metabolites representing the cellular processes in an organism. The metabolome of the host citrus represents the complete set of metabolites, which are the end products of cellular processes, in a cell or tissue such as leaf. When used in conjunction with transcriptomics and proteomics, they offer a insight into the physiology of the plant host under healthy and infected conditions. (adapted from <a href="https://en.wikipedia.org/wiki/Metabolomics" target="_blank">Wikipedia</a>)
+<div class="indentedcontent">
+</div>
+<br>
+<br>
+<& chin_csinensis_2019.mas &>
+<br>
+<br>
+<& ramsey_climon_2019.mas &>
