@@ -1,38 +1,58 @@
-<& /page/page_title.mas, title=>'Longitudinal transcriptomic, proteomic, and metabolomic analyses of Citrus sinensis' &>
+<& /page/page_title.mas, title=>'Longitudinal transcriptomic, proteomic, and metabolomic analyses of Navel orange' &>
 
 <div class="indentedcontent">
 
-  Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus (CLas)
+  Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus
   <br>
   <br>
-  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite.  <br>
-  <br>
-  <center>
-    <img src="/img/citrusgreening/host/???" height="300">
-    <br>
-    DESCRIPTION
-  </center>
-  <br>
-  <br>
-  Citrus variety used: Citron
-  <br>
-  Insects: Asian citrus psyllid nymphs (early fifth instar) and adults (8-10 days old)
-  <br>Treatments:
-  <ol>
-    <li>Nymph feeding on healthy citron (18 reps)-CN</li>
-    <li>Nymph feeding on infected citron (33 reps)-IN</li>
-    <li>Adult feeding on healthy citron (18 reps)- CA</li>
-    <li>Adult feeding on infected citron (33 reps)-IA</li>
-  </ol>
-  Each EPG recording is for continuous 42 hours under complete lighted (fluorescent) conditions.
-  <br>
-  The <a href="ftp://citrusgreening.org/static_content/EPG/" target="_blank">linked data</a> contains
-  <ol>
-    <li>Actual recordings-8 (channels) recordings in each run</li>
-    <li>Human annotated files (File name by the treatment, channel in each run and date of recording)</li>
-    <li>Excel sheets summarizing the data</li>
-  </ol>
-  <br>
-  <br>
-  Citation: Justin George, El-Desouky Ammar, David G. Hall, Robert G. Shatters Jr. and Stephen L. Lapointe (2018): <a href="https://www.nature.com/articles/s41598-018-28442-6" target="_blank">Prolonged phloem ingestion by <i>Diaphorina citri</i> nymphs compared to adults is correlated with increased acquisition of citrus greening pathogen</a> <i>Scientific Reports</i> 8: 10352
+  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite.
+  <br><br>
+
+  <b>Data Overview</b>
+  <br><br>
+  <table style="width:100%">
+    <tr>
+      <td>Data Type</td>
+      <td>1H NMR-based metabolomics</td>
+    </tr>
+    <tr>
+      <td>Spectrometer</td>
+      <td>Bruker Advance 600 MHz</td>
+    </tr>
+    <tr>
+      <td>Species</td>
+      <td><i>Citrus sinensis</i> (L.) Osbeck</td>
+    </tr>
+    <tr>
+      <td>Common name</td>
+      <td>Parent Washington Navel Orange</td>
+    </tr>
+    <tr>
+      <td>Tissue</td>
+      <td>Mature leaves</td>
+    </tr>
+    <tr>
+      <td>Treatments</td>
+      <td>Control (uninfected, n = 6); Infected (CLas grafted, n = 6; of those 6 qPCR confirmed CLas positive, n = 4)</td>
+    </tr>
+  </table>
+
+  <br><br>
+  <b>Sample Collection Overview</b>
+  <br><br>
+  6-8 leaves were collected per tree and pooled into a single sample. Samples were transported on dry ice and stored at -80C until metabolite extraction. Samples were collected at baseline, 2, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, and 46 weeks post-grafting.
+
+  <br><br>
+  <b>Sample Preparation Overview</b>
+  <br><br>
+  Polar metabolites extracted from leaf disks obtained from the mesophyllic tissue, midrib, and petiole taken from each leaf. Disks were pooled and dried for 24 h. 75 mg of dried leaf material was ground. Phosphate buffer (10mM, pH 6.8) heated to 90C was added to ground leaf material (1:20 (w:v)), mixed for 15 min at 90C at 1000 rpm (Eppendorf ThermoMixer C). Sample centrifuged for 15 min, 4C, 14000 x g. 750 uL of supernatant collected and centrifuged at 4C, 15 min, 14000 x g. 65uL of internal standard containing 5 mM 3-(trimethylsilyl)-1-propanesulfonic acid-d6 (DSS-d6) was added to 585 uL of the resulting supernatant, and 600 uL of the subsequent mixture was transferred to 5 mm NMR tubes and stored at 4C until NMR data acquisition (within 24 h of sample preparation).
+  <br><br>
+
+  The <a href="ftp://citrusgreening.org/static_content/metabolomics_host/" target="_blank">linked data</a> (coming soon!!) will contain directories, each corresponding to a sample collection time point. Each sub-directory will contain all Bruker NMR output files for a single tree.
+  <br><br>
+
+  <b>Citation</b>
+  <br><br>
+  Elizabeth L. Chin, John S. Ramsey, Darya O. Mishchuk, Surya Saha, Elizabeth Mitrovic, Juan D. Chavez, Kevin Howe, Xuefei Zhong, MaryLou Polek, Kris E. Godfrey, Lukas Mueller, James E. Bruce, Michelle Heck, Carolyn M. Slupsky. Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus (CLas). <i>submitted</i>
+
 </div>
