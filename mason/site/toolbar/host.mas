@@ -27,5 +27,8 @@
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">VIGS</li>
 	      <li><a href="http://vigs.solgenomics.net" target="_blank">Citrus VIGS tool</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="dropdown-header">Metabolites</li>
+	      <li><a href="/metabolomics_host/index" target="_blank">Citrus metabolomics</a></li>
     </ul>
 </li>
