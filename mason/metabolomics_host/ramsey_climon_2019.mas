@@ -5,7 +5,7 @@
   Longitudinal transcriptomic, proteomic, and metabolomic analysis of <i>Citrus limon</i> response to graft inoculation by <i>Candidatus</i> Liberibacter asiaticus
   <br>
   <br>
-  Transcriptomic, proteomic, and metabolomic data were collected from samples prepared from leaf tissue of lemon (<i>Citrus limon</i>) plants reared in controlled environment greenhouses.  The purpose of the data collection was to analyze the differences over time between lemon plants which were graft-inoculated with budwood originating from trees infected  with the citrus greening bacterium (<i>Candidatus</i> Liberibacter asiaticus) and lemon plants which were graft-inoculated with disease-free budwood.  Transcriptome data were collected from lemon leaf RNA samples using Illumina sequencing.  Raw RNAseq data were curated at the Boyce Thompson Institute, and deposited in Genbank for public access.  RNAseq data quality control analysis and filtering, mapping, assembly, and differential expression analysis was performed using bioinformatics pipelines established by the Solanaceae Genomics Network and installed on Boyce Thompson Institute servers.  Proteomics data were collected from lemon leaf samples using liquid chromatography/tandem mass spectrometry.  Raw mass spectrometry data were curated on Cornell University and University of Washington servers, and deposited along in ProteomeXchange for public access.  Proteome data quality control analysis included the use of a decoy reverse sequence database to enable false discovery rate calculation during Mascot and Scaffold analysis.  Metabolomics data were collected from lemon leaf samples using 1H NMR. NMR spectra were processed, and metabolites were identified and quantified using Chenomx NMR Suite.
+  Transcriptomic, proteomic, and metabolomic data were collected from samples prepared from leaf tissue of lemon (<i>Citrus limon</i>) plants reared in controlled environment greenhouses.  The purpose of the data collection was to analyze the differences over time between lemon plants which were graft-inoculated with budwood originating from trees infected  with the citrus greening bacterium (<i>Candidatus</i> Liberibacter asiaticus) and lemon plants which were graft-inoculated with disease-free budwood.  Transcriptome data were collected from lemon leaf RNA samples using Illumina sequencing.  Raw RNAseq data were curated at the Boyce Thompson Institute, and deposited in Genbank for public access.  RNAseq data quality control analysis and filtering, mapping, assembly, and differential expression analysis was performed using bioinformatics pipelines established by the Solanaceae Genomics Network and installed on Boyce Thompson Institute servers. Raw reads are available at NCBI SRA using the BioProject ID PRJNA348468. Proteomics data were collected from lemon leaf samples using liquid chromatography/tandem mass spectrometry.  Raw mass spectrometry data were curated on Cornell University and University of Washington servers, and deposited along in ProteomeXchange for public access.  Proteome data quality control analysis included the use of a decoy reverse sequence database to enable false discovery rate calculation during Mascot and Scaffold analysis. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifiers PXD005905, PXD006010, and PXD006011. Metabolomics data were collected from lemon leaf samples using 1H NMR. NMR spectra were processed, and metabolites were identified and quantified using Chenomx NMR Suite. <sup>1</sup>H NMR data files are available through the link below.
   <br><br>
 
   <b>Data Overview</b>
@@ -13,7 +13,7 @@
   <table style="width:100%">
     <tr>
       <td>Data Type</td>
-      <td>1H NMR-based metabolomics</td>
+      <td><sup>1</sup>H NMR-based metabolomics</td>
     </tr>
     <tr>
       <td>Spectrometer</td>
@@ -33,7 +33,7 @@
     </tr>
     <tr>
       <td>Treatments</td>
-      <td>Control (uninfected, n = 11); Infected (CLas-grafted, n = 11; of those 11 qPCR confirmed CLas(+), n = 6)</td>
+      <td>Control (uninfected, n = 11); Infected (<i>C</i>Las-grafted, n = 11; of those 11 qPCR confirmed <i>C</i>Las(+), n = 6)</td>
     </tr>
   </table>
 
@@ -47,11 +47,12 @@
   <br><br>
 Polar metabolites extracted from leaf disks obtained from the mesophyllic tissue, midrib, and petiole taken from each leaf. Disks were pooled and dried for 24 h. 75 mg of dried leaf material was ground. Phosphate buffer (10mM, pH 6.8) heated to 90C was added to ground leaf material (1:20 (w:v)), mixed for 15 min at 90C at 1000 rpm (Eppendorf ThermoMixer C). Sample centrifuged for 15 min, 4C, 14000 x g. 750 uL of supernatant collected and centrifuged at 4C, 15 min, 14000 x g. 65uL of internal standard containing 5 mM 3-(trimethylsilyl)-1-propanesulfonic acid-d6 (DSS-d6) was added to 585 uL of the resulting supernatant, and 600 uL of the subsequent mixture was transferred to 5 mm NMR tubes and stored at 4C until NMR data acquisition (within 24 h of sample preparation).
 
+ <br><br>
   The <a href="ftp://citrusgreening.org/static_content/metabolomics_host/" target="_blank">linked data</a> (coming soon!!) will contain directories, each corresponding to a sample collection time point. Each sub-directory will contain all Bruker NMR output files for a single tree.
   <br><br>
 
   <b>Citation</b>
   <br><br>
-  Ramsey JS, Chin EL, Chavez JD, Saha S, Mischuk DO, Mahoney J, Mohr J, Robison FM, Foster E, Xu Y, Strickler S, Fernandez N, Zhong X, Polek M, Godfrey KE, Giovannoni JG, Mueller L, Slupsky CM, Bruce JE, Heck. Longitudinal transcriptomic, proteomic, and metabolomic analysis of <i>Citrus limon</i> response to graft inoculation by Candidatus Liberibacter asiaticus. <i>submitted</i>
+  Ramsey JS, Chin EL, Chavez JD, Saha S, Mischuk DO, Mahoney J, Mohr J, Robison FM, Foster E, Xu Y, Strickler S, Fernandez N, Zhong X, Polek M, Godfrey KE, Giovannoni JG, Mueller LA, Slupsky CM, Bruce JE and Heck M. Longitudinal transcriptomic, proteomic, and metabolomic analysis of <i>Citrus limon</i> response to graft inoculation by Candidatus Liberibacter asiaticus. <i>submitted</i>
 
 </div>

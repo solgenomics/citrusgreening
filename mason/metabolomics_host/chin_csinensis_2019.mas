@@ -5,7 +5,7 @@
   Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus
   <br>
   <br>
-  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite.
+  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Raw reads are available at NCBI SRA using the BioProject ID PRJNA417324. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. MS proteomic data has been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the identifier PDX006316. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite. <sup>1</sup>H NMR data files are available through the link below. 
   <br><br>
 
   <b>Data Overview</b>
@@ -13,7 +13,7 @@
   <table style="width:100%">
     <tr>
       <td>Data Type</td>
-      <td>1H NMR-based metabolomics</td>
+      <td><sup>1</sup>H NMR-based metabolomics</td>
     </tr>
     <tr>
       <td>Spectrometer</td>
@@ -33,7 +33,7 @@
     </tr>
     <tr>
       <td>Treatments</td>
-      <td>Control (uninfected, n = 6); Infected (CLas grafted, n = 6; of those 6 qPCR confirmed CLas positive, n = 4)</td>
+      <td>Control (uninfected, n = 6); Infected (<i>C</i>Las grafted, n = 6; of those 6 qPCR confirmed <i>C</i>Las positive, n = 4)</td>
     </tr>
   </table>
 
@@ -53,6 +53,6 @@
 
   <b>Citation</b>
   <br><br>
-  Elizabeth L. Chin, John S. Ramsey, Darya O. Mishchuk, Surya Saha, Elizabeth Mitrovic, Juan D. Chavez, Kevin Howe, Xuefei Zhong, MaryLou Polek, Kris E. Godfrey, Lukas Mueller, James E. Bruce, Michelle Heck, Carolyn M. Slupsky. Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus (CLas). <i>submitted</i>
+  Chin EL, Ramsey JS, Mishchuk DO, Saha S, Mitrovic E, Chavez JD, Howe K, Zhong X, Polek M, Godfrey KE, Mueller LA, Bruce JE, Heck M and Slupsky CM. Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus (<i>C</i>Las). <i>submitted</i>
 
 </div>
