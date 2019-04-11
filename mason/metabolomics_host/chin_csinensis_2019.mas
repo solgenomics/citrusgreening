@@ -5,7 +5,7 @@
   Longitudinal transcriptomic, proteomic, and metabolomic analyses of <i>Citrus sinensis</i> (L.) Osbeck graft-inoculated with <i>Candidatus</i> Liberibacter asiaticus
   <br>
   <br>
-  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Raw reads are available at NCBI SRA using the BioProject ID PRJNA417324. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. MS proteomic data has been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the identifier PDX006316. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite. <sup>1</sup>H NMR data files are available through the link below. 
+  Transcriptomic, proteomic, and metabolomic data were collected from leaf samples obtained from greenhouse grown Parent Washington Navel orange (<i>Citrus sinensis</i> (L.) Osbeck) plants. Plants were grafted with pieces of budwood originating from CLas-infected orange plants or from healthy, uninfected orange plants. The purpose of the data collection was to analyze longitudinal changes between infected and uninfected plants. Transcriptomic data were collected from leaf RNA samples using Illumina HiSeq4000 PE100 sequencing and data were mapped to the <i>C. sinensis</i> genome and differential expression analysis was subsequently performed. Raw reads are available at NCBI SRA using the BioProject ID PRJNA417324. Proteomics data was collected from navel leaf samples using liquid chromatography/tandem mass spectrometry (MS), and proteins were identified from a manually curated database containing proteins from <i>C. sinensis</i> and <i>C. clementina</i>. MS proteomic data has been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the identifier PDX006316. Metabolomic data were collected from leaf samples using 1H NMR. NMR spectral analysis and metabolite identification and quantification was performed using Chenomx NMR Suite. <sup>1</sup>H NMR data files are available through the link below.
   <br><br>
 
   <b>Data Overview</b>
@@ -17,7 +17,7 @@
     </tr>
     <tr>
       <td>Spectrometer</td>
-      <td>Bruker Advance 600 MHz</td>
+      <td>Bruker AVANCE 600 MHz</td>
     </tr>
     <tr>
       <td>Species</td>
