@@ -1,0 +1,29 @@
+<& /page/page_title.mas, title=>'Hunter et al. 2019' &>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <center><b><i>BAPC-assisted</i>-CRISPR-Cas9 Delivery into Adult Psyllid Ovaries and Pupae for Heritable Gene Editing (Hemiptera)</b></center>
+        <br>
+        <br>
+        New strategies, using Modified Pest Management, MPM, approaches continue to provide highly specific pest control strategies that are safe. The method was highly specific to the psyllid with no detrimental impact on beneficial insects, predators or parasitoids of psyllids. Similar management will someday reduce dependence upon broad spectrum insecticides.  The breakthrough permits treatment of adults to disrupt an essential insect protein.  The method, called <i>BAPC-assisted-Delivery</i>, improved treatment of adult Asian Citrus Psyllids, <i>Diaphorina citri</i>, whose offspring then showed the same greatly reduced fecundity and lifespan.  The method also permits researchers to screen other potential targets for new pest control products, and to understand a genes specific function in psyllid biology, or in the bacterial pathogen acquisition and transmission to citrus trees.
+        Using this method a specific gene was identified that may provide one means to greatly reduce Asian citrus psyllid populations, and thereby reduce the spread of Huanglongbing.
+        <br>
+        <br>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <center><img src="/img/citrusgreening/researchhighlights/Hunter2019_Figure1.png" height="350" ></center>
+        <br>
+        Figure 1.  The G1, TXT-KO adult psyllids had significantly shorter adult lifespans post eclosion living an average 8.5 days, compared to controls injected with buffer, which averaged 16 d post eclosion. Adult female insects producing eggs when injected resulted in TXT-KO G1 mutants. The few adults G2, that eclosed from their eggs also showed the traits of longer development time, increased mortality, and shortened adult lifespan as adults, with greatly reduced fecundity, as compared to wild type psyllids.
+        <br>
+        <br>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        Hunter et al. developed BAPC-assisted-CRISPR-Delivery System, for improved heritable gene editing when injecting adults or nymphs of insects [Hemiptera]. Addition of <b>B</b>ranched <b>A</b>mphiphilic <b>P</b>eptide <b>C</b>apsules, <b>BAPCtofect</b><sup>TM</sup> (Phoreus<sup>TM</sup> Biotechnology, Inc.) improved delivery of CRISPR components for heritable gene editing, and also plasmids, or dsRNA for expression and gene targeting in insect nymphs and Asian Citrus Psyllid adults. The method bypasses traditional microinjection of eggs. This reports the first heritable gene knock out (KO), using <i>BAPC-assisted</i>-CRISPR-Cas9, which resulted in G2 mutants post injection of adult psyllid females, G0. The KO target was the thioredoxin gene, resulting in 550 nt deletion in genomic DNA of target insects. In psyllids the <i>thioredoxin</i> gene, TXT, knock outs produced changes in physiology. Strategies to alter the psyllid vector, into a non-vector of the bacterium, CLas, are now possible. One function of TXT is to promote development. The TXT-KO adult lifespan was reduced by ~50%, development was slower and fecundity severely limited to just a few eggs in the KO adults lifetime. Reduced fecundity and slow development traits is a strategy that would reduce psyllid populations by increasing exposure time to parasitism and predation on nymphal stages. Classical CRISPR/Cas9 injections of nymphs, pupae, and adults produced white eye phenotypes, by vermillion gene knock out (Hunter in press). The <i>BAPC</i><sup>TM</sup>-assisted delivery system advances gene editing across hemipterans and insects by permitting the use of nymphs and adults. To read about these findings in more detail, please visit <a href="https://www.fasebj.org/doi/10.1096/fasebj.2019.33.1_supplement.626.2" target="_blank">FASEB journal</a>.
+        <br>
+      </div>
+  </div>
+</div>
