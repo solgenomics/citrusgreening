@@ -1,0 +1,30 @@
+<& /page/page_title.mas, title=>'Asian citrus psyllid jumping mechanism' &>
+
+<div class="indentedcontent">
+
+  <!-- add background information here -->
+  <br>
+  <br>
+  <!-- add citation here -->
+</div>
+
+<div class="container-fluid">
+
+<center>
+<iframe class="holds-the-iframe" name="Jumping"
+src="/static_content/MicroCT/JumpingMechanism/ACPjumpingmechanism.html" scrolling="no" frameborder="no" height="506" width="900">
+</iframe>
+<style>
+.holds-the-iframe {
+ background:url(/documents/img/spinner.gif) center center no-repeat;
+}
+</style>
+</center>
+<br>
+<div align="right">
+<a href="/static_content/MicroCT/JumpingMechanism/ACPjumpingmechanism.html" target="_blank">View full size in new window</a>
+</div>
+<br>
+<b>Citation:</b>
+Cicero, JM, and Stansly, P. (2019)
+</div>
