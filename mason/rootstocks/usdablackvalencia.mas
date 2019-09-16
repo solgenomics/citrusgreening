@@ -1,0 +1,107 @@
+<%doc>
+    =head1 NAME
+
+    usdablackvalencia.mas - a mason module to display an html page with information about USDA-Black Cooperative Rootstock trial.
+
+    =head1 DESCRIPTION
+
+    The module does not require any parameters.
+
+    =head1 AUTHOR
+
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'USDA-Black Cooperative Rootstock trial'  &>
+<div class="indentedcontent">
+	<br>
+	<br>
+	<table width=100%>
+	<tr>
+	<td>Contact</td>
+	<td>Kim Bowman (Kim.Bowman@ars.usda.gov)</td>
+	</tr>
+	<tr>
+	<td>Scion</td>
+	<td>Valencia</td>
+	</tr>
+	<tr>
+	<td>Rootstocks</td>
+	<td>24 rootstocks, including 8 commercially available and 16 unreleased hybrids</td>
+	</tr>
+	<tr>
+	<td>Location</td>
+	<td>Fort Meade, Polk County, Florida</td>
+	</tr>
+	<tr>
+	<td>Date plante</td>
+	<td>August 2014</td>
+	</tr>
+	<tr>
+	<td>Tree spacing</td>
+	<td>8 ft x 18 ft (302 trees/acre)</td>
+	</tr>
+	<tr>
+	<td>Experimental design</td>
+	<td> RCB, 7 replicates of 3 trees per rootstock (504 trees total)</td>
+	</tr>
+	</table>
+	<right><a href="ftp://ftp.citrusgreening.org/static_content/Rootstocks/Bowman_2019_Ft_Meade_trial/Bowman_2019_Ft_Meade_trial_summary.pdf">Download report</a></right>
+	<br>
+	<br>
+	<center>
+	The image below shows a pair of trees on US-2122 in the USDA-Black trial at harvest on 18 April 2019.
+	<br><br>
+	<img src="/img/citrusgreening/rootstocks/Bowman_2019_Ft_Meade_trial/US-2122_pair.png" width=80%>
+	</center>
+	<br>
+	<br>
+
+	
+	<table width=80%>
+	<tr>
+	<td>
+		<center>
+		<a href="ftp://ftp.citrusgreening.org/static_content/Rootstocks/Bowman_2019_Ft_Meade_trial/Bowman_2019_Ft_Meade_trial_FRUIT_YIELD_AND_SURVIVAL.pdf"><img src="/img/citrusgreening/rootstocks/Bowman_2019_Ft_Meade_trial/fruit_yield_survival.png"></a>
+		</center>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<center>
+		<a href="ftp://ftp.citrusgreening.org/static_content/Rootstocks/Bowman_2019_Ft_Meade_trial/Bowman_2019_Ft_Meade_trial_TREE%20SIZE_AND_YIELD_EFFICIENCY.pdf"><img src="/img/citrusgreening/rootstocks/Bowman_2019_Ft_Meade_trial/tree_size_yield_efficiency.png"></a>
+		</center>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<center>
+		<a href="ftp://ftp.citrusgreening.org/static_content/Rootstocks/Bowman_2019_Ft_Meade_trial/Bowman_2019_Ft_Meade_trial_FRUIT_QUALITY.pdf"><img src="/img/citrusgreening/rootstocks/Bowman_2019_Ft_Meade_trial/fruit_quality.png"></a>
+		</center>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<center>
+		<a href="ftp://ftp.citrusgreening.org/static_content/Rootstocks/Bowman_2019_Ft_Meade_trial/Bowman_2019_Ft_Meade_trial_CONCLUSIONS_AND_PROJECTIONS.pdf"><img src="/img/citrusgreening/rootstocks/Bowman_2019_Ft_Meade_trial/conclusions.png"></a>
+		</center>
+	</td>
+	</tr>
+	</table>
+	
+	<br>
+	<br>
+	<br>
+	As tested yields (Table 4) are based on actual tree density in the trial.
+	Optimized density (Table 4) was calculated, based on actual tree size on each rootstock in 2019: 
+	<ul>
+	<li>Between tree spacing = 2019 average tree diameter</li>
+	<li>Between row spacing = 2019 average tree diameter plus 9 ft</li>
+	</ul>
+	<br>
+	We feature important developments in Huanglongbing (HLB) research in this section. Please <a href="/contact/form">contact us</a> to submit your rootstocks.
+</div>
+<br>
+<br>
+<br>
+

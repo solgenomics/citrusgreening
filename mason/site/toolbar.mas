@@ -11,6 +11,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <& toolbar/disease.mas &>
+                <& toolbar/rootstocks.mas &>
                 <& toolbar/host.mas &>
                 <& toolbar/vector.mas &>
                 <& toolbar/pathogen.mas &>

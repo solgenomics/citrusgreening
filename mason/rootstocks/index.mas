@@ -1,0 +1,22 @@
+<%doc>
+    =head1 NAME 
+    
+    index.mas - a mason module to display an html page with all sections about citrus rootstocks.
+    
+    =head1 DESCRIPTION
+    
+    The module does not require any parameters.
+    
+    =head1 AUTHOR
+    
+    Surya Saha <ss2489 at cornell dot edu>
+=cut
+</%doc>
+<& /page/page_title.mas, title=>'CitrusGreening or Huanglongbing disease'  &>
+<div class="indentedcontent">
+    Huanglongbing (HLB) is a tritrophic disease complex involving citrus host trees, the Asian citrus psyllid (ACP) insect and a phloem restricted, bacterial pathogen Candidatus Liberibacter asiaticus (CLas). HLB is considered to be the most devastating of all citrus diseases, and there is currently no adequate control strategy.
+</div>
+<br>
+<br>
+<br>
+<& usdablackvalencia.mas &>
