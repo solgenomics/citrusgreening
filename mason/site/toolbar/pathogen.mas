@@ -21,9 +21,9 @@
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2Flcresens&loc=NC_019907%3A601903..898298&tracks=DNA%2Cgene&highlight=" target="_blank">Liberibacter cresens BT-1 browser</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
-        <li><a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB537021"><i>Ca.</i> Liberibacter asiaticus psy62 Cyc</a></li>
-        <li><a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB1174529"><i>Ca.</i> Liberibacter asiaticus gxpsy Cyc</a></li>
-        <li><a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB1261131"><i>Ca.</i> Liberibacter americanus Cyc</a></li>
-        <li><a href="http://ptools.citrusgreening.org/organism-summary?object=CLIB658172"><i>Ca.</i> Liberibacter solanacearum Cyc</a></li>
+        <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=CLIB537021" target="_blank"><i>Ca.</i> Liberibacter asiaticus psy62 Cyc</a></li>
+        <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=CLIB1174529" target="_blank"><i>Ca.</i> Liberibacter asiaticus gxpsy Cyc</a></li>
+        <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=CLIB1261131" target="_blank"><i>Ca.</i> Liberibacter americanus Cyc</a></li>
+        <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=CLIB658172" target="_blank"><i>Ca.</i> Liberibacter solanacearum Cyc</a></li>
     </ul>
 </li>
