@@ -15,6 +15,7 @@
         <li class="dropdown-header">JBrowse</li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaphorina_citri&loc=gi%7C645508417%7Cref%7CNW_007377440.1%7C%3A1..219775&tracks=DNA&highlight="><i>Diaphorina citri</i>  v1.1  browser</a></li>
         <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v2.0_ref&loc=ScVcwli_1319%3A1700494..2550862&tracks=DNA%2Cgene_models&highlight="><i>Diaphorina citri</i>  v2.0  browser</a></li>
+	 <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v3.0_ref&loc=DC3.0sc01%3A1..223400&tracks=DNA%2COGS3.0%20gene%20models%20beta&highlight="><i>Diaphorina citri</i>  v3.0  browser</a></li>	 
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
         <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc</a></li>
