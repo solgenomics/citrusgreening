@@ -48,7 +48,7 @@
   Polar metabolites extracted from leaf disks obtained from the mesophyllic tissue, midrib, and petiole taken from each leaf. Disks were pooled and dried for 24 h. 75 mg of dried leaf material was ground. Phosphate buffer (10mM, pH 6.8) heated to 90C was added to ground leaf material (1:20 (w:v)), mixed for 15 min at 90C at 1000 rpm (Eppendorf ThermoMixer C). Sample centrifuged for 15 min, 4C, 14000 x g. 750 uL of supernatant collected and centrifuged at 4C, 15 min, 14000 x g. 65uL of internal standard containing 5 mM 3-(trimethylsilyl)-1-propanesulfonic acid-d6 (DSS-d6) was added to 585 uL of the resulting supernatant, and 600 uL of the subsequent mixture was transferred to 5 mm NMR tubes and stored at 4C until NMR data acquisition (within 24 h of sample preparation).
   <br><br>
 
-  The <a href="ftp://citrusgreening.org/static_content/metabolomics_host/" target="_blank">linked data</a> (coming soon!!) will contain directories, each corresponding to a sample collection time point. Each sub-directory will contain all Bruker NMR output files for a single tree.
+  The <a href="ftp://citrusgreening.org/static_content/metabolomics_host/" target="_blank">linked data</a> contains directories, each corresponding to a sample collection time point. Each sub-directory contains all Bruker NMR output files for a single tree.
   <br><br>
 
   <b>Citation</b>
