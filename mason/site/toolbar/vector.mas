@@ -18,7 +18,7 @@
 	 <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v3.0_ref&loc=DC3.0sc01%3A1..223400&tracks=DNA%2COGS3.0%20gene%20models%20beta&highlight="><i>Diaphorina citri</i>  v3.0  browser</a></li>	 
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Pathways</li>
-        <li><a href="http://ptools-citrusgreening-ubuntu.sgn.cornell.edu/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc</a></li>
+        <li><a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Expression Atlas</li>
         <li><a href="http://pen.sgn.cornell.edu">Psyllid Expression Network</a></li>
