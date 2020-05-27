@@ -6,7 +6,6 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -84,20 +83,6 @@
           </div>
       </div>
 
-      <div class="item">
-          <div style="background:url(/documents/img/citrusgreening/homepage/carousel5.png) center center; background-size:cover;" class="slider-size">
-                <div class="carousel-cg-caption" style="opacity: 0.95; background-color: #efefef">
-                        <a href="http://www.cvent.com/events/joint-21st-annual-iocv-irchlb-vi/event-summary-dd0d7b426ac84856891c307668ee2e76.aspx" target="_blank"><h3>IOCV XXI and IRCHLB VI Conference</h3></a>
-                </div>
-                <div class="carousel-cg-links">
-                  <ul class="cg_sm_list">
-                      <li><a href="https://www.cvent.com/events/joint-21st-annual-iocv-irchlb-vi/registration-dd0d7b426ac84856891c307668ee2e76.aspx?fqp=true" target="_blank">Registration</a></li>
-                      <li><a href="https://www.cvent.com/c/abstracts/36828def-d89b-4487-b156-bdfeda5ddedc" target="_blank">Abstracts</a></li>
-                  </ul>
-                </div>
-
-          </div>
-      </div>
 
     </div><!-- Wrapper for slides end-->
 
@@ -122,7 +107,6 @@
   <li><a data-target="#myCarousel" data-slide-to="1">Asian citrus psyllid</a></li>
   <li><a data-target="#myCarousel" data-slide-to="2"><i>Ca.</i> Liberibacter</a></li>
   <li><a data-target="#myCarousel" data-slide-to="3">Partners</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="4">IRCHLB VI</a></li>
 </ul>
 
 <style>
