@@ -23,7 +23,7 @@
         <li><a href="http://ptools.citrusgenomedb.org/organism-summary?object=CSINENSIS" target="_blank"><i>C sinensis</i> Cyc v4</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">Expression Atlas</li>
-        <li><a href="http://cen.citrusgreening.org/expression_viewer/input" target="_blank">Citrus Expression Network</a></li>
+        <li><a href="http://cgen.citrusgreening.org/expression_viewer/input" target="_blank">Citrus Expression Network</a></li>
         <li role="separator" class="divider"></li>
         <li class="dropdown-header">VIGS</li>
 	      <li><a href="http://vigs.solgenomics.net" target="_blank">Citrus VIGS tool</a></li>
