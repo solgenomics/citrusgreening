@@ -24,11 +24,11 @@ The genome assembly, annotations and resources are available through the links b
 <% info_table_html(
     __multicol => 2,
     'Genome sequence' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
     'Annotation' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
     'MCOT transcriptome' =>
-    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    '<a href="https://citrusgreening.org/ftp/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'Expression Atlas' =>
     '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>',
     'Pathways' =>
@@ -90,19 +90,19 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     __border   => 0,
     __multicol => 2,
     'Genome sequence' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0</a>',
     'Annotation' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
     'MCOT transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    '<a href="https://citrusgreening.org/ftp/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'diaci 0.9 transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
     'Adult transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_adult_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_adult_transcriptome.fa.gz">Denovo assembly</a>',
     'Nymph transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
     'Egg transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
     'Pathways' =>
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>'
 
