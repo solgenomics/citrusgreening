@@ -24,11 +24,11 @@ The genome assembly, annotations and resources are available through the links b
 <% info_table_html(
     __multicol => 2,
     'Genome sequence' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
     'Annotation' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
     'MCOT transcriptome' =>
-    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    '<a href="https://citrusgreening.org/ftp/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'Expression Atlas' =>
     '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>',
     'Pathways' =>
@@ -51,11 +51,11 @@ The genome assembly, annotations and resources are available through the links b
 A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs utilized Pacbio and Dovetail technologies to create a high quality assembly. The improved v2.0 reference assembly has 1906 contigs and a contig N50 of 759Kb. 
 <br><br>
 <!--moved id tag to avoid overlap of heading by toolbar-->
-The genome and associated annotation were released on <b>March 5, 2018</b> and described in a webinar. Slides for the webinar are available <a href="http://bit.ly/ACPv2slides">online</a>. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We have released a new <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0" target="_blank">Official Gene Set (v2.0)</a> with 20,793 genes based on Illumina RNAseq and Pacbio Isoseq evidence. We have updated the <a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc pathway database</a> with OGS v2 and characterized 172 pathways that include 1477 enzymatic reactions. The ACP expression atlas (<a href="http://pen.sgn.cornell.edu/expression_viewer/input" target="_blank">Psyllid Expression Network</a>) can be used to identify co-expressed gene sets. <a href="/tools/blast?db_id=30" target="_blank">Blast</a> is available and you can download the data from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/" target="_blank">FTP site</a>. 
+The genome and associated annotation were released on <b>March 5, 2018</b> and described in a webinar. Slides for the webinar are available <a href="http://bit.ly/ACPv2slides">online</a>. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We have released a new <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0" target="_blank">Official Gene Set (v2.0)</a> with 20,793 genes based on Illumina RNAseq and Pacbio Isoseq evidence. We have updated the <a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc pathway database</a> with OGS v2 and characterized 172 pathways that include 1477 enzymatic reactions. The ACP expression atlas (<a href="http://pen.sgn.cornell.edu/expression_viewer/input" target="_blank">Psyllid Expression Network</a>) can be used to identify co-expressed gene sets. <a href="/tools/blast?db_id=30" target="_blank">Blast</a> is available and you can download the data from our <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/" target="_blank">FTP site</a>. 
 <h4 id="diaci1.9"></h4>
 <br>
 <h4>Diaci1.9 interim genome build</h4>
-Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> to it. You can download the genome from our <a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">FTP site</a>. We will be releasing this soon as Diaci2.0.
+Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> to it. You can download the genome from our <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">FTP site</a>. We will be releasing this soon as Diaci2.0.
 <!--moved id tag to avoid overlap of heading by toolbar-->
 <h4 id="diaci1.1"></h4>
 <br>
@@ -90,19 +90,19 @@ The genome assembly, pseudomolecules, annotations and genome browser are availab
     __border   => 0,
     __multicol => 2,
     'Genome sequence' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0</a>',
     'Annotation' =>
-    '<a href="ftp://ftp.citrusgreening.org/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
     'MCOT transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    '<a href="https://citrusgreening.org/ftp/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
     'diaci 0.9 transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci0.9_transcriptome.fa.gz">Combined transcriptome</a>',
     'Adult transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_adult_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_adult_transcriptome.fa.gz">Denovo assembly</a>',
     'Nymph transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_nymph_transcriptome.fa.gz">Denovo assembly</a>',
     'Egg transcriptome ' =>
-    '<a href="ftp://ftp.citrusgreening.org/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
+    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/transcriptomes/diaci_egg_transcriptome.fa.gz">Denovo assembly</a>',
     'Pathways' =>
     '<a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Metabolic pathway database</a>'
 

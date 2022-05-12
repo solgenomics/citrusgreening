@@ -43,9 +43,9 @@
           <ul class="cg_sm_list">
                  <li><a href="/organism/Diaphorina_citri/genome"><i>Diaphorina citri</i> genome page</a></li>
                  <li><a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v2.0_ref&loc=ScVcwli_1319%3A1700494..2550862&tracks=DNA%2Cgene_models&highlight=">Browse the <i>Diaphorina citri</i> v2.0 genome</a></li>
-                 <li><a href="ftp://ftp.citrusgreening.org/annotation/OGSv2.0">Download Official gene set v2.0</a></li>
+                 <li><a href="https://citrusgreening.org/ftp/annotation/OGSv2.0">Download Official gene set v2.0</a></li>
                  <li><a href="/annotation/index">Read about the annotation project</a></li>
-                 <li><a href="ftp://ftp.citrusgreening.org/annotation/">Download the annotations</a></li>
+                 <li><a href="https://citrusgreening.org/ftp/annotation/">Download the annotations</a></li>
                  <li><a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA">Browse pathways in DiaphorinaCyc</a></li>
           </ul>
         </div>
