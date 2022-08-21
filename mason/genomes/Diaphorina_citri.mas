@@ -26,7 +26,7 @@ The genome assembly, annotations and resources are available through the links b
     'Genome sequence' =>
     '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/">Diaci3.0 genome sequence</a>',
     'Annotation' =>
-    '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/OGSv3beta/">Official gene set v3.0</a>',
+    '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/OGSv3beta/">Official gene set beta v3.0</a>',
     '<i>De novo</i> transcriptome' =>
     '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/Dcitri_transcriptome.fasta">Combination of long read Iso-Seq and Ilumina transcripts</a>',
     'Expression Atlas' =>
