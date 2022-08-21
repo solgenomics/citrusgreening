@@ -24,11 +24,11 @@ The genome assembly, annotations and resources are available through the links b
 <% info_table_html(
     __multicol => 2,
     'Genome sequence' =>
-    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/">Diaci2.0 genome sequence</a>',
+    '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/">Diaci3.0 genome sequence</a>',
     'Annotation' =>
-    '<a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0">Official gene set v2.0</a>',
-    'MCOT transcriptome' =>
-    '<a href="https://citrusgreening.org/ftp/annotation/MCOT/">Combination of Maker, Cufflinks, Oasis and Trinity</a>',
+    '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/OGSv3beta/">Official gene set v3.0</a>',
+    '<i>De novo</i> transcriptome' =>
+    '<a href="https://citrusgreening.org/ftp/user_requests/surya/acp/Dcitri_transcriptome.fasta">Combination of long read Iso-Seq and Ilumina transcripts</a>',
     'Expression Atlas' =>
     '<a href="http://pen.sgn.cornell.edu">Psyllid Expression Network (PEN)</a>',
     'Pathways' =>
@@ -36,9 +36,9 @@ The genome assembly, annotations and resources are available through the links b
     'Manual curation' =>
     '<a href="http://apollo.sgn.cornell.edu/apollo/annotator/index">Apollo annotation editor</a>',
     'Genome browser' =>
-    '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v2.0_ref&loc=ScVcwli_1319%3A1700494..2550862&tracks=DNA%2Cgene_models&highlight=">JBrowse genome browser</a>',
+    '<a href="/jbrowse_citrusgreening/current/?data=data%2Fjson%2FDiaci_v3.0_ref&loc=DC3.0sc01%3A1..223491&tracks=DNA%2COGS3.0%20gene%20models%20beta&highlight=">JBrowse genome browser</a>',
     'Blast' =>
-    '<a href="/tools/blast?db_id=30">Blast psyllid databases</a>'
+    '<a href="/tools/blast?db_id=37">Blast psyllid databases</a>'
 
     )
     %>
@@ -46,20 +46,26 @@ The genome assembly, annotations and resources are available through the links b
 
 <&| /page/info_section.mas, title => 'Genome Assembly details' &>
 <!--moved id tag to avoid overlap of heading by toolbar-->
+<h4 id="diaci3.0"></h4>
+<h4>Diaci 3.0 genome build</h4>
+We present an improved and highly contiguous <i>de novo</i> <a href="https://citrusgreening.org/ftp/user_requests/surya/acp/" target="_blank">Diaci version 3.0</a> assembly based on proximity ligation-based (Hi-C) scaffolding of a non-redundant unitigs from the previous Diaci version 2 genome assembly. The updated Diaci version 3 assembly has 13 chromosomal length scaffolds with a genome size of 475 Mb and a scaffold N50 of 40.5Mb. The genome and associated annotation were released on <b>December 10, 2019</b> and described in a <a href="https://www.biorxiv.org/content/10.1101/869685v1" target="_blank">preprint publication</a>. Slides describing the genome and annotation are available <a href="https://www.slideshare.net/suryasaha/saha-uc-davis-plant-pathology-seminar-infrastructure-for-battling-the-citrus-greening-hlb-disease-high-quality-genomes-and-an-open-access-integrated-systems-biology-portal">online</a>. The assembly is available in our <a href="/tools/blast?db_id=37">Blast databases</a>.
+<br>
+Full-length cDNA transcripts from diseased and healthy tissue at multiple life stages were sequenced with PacBio Iso-Seq technology. Iso-Seq along with diverse Illumina RNAseq expression data were used to predict protein-coding genes in the <a href="https://citrusgreening.org/ftp/user_requests/surya/acp/OGSv3beta/" target="_blank">Oficial Gene Set beta version 3</a> using the MAKER annotation pipeline. This gene set is undergoing <a href="/annotation/index" target="_blank">extensive manual curation</a> and a final version will be released shortly.
+<br>
 <h4 id="diaci2.0"></h4>
-<h4>Diaci2.0 genome build</h4>
+<h4>Diaci 2.0 genome build</h4>
 A new sequencing effort led by the <a href="http://bti.cornell.edu/staff/dr-lukas-mueller/">Mueller</a> and <a href="https://www.k-state.edu/biology/people/tenure/brown/">Brown</a> labs utilized Pacbio and Dovetail technologies to create a high quality assembly. The improved v2.0 reference assembly has 1906 contigs and a contig N50 of 759Kb. 
 <br><br>
 <!--moved id tag to avoid overlap of heading by toolbar-->
 The genome and associated annotation were released on <b>March 5, 2018</b> and described in a webinar. Slides for the webinar are available <a href="http://bit.ly/ACPv2slides">online</a>. Please see our <a href="https://www.slideshare.net/suryasaha/high-quality-arthropod-genome-assembly-with-single-molecule-reads-and-longrange-scaffolding" target="_blank">slides</a> from the ESA 2017 meeting and our <a href="https://figshare.com/articles/Using_long_reads_optical_maps_and_long-range_scaffolding_to_improve_the_Diaphorina_citri_genome/5375116" target="_blank">poster</a> from the IRCHLB 2017 meeting for more details. We have released a new <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/annotation/OGSv2.0" target="_blank">Official Gene Set (v2.0)</a> with 20,793 genes based on Illumina RNAseq and Pacbio Isoseq evidence. We have updated the <a href="http://ptools.citrusgreening.org/organism-summary?object=DIAPHORINA" target="_blank">DiaphorinaCyc pathway database</a> with OGS v2 and characterized 172 pathways that include 1477 enzymatic reactions. The ACP expression atlas (<a href="http://pen.sgn.cornell.edu/expression_viewer/input" target="_blank">Psyllid Expression Network</a>) can be used to identify co-expressed gene sets. <a href="/tools/blast?db_id=30" target="_blank">Blast</a> is available and you can download the data from our <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v2.0/" target="_blank">FTP site</a>. 
 <h4 id="diaci1.9"></h4>
 <br>
-<h4>Diaci1.9 interim genome build</h4>
+<h4>Diaci 1.9 interim genome build</h4>
 Diaci1.9 is interim version of the <i>Diaphorina citri</i> psyllid genome based on Pacbio long reads. We have generated 36.2Gb of Pacbio long reads from 41 SMRT cells with a coverage of 80X for the 400-450Mb psyllid genome. The <a href="http://canu.readthedocs.io/en/stable/quick-start.html">canu assembler</a> was used to create an interim assembly with a contig N50 of 115.8kb and 8352 contigs. DIACI v1.9 has 8,352 contigs compared to 161,988 contigs in Diaci1.1 genome assembly. It has a contig N50 of 115.8kb and does not contain any Ns. Please note that this is an interim assembly so we will not be annotating it but you can <a href="/tools/blast?db_id=27">blast</a> to it. You can download the genome from our <a href="https://citrusgreening.org/ftp/genomes/Diaphorina_citri/assembly/DIACI_v1.9/">FTP site</a>. We will be releasing this soon as Diaci2.0.
 <!--moved id tag to avoid overlap of heading by toolbar-->
 <h4 id="diaci1.1"></h4>
 <br>
-<h4>Diaci1.1 genome build</h4>
+<h4>Diaci 1.1 genome build</h4>
 Diaci1.1 is the current version. It is an assembly of the <i>Diaphorina citri</i> psyllid genome based on Diaci1.0, with approximately 12 fold coverage of PacBio reads incorporated into the assembly using PBJelly by Adam English and Stephen Richards at Baylor College of Medicine. The scaffold N50 for this 485,705,082bp assembly is 109.8 kb. It has 161,988 scaffolds and 19,335,169 of N's. The number of contigs is 176,470 and the contig N50 is 34,407bp.
 <br>
 <br>
@@ -72,9 +78,15 @@ Diaci1.0, assembly was produced by Nan Leng in October, 2011 with <a href="https
 
 </&>
 <!--moved id tag to avoid overlap of heading by toolbar-->
-<h4 id="mcot1.1"></h4>
+<h4 id="denovotranscriptome"></h4>
 <br>
 <&| /page/info_section.mas, title => 'Transcriptome Assembly details' &>
+<h4><i>De novo</i> transcriptome</h4>
+The <i>D. citri</i> <i>de novo</i> transcriptome combines transcript evidence from Iso-Seq data as well as  short read RNA-Seq data. The transcriptome was released on <b>December 10, 2019</b> and described in a <a href="https://www.biorxiv.org/content/10.1101/869685v1" target="_blank">preprint publication</a>. Slides describing the <i>de novo</i> transcriptome are available <a href="https://www.slideshare.net/suryasaha/saha-uc-davis-plant-pathology-seminar-infrastructure-for-battling-the-citrus-greening-hlb-disease-high-quality-genomes-and-an-open-access-integrated-systems-biology-portal">online</a>.
+<br>
+<i>De novo</i> transcriptome has 60,261 transcripts with a N50 of 3.6Kbp for 40,637 genes. An identifier was chosen according to the source raw data: DcDT for RNA-Seq transcripts and DcDi for Iso-Seq transcripts. The dataset was filtered using Pfam domains and TransDecoder to retain transcripts with coding regions. The assembly is available in our <a href="/tools/blast?db_id=36">Blast databases</a>.
+<br>
+
 <h4>MCOT transcriptome 1.1</h4>
 The <i>D. citri</i> MCOT v1.0 transcriptome is a genome independent transcriptome assembly that provides a comprehensive set of gene models and was performed with the <a href="http://www.sciencedirect.com/science/article/pii/S0965174815000144">MCOT pipeline</a> where transcripts from <a href="http://www.yandell-lab.org/software/maker.html">Maker</a>, <a href="http://cole-trapnell-lab.github.io/cufflinks/">Cufflinks</a>, <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki">Trinity</a> and <a href="https://www.ebi.ac.uk/~zerbino/oases/">Oases</a> pipelines are combined. The <a href="http://entoplp.okstate.edu/profiles/jiang.htm">Jiang lab</a> has kindly provided the MCOT annotations. MCOT v1.1 set has 30,562 CDS, transcripts and proteins. Combining gene models from Maker and cufflinks that are based on the genome with transcripts from <i>denovo</i> transcriptome assembly from Trinity and Oases allows the identification of genes which only have transcript evidence from RNAseq.
 <br>
