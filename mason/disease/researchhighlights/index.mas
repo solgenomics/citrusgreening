@@ -1,7 +1,7 @@
 <%doc>
     =head1 NAME
 
-    index.mas - a mason module to display an html page with all research highlights.
+    index.mas - a mason module to display an html page with all USDA NIFA research and highlights.
 
     =head1 DESCRIPTION
 
@@ -12,11 +12,20 @@
     Surya Saha <ss2489 at cornell dot edu>
 =cut
 </%doc>
-<& /page/page_title.mas, title=>'CitrusGreening Research Highlights'  &>
+<& /page/page_title.mas, title=>'USDA NIFA CitrusGreening Research Projects and Highlights'  &>
 <div class="indentedcontent">
-    We feature important developments in Huanglongbing (HLB) research in this section. Please <a href="/contact/form">contact us</a> to submit your research.
+    We feature USDA NIFA funded Huanglongbing (HLB) projects and important research developments in this section. Please <a href="/contact/form">contact us</a> to submit your USDA NIFA projects and research.
 </div>
 <br>
+<br>
+<br>
+<& Accelerating_implementation_of_HLB-tolerant_hybrids_as_new_commercial_cultivars_for_fresh_and_processed_citrus.mas &>
+<br>
+<br>
+<& Developing_novel_biological_delivery_methods_for_therapeutic_agents_and_other_biomolecules_to_enhance_production_of_citrus.mas &>
+<br>
+<br>
+<& Development_of_antimicrobial_peptides_from_citrus_to_kill_the_CLas_bacterium_causing_HLB.mas &>
 <br>
 <br>
 <& hunter_2019.mas &>
