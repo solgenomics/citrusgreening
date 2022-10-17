@@ -29,5 +29,5 @@
 </%perl>
 <div class="boxbgcolor1" style="margin:0px;">
     <% $highlights %>
-    <button class="btn btn-sm" onclick=location.href="/oldresearchhighlights.pl">See all highlights...</button>
+    <button class="btn btn-sm" onclick=location.href="/oldresearchhighlights.pl">See all projects and highlights...</button>
 </div>
