@@ -1,0 +1,47 @@
+<& /page/page_title.mas, title=>'Development of antimicrobial peptides from citrus to kill the CLas bacterium causing HLB' &>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        Article written by: Ed Stover, Goutam Gupta
+        Article edited by: Lukasz Stelinski, Peggy G. Lemaux
+        <br>
+        <br>
+        <u>What is the technique?</u>
+        <br>
+        Antimicrobial peptides (AMPs) are small proteins produced by plants and animals as a first line of protection against pathogens by disrupting the pathogen’s cells. Our overall goal is to suppress CLas and maintain health in HLB-affected citrus. All organisms produce many peptides (small proteins), which serve many functions, including some unrelated to disease resistance. In this research, we are focusing on a specific subset of AMPs, derived from citrus genes, that will be used to kill CLas that causes HLB disease.
+        <br>
+        <br>
+        <u>How are these AMPs developed and tested?</u>
+        <br>
+        These citrus-derived AMPs have shown excellent activity against CLas in the lab and greenhouse. The goal of this NIFA project is to evaluate their efficacy as killing agents against CLas and therapeutics for existing infected trees to sustain commercial citrus production. In addition, we are developing trees that themselves express these AMPs to provide a form of HLB resistance.
+        <br>
+        <br>
+        <u>How are these AMPs developed and tested?</u>
+        <br>
+        These citrus-derived AMPs have shown excellent activity against CLas in the lab and greenhouse. The goal of this NIFA project is to evaluate their efficacy as killing agents against CLas and therapeutics for existing infected trees to sustain commercial citrus production. In addition, we are developing trees that themselves express these AMPs to provide a form of HLB resistance.
+        <br>
+        The latest versions of the anti-HLB AMPs consist of two different types of citrus peptides linked together. After scouring the citrus gene sequence data, candidate peptides are selected which are first tested for interactions with CLas membranes using computer simulation. The best AMPs from these studies are then tested in lab cultures for their ability to kill bacteria related to CLas. The promising candidate AMPs are then tested for toxicity to plants and animal cells. AMPs that pass these tests are then tested in HLB-affected citrus trees in the greenhouse and then in the field, to determine if they destroy CLas and enhance tree health. This process is outlined in the figure below.
+        <br>
+        <br>
+        <u>Who is working on this project?</u>
+        <br>
+        Goutam Gupta (The New Mexico Consortium), Supratim Basu (The New Mexico Consortium), Pankaj Travedi (Colorado State University), Joseph Krystel (USDA Agricultural Research Laboratory in Ft. Pierce, FL), Madhu Kunta (Texas A&M University at Kingsville), Randy Niedz (USDA Ft. Pierce), Joseph Patt (USDA Ft. Pierce), Surya Saha (Boyce Thompson Institute), Lukas Mueller (Boyce Thompson Institute), and Michael Braverman (Rutgers University).
+        <br>
+        <br>
+        <u>What are our greatest challenges?</u>
+        <br>
+        The team has completed one year of a three-year project. The latest generation of peptides is currently under evaluation. An emerging challenge is that application methods that demonstrate effective kill of CLas in greenhouse trees are not readily transferable to field-grown trees. An extensive portfolio of information on environmental, fruit quality, and other effects must also be assembled and assessed by  EPA and FDA before these peptides will be available for use by growers.
+        <br>
+        <br>
+        <u>Funding source</u>
+        <br>
+        USDA- National Institute of Food and Agriculture (NIFA)- Citrus Disease Research and Extension Program
+        <br>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <center><img src="/img/citrusgreening/researchhighlights/Development_of_antimicrobial_peptides_from_citrus_to_kill_the_CLas_bacterium_causing_HLB.PNG" height="400" ></center>
+      </div>
+  </div>
+</div>
