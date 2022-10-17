@@ -1,7 +1,7 @@
 <%doc>
     =head1 NAME
 
-    oldresearchhighlights.mas - a mason module to display an html page with all CG research highlights, read from a file.
+    oldresearchhighlights.mas - a mason module to display an html page with all USDA NIFA CitrusGreening Research Projects and Highlights, read from a file.
 
     =head1 DESCRIPTION
 
@@ -20,11 +20,11 @@
     my $file =File::Spec->catfile($c->get_conf('homepage_files_dir'), "research-highlights.txt");
 
     my $highlights = qq {
-<p class="boxbgcolor5"><br />The CitrusGreening research highlights are currently unavailable due to a server problem. We apologize for any inconvenience. Please check back later.<br /><br /></p>
+<p class="boxbgcolor5"><br />The USDA NIFA CitrusGreening Research Projects and Highlights are currently unavailable due to a server problem. We apologize for any inconvenience. Please check back later.<br /><br /></p>
 <br /><br /> };
 eval {
 $highlights = $m->file($file);
 };
 </%perl>
-<& /page/page_title.mas, title=>'Past and present CitrusGreening research highlights' &>
+<& /page/page_title.mas, title=>'Past and present USDA NIFA CitrusGreening research projects and highlights' &>
 <% $highlights %>
