@@ -1,0 +1,108 @@
+version: "3.3"
+services:
+  breedbase:
+    image: breedbase/breedbase:v0.55
+    restart: always
+#    depends_on:
+#      - breedbase_db
+    container_name: citrusgreening_web
+    ports:
+      - 8082:8080
+#      - 25:25
+#    environment:
+#      - PGPASSFILE=/home/production/.pgpass
+    #  - MODE=DEVELOPMENT
+#      - RUN_DB_PATCHES=TRUE
+#      - DATABASE_HOST=breedbase_db
+#      - DATABASE_NAME=empty_fixture
+#      - DATABASE_USER=postgres
+#      - DATABASE_PASSWORD=postgres
+#      - DATABASE_OPERATOR=janedoe
+    volumes:
+       - type: bind
+         source: /home/production/citrusgreening.org/sgn_local.conf
+         target: /home/production/cxgn/sgn/sgn_local.conf
+       - type: bind
+         source: /home/production/citrusgreening
+         target: /home/production/cxgn/citrusgreening
+       - type: bind
+         source: /export/prod/public_citrusgreening
+         target: /home/production/volume/public
+
+    #  - type: bind
+    #    source: ./development/sgn_local_docker.conf
+    #    target: /home/production/cxgn/sgn/sgn_local.conf
+    #  - type: bind
+    #    source: ${HOME}/cxgn/sgn
+    #    target: /home/production/cxgn/sgn
+    #  - type: bind
+    #    source: ${HOME}/cxgn/DroneImageScripts
+    #    target: /home/production/cxgn/DroneImageScripts
+    #  - type: bind
+    #    source: ${HOME}/cxgn/imagesol
+    #    target: /home/production/cxgn/imagesol
+    #  - type: bind
+    #    source: ${HOME}/cxgn/R_libs
+    #    target: /home/production/cxgn/R_libs
+    #  - type: bind
+    #    source: ${HOME}/cxgn/perl-local-lib
+    #    target: /home/production/cxgn/local-lib
+    #   - type: bind
+    #     source: /export/prod/public_irri_imagebreed/archive
+    #     target: /home/production/archive
+    #  - type: bind
+    #    source: ${HOME}/tmp
+    #    target: /home/production/tmp
+    #  - type: bind
+    #    source: ${HOME}/cache
+    #    target: /home/production/cache
+    #  - type: bind
+    #    source: ${HOME}/cluster
+    #    target: /home/production/cluster
+    #  - type: bind
+    #    source: ${HOME}/blast
+    #    target: /home/production/blast
+    #  - type: bind
+#         source: /export/prod/public_irri_imagebreed/images
+    #    target: /home/production/public/images
+    # FOLLOWING ARE IMPORTANT FOR RUNNING OPENDRONEMAP
+    #   - type: bind
+    #     source: /var/run/docker.sock
+    #    target: /var/run/docker.sock
+#  breedbase_db:
+#    image: imagebreed/imagebreedpg:latest
+#    restart: always
+#    container_name: breedbase_db
+#    volumes:
+#      - type: bind
+#        source: ${HOME}/irri.breedbase.org/pgdata
+#        target: /var/lib/postgresql/data
+
+#services:
+#  breedbase:
+#    volumes:
+#      - webdata:/home/production/irri_volume
+#      - type: bind
+#        source: /home/produciton/irri.breedbase.org/sgn_local.conf
+#        target: /home/production/cxgn/sgn/sgn_local.conf
+#    ports:
+#      - 8080:8080
+#      - 25:25
+#    image: breedbase/breedbase:v0.25
+#    depends_on:
+#      - breedbase_db
+#    container_name: breedbase_web
+
+#  breedbase_db:
+#    volumes:
+#      - dbdata:/var/lib/postgresql/data
+#    image: postgres:12.7
+#    container_name: breedbase_db
+#    healthcheck:
+#      test: "pg_isready -U postgres -d $${POSTGRES_DB} || exit 1"
+#      interval: 10s
+
+#volumes:
+#  webdata:
+#  dbdata:
+
